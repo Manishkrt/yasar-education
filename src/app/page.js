@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <Navigation/>
-    <h1>start</h1>
+    <h1 className="container bg-primary" >start</h1>
     </>
   );
 }
