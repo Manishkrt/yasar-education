@@ -3,6 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --primary : #4F5DE4;
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
 
 
 
