@@ -6,6 +6,7 @@ import LearningJourney from "@/component/LearningJourney";
 import Courses from "@/component/Courses";
 import CourseReview from "@/component/CourseReview";
 import AboutUs from "@/component/AboutUs";
+import Footer from "@/component/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     <AboutUs/>
     <Courses/>
     <CourseReview/>
+    <Footer/>
     </>
   );
 }  
