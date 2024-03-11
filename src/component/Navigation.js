@@ -40,7 +40,7 @@ const Navigation = () => {
           </Nav>
           <div className='d-flex align-items-center gap-3'>
           <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button>
-          <div className="bg-primary rounded-start-pill d-flex align-items-center gap-2 px-3 py-2">
+          <div className="bg-primary rounded-start-pill d-flex align-items-center gap-2 px-4 py-3">
 
           <a href="tel:+0123456789" className='rounded-pill p-1 bg-white d-flex align-items-center justify-content-center' style={{width: "40px", height: "40px"}}>
           <i className="fa-solid fa-phone-volume fa-xl"></i>

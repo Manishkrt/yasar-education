@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary : #4F5DE4;
+    --light: #F1F2FD;
+    --eduact-font: 'Urbanist', sans-serif;
+    --heading-font: 'Urbanist', sans-serif;
+    --eduact-text: #697585;
+    --eduact-text-rgb: 105, 117, 133;
+    --eduact-text2: #B3ADE1;
+    --eduact-text2-rgb: 179, 173, 225;
+    --eduact-grey: #B7B0B4;
+    --eduact-grey-rgb: 183, 176, 180;
+    --eduact-soft: #F1F2FD;
+    --eduact-soft-rgb: 241, 242, 253;
+    --eduact-soft2: #F6F5F5;
+    --eduact-soft2-rgb: 246, 245, 245;
+    --eduact-soft3: #E0E3FD;
+    --eduact-soft3-rgb: 224, 227, 253;
+    --eduact-soft4: #E4E4E4;
+    --eduact-soft4-rgb: 228, 228, 228;
+    --eduact-soft5: #F6F6F6;
+    --eduact-soft5-rgb: 246, 246, 246;
+    --eduact-base: #4F5DE4;
+    --eduact-base-rgb: 79, 93, 228;
+    --eduact-secondary: #F57005;
+    --eduact-secondary-rgb: 245, 112, 5;
+    --eduact-black: #2A254D;
+    --eduact-black-rgb: 42, 37, 77;
+    --eduact-black2: #000000;
+    --eduact-black2-rgb: 0, 0, 0;
+    --eduact-white: #ffffff;
+    --eduact-white-rgb: 255, 255, 255;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 40px;
+}
+.text-primary{
+    color: var(--primary) !important;
+}
+.bg-primary{
+    background-color: var(--primary) !important;
+}
+.border-color-primary{
+    border-color: var(--eduact-base) !important;
+}
+.text-secondary{
+    color: var(--eduact-secondary) !important;
+}
+.bg-secondary{
+    background-color: var(--eduact-secondary) !important;
+}
+.text-soft1{
+    color: var(--eduact-soft) !important;
+}
+.bg-soft1{
+    background-color: var(--eduact-soft) !important;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-60{
+    font-size: 60px;
+}
+
+/* subtitle style  */
+.subtitle-svg{
+    width: 50px;
+    fill: var(--eduact-secondary);
+}
+
+
+/* service section home page style  */
+.view-all-btn{
+    background: var(--eduact-secondary) !important;
+    font-size: 20px;
+    padding: 10px 20px; 
+}
+
+.courses-card-wrapper{
+    padding-top: 100px;
+}
+.courses-img-wrap img, .courses-courseName a, .courses-card-box{ 
+    transition: .5s;
+}
+.courses-courseName a{
+    border-bottom-color: transparent;
+    border-bottom-width: 1px;
+    border-bottom-style: solid; 
+    color: #000000;
+    font-size: 20px;
+}
+.courses-img-wrap{
+    width: 170px;
+    height: 170px; 
+    transform: translate(-20px, -50%);
+    border: 5px solid var(--eduact-secondary);
+    overflow: hidden;
+    padding: 5px;
+} 
+.courses-card-wrapper:hover .courses-card-box{
+    border-color: var(--eduact-secondary) !important;
+} 
+.courses-card-wrapper:hover .courses-img-wrap img{
+    transform: scale(1.2);
+} 
+.courses-card-wrapper:hover .courses-courseName a{ 
+    border-bottom-color : var(--eduact-secondary);
+} 
+.courses-courseName a:hover{
+    color: var(--eduact-secondary);
+} 
+
+/* @media(max-width:1200px){
+    .courses-img-wrap{
+        width: 170px;
+        height: 170px;  
+    }
+}
+@media(max-width:991px){
+    .courses-img-wrap{
+        width: 170px;
+        height: 170px;  
+    }
+}
+@media(max-width:767px){
+    .courses-img-wrap{
+        width: 170px;
+        height: 170px;  
+    }
+}
+@media(max-width:575px){
+    .courses-img-wrap{
+        width: 170px;
+        height: 170px;  
+    }
+} */
+
+/* courses review css  */
+.courses-review-wrapper .slick-prev{
+    /* position: absolute; */
+    top: 90% ;
+    left: 90% ;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.courses-review-wrapper .slick-next{
+    /* position: absolute; */
+    top: 90% ;
+    right: 0% ;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.courses-review-wrapper .slick-prev::before, .courses-review-wrapper .slick-next::before{
+    background-color: var(--eduact-base);
+    padding: 4px;
+}
+
+@media (max-width: 1200px){
+    .courses-review-wrapper .slick-prev{
+        left: 85%;
+    }
+    .courses-review-wrapper .slick-next{ 
+        right: 0px;
+    }
+}
+@media (max-width: 992px){
+    .courses-review-wrapper .slick-prev{
+        top: 100%;
+        left: 0px;
+    }
+    .courses-review-wrapper .slick-next{
+        top: 100%;
+        right: 0px;
+    }
+}
+
