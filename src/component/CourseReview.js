@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import { Carousel } from "react-bootstrap";
 import Slider from "react-slick";
-
+ 
 const CourseReview = () => {
   var settings = {
     dots: false,
+    autoplay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
@@ -37,6 +37,15 @@ const CourseReview = () => {
             <div className="border-top border-start border-bottom px-lg-5 px-2 pt-lg-5 pt-3 pb-5 border-color-primary rounded-start-5 shadow position-relative">
               <Slider {...settings}>
                 <div>
+                <div className='d-flex align-items-center mb-3 gap-2'>
+                            <div className='d-flex '>
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            </div> 
+                        </div>
                   <p className="fs-20">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Itaque odio similique at exercitationem sapiente ipsam
@@ -46,20 +55,31 @@ const CourseReview = () => {
                   <p>Course : <span className="text-capitalize">english</span> </p>
                 </div>
                 <div>
-                  <p>
+                <div className='d-flex align-items-center mb-3 gap-2'>
+                            <div className='d-flex '>
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            <i className="fa-solid text-secondary fa-star"></i> 
+                            </div> 
+                        </div>
+                  <p className="fs-20">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Itaque odio similique at exercitationem sapiente ipsam
                     dolorum. Sint magni quaerat deserunt qui velit harum?
                   </p>
-                  <h4>sonu chauhan</h4>
-                  <p>course : germany</p>
+                  <h5 className="text-uppercase">manish chauhan</h5>
+                  <p>Course : <span className="text-capitalize">english</span> </p>
                 </div>
+                
               </Slider>
             </div>
           </div>
-          <div className="col-lg-4 col-md-5 col-12 px-md-0 px-2">
-            <div className="position-relative">
-              <div className="position-absolut w-100 h-100 top-0 start-0">
+          <div className="col-lg-4 col-md-5 col-12 px-md-0 px-2 position-relative h-100">
+            {/* <div className="position-relative d-flex align-items-center justify-content-center h-100"> */}
+              <div className="position-absolute w-100 h-100 top-50 start-50 translate-middle">
+                <div className="position-relative scale-animate">
                 <svg
                   viewBox="0 0 612 563"
                   fill="none"
@@ -94,15 +114,16 @@ const CourseReview = () => {
                     fill="url(#paint0_linear_187_13357)"
                   ></path>
                 </svg>
+                </div>
               </div>
-              <div className="position-absolute top-50 start-50 translate-middle">
-                <img src="/assets/img/testimonial-1.png" alt="testimonial" className="" width={200} />
+              <div className="position-relative h-100 w-100 d-flex align-items-center justify-content-center">
+                <img src="/assets/img/testimonial-1.png" alt="testimonial" className="p-5 img-fluid" />
               </div>
-              <div className="position-absolute bottom-0 start-0 d-sm-block d-none">
+              <div className="position-absolute side-move-animate bottom-0 start-0 d-sm-block d-none">
                 <img src="/assets/img/testimonial-shape-1.png" alt="testimonial" className="" />
               </div>
 
-            </div>
+            {/* </div> */}
           </div>
         </div> 
       </div>

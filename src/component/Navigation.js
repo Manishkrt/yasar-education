@@ -20,7 +20,7 @@ const Navigation = () => {
         <Navbar.Collapse id="navbarScroll" className='d-lg-flex justify-content-end px-4 gap-4'>
           <Nav
             className="my-2 my-lg-0 d-flex gap-lg-4"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '400px' }}
             navbarScroll
           >
             <Nav.Link href="#">Home</Nav.Link> 

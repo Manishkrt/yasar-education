@@ -41,6 +41,11 @@ a{
 h2{
     font-size: 40px;
 }
+@media (max-width: 767px){
+    h2{
+        font-size: 24px;
+    }
+}
 .text-primary{
     color: var(--primary) !important;
 }
@@ -91,6 +96,12 @@ h2{
 }
 .fs-60{
     font-size: 60px;
+}
+.list-style-none{
+    list-style: none;
+}
+.cursive{
+    font-style: italic;
 }
 
 /* subtitle style  */
@@ -183,6 +194,7 @@ h2{
     height: 40px;
     z-index: 1;
 }
+
 .courses-review-wrapper .slick-prev::before, .courses-review-wrapper .slick-next::before{
     background-color: var(--eduact-base);
     padding: 4px;
@@ -207,3 +219,111 @@ h2{
     }
 }
 
+
+/* newsletter style  */
+.newsletter-wrap{
+    background: url('/assets/img/newsletter-bg.jpeg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%; 
+}
+
+/* blogs and notice board  */
+.blog-card-wrap{
+    margin-bottom: 100px !important;
+}
+
+.blog-slider-wrap .slick-next, .blog-slider-wrap .slick-prev{ 
+    top: 0% ;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+}
+.blog-slider-wrap .slick-next{
+    right: 50% ;
+    transform: translate(100%, -100%);
+}
+.blog-slider-wrap .slick-prev{
+    left: 50% ;
+    transform: translate(-100%, -100%) !important;
+}
+.blog-slider-wrap .slick-prev::before, .blog-slider-wrap .slick-next::before{
+    background-color: var(--eduact-base);
+    padding: 4px;
+}
+.blog-slider-wrap .slick-next, .blog-slider-wrap .slick-prev{
+    display: none !important;
+}
+
+/* cta style  */
+.cta-wrapper{
+    background: url('/assets/img/cta-bg-1.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+@media(max-width:768px){
+    .cta-wrapper{
+        background-size: cover;
+    }
+}
+.cta-move-svg-box{
+    top: -10px;
+    animation-name: ctaBgMove;
+    -webkit-animation-name: ctaBgMove;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ctaBgMove{
+    0%{
+        top: -10px;
+    }
+    50%{
+        top: 30px;
+    }
+    100%{
+        top: -10px;
+    }
+}
+
+/* animation style  */
+.scale-animate{
+
+    animation-name: ScaleAnimation;
+    -webkit-animation-name: ScaleAnimation;
+    animation-duration: 6s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes ScaleAnimation{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.side-move-animate{
+
+    animation-name: SideMoveAnimation;
+    -webkit-animation-name: SideMoveAnimation;
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes SideMoveAnimation{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(10deg);;
+    }
+    100%{
+        transform: rotate(0deg);;
+    }
+}

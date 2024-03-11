@@ -94,7 +94,7 @@ const Footer = () => {
 
     <section className='Mini-Footer-Wrapper'>
         <div className='container text-enter'>
-        <h6> Copyright 2024 | Eduact HTML Template. All Rights Reserved</h6>
+        <h6> Copyright 2024 | Eduacation</h6>
         </div>
     </section>
     </>
