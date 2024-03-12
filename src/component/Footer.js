@@ -71,7 +71,7 @@ const Footer = () => {
                     <div className="col-lg-4 col-md-4 col-sm-6 px-1 ">
                       <img
                         src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-1.jpg" 
-                        className="img-fluid"
+                        className="img-fluid "
                       />
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-6 px-1">
