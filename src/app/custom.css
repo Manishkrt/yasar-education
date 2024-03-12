@@ -192,6 +192,9 @@ h2{
 .banner-wrapper{
     background: url('/assets/img/banner-bg.png');
 }
+.banner-img{
+    right: -100px;
+}
 
 /* service section home page style  */
 .view-all-btn{

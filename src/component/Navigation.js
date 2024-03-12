@@ -19,12 +19,12 @@ const Navigation = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className='d-lg-flex justify-content-end px-4 gap-4'>
           <Nav
-            className="my-2 my-lg-0 d-flex gap-lg-5"
+            className="my-2 my-lg-0 d-flex gap-xl-5 gap-lg-4"
             style={{ maxHeight: '400px' }}
             navbarScroll
           >
             <Nav.Link href="#" className='fw-bold'>Home</Nav.Link> 
-            <NavDropdown title="Course" id="navbarScrollingDropdown" >
+            <NavDropdown title="Course" className='fw-bold' id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -34,9 +34,9 @@ const Navigation = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#">Gallery</Nav.Link> 
-            <Nav.Link href="#">Blogs</Nav.Link> 
-            <Nav.Link href="#">contact</Nav.Link>  
+            <Nav.Link href="#" className='fw-bold'>Gallery</Nav.Link> 
+            <Nav.Link href="#" className='fw-bold'>Blogs</Nav.Link> 
+            <Nav.Link href="#" className='fw-bold'>contact</Nav.Link>  
           </Nav>
           <div className='d-flex align-items-center gap-3'>
           <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button>
