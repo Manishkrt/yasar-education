@@ -34,7 +34,7 @@ const Testimonial = () => {
         ]
       };
   return (
-    <section className='testimonial-wrapper py-lg-5 py-2'>
+    <section className='testimonial-wrapper pb-100 pb-md-80 pb-sm-50'>
         <div className="container">
         <div className="mb-lg-4 text-center">
             <h5 className="text-primary mb-0"> 
