@@ -28,7 +28,7 @@ const Blog = () => {
         <div className="container">
         <div className="mb-4 text-center">
             <h5 className="text-primary mb-0"> 
-              Course Review &nbsp;
+              News &nbsp;
               <svg
                 className="arrow-svg  subtitle-svg"
                 xmlns="http://www.w3.org/2000/svg"

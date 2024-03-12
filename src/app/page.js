@@ -10,6 +10,7 @@ import Footer from "@/component/Footer";
 import Newsletter from "@/component/Newsletter";
 import Blog from "@/component/Blog";
 import Cta from "@/component/Cta";
+import Testimonial from "@/component/Testimonial";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <CourseReview/>
     <Cta/>
     <Blog/>
+    <Testimonial/>
     <Newsletter/>
     <Footer/>
     </>

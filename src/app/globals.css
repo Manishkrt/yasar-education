@@ -127,32 +127,32 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--eduact-secondary);
     color: white;
 }
-.wrapper-arrow{
+/* .wrapper-arrow{
     position: absolute;
     right: 0;
     top: 57%;
-}
-.Pencil-wrapper {
+} */
+/* .Pencil-wrapper {
     position: absolute;
     left: -50px;
     top: 65%;
-}
+} */
 .Buld-wrapper {
     position: absolute;
     top: 10%;
     left: 22%;
     z-index: 6;
 }
-.RoundDotted {
+/* .RoundDotted {
     position: absolute;
     top: 11%;
     left: 23%;
     z-index: 2;
-}
-.Bookwrapper{
+} */
+/* .Bookwrapper{
     position: absolute;
     bottom: 0;
-}
+} */
 .Bookwrapper {
     position: absolute;
     top: 50%;
@@ -160,12 +160,12 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 6;
 }
 
-@media (min-width:200px) and (max-width:1200px) {
+/* @media (min-width:200px) and (max-width:1200px) {
     .wrapper-arrow ,.Pencil-wrapper , .RoundDotted, .Buld-wrapper{
         display: none;
     }
     
-}
+} */
 
 @media (min-width:200px) and (max-width:700px) {
     .tiltLiner h2 {
@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .wrapper-dotted-aboutus {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 40%;
     z-index: 4;
 }
