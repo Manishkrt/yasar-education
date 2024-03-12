@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="Section-AboutUs">
+    <section className="Section-AboutUs pt-lg-5 pt-3  ">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 text-end" style={{ position: "relative" }}>

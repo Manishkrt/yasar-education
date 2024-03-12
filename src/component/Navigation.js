@@ -11,7 +11,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navigation = () => {
   return (
     <>
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-body-tertiary bg-white">
       <Container > 
         <Link href='/'>
         <img src="https://bracketweb.com/eduact-html/assets/images/logo-two.png" alt="" />
