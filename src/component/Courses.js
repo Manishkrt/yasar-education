@@ -3,7 +3,7 @@ import React from 'react'
 
 const Courses = () => {
   return (
-    <section className='bg-soft1 py-5'>
+    <section className='bg-soft1 py-md-5 py-3'>
         <div className="container">
             <div className="d-flex justify-content-between gap-1 align-items-end flex-wrap mb-lg-5 mb-3">
             <div className='mb-0'>

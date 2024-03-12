@@ -2,10 +2,10 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="Section-AboutUs pt-lg-5 pt-3  ">
+    <section className="Section-AboutUs pt-lg-5 pt-3 pb-md-0 pb-3  ">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 text-end" style={{ position: "relative" }}>
+          <div className="col-lg-6 text-end position-relative mb-md-0 mb-5">
             <div className="wrapper-aboutus-left">
               <img
                 className="rounded-pill"

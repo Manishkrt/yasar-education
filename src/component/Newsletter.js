@@ -5,9 +5,9 @@ const Newsletter = () => {
     <section>
         <div className="container">
             <div className="newsletter-wrap rounded-top-5 "> 
-            <div className="row p-lg-5 p-2 align-items-center">
+            <div className="row p-lg-5 p-3 align-items-center">
                 <div className="col-lg-6 col-md-6 col-12 mb-md-0 mb-3">
-                    <h2 className='mb-0 text-white'>Subscribe to Our Newsletter for Daily Updates</h2>
+                    <h2 className='mb-0 text-white fs-sm-18'>Subscribe to Our Newsletter for Daily Updates</h2>
                 </div>
                 <div className="col-lg-6 col-md-6 col-12">
                     <div className="d-flex align-items-center gap-3">
