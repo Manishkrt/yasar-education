@@ -68,41 +68,40 @@ const Footer = () => {
                 <ul>
                   <h5 className="text-white">Gallery</h5>
                   <div className="row">
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-4 col-sm-6 px-1 ">
                       <img
-                        src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-1.jpg"
-                        style={{ width: "80px", height: "80px" }}
+                        src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-1.jpg" 
+                        className="img-fluid"
                       />
                     </div>
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-4 col-sm-6 px-1">
                       <img
                         src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-2.jpg"
-                        style={{ width: "80px", height: "80px" }}
+                        className="img-fluid"
                       />
                     </div>
-
-                    <div className="col-lg-4 col-md-4 col-sm-6">
+                    <div className="col-lg-4 col-md-4 col-sm-6 px-1">
                       <img
                         src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-3.jpg"
-                        style={{ width: "80px", height: "80px" }}
+                        className="img-fluid"
                       />
                     </div>
-                    <div className="col-lg-4 col-md-4  col-sm-6">
+                    <div className="col-lg-4 col-md-4  col-sm-6 px-1">
                       <img
                         src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-3.jpg"
-                        style={{ width: "80px", height: "80px" }}
+                        className="img-fluid"
                       />
                     </div>
-                    <div className="col-lg-4 col-md-4  col-sm-6">
+                    <div className="col-lg-4 col-md-4  col-sm-6 px-1">
                       <img
                         src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-3.jpg"
-                        style={{ width: "80px", height: "80px" }}
+                        className="img-fluid"
                       />
                     </div>
-                    <div className="col-lg-4 col-md-4  col-sm-6">
+                    <div className="col-lg-4 col-md-4  col-sm-6 px-1">
                       <img
                         src="https://bracketweb.com/eduact-html/assets/images/gallery/fg-3.jpg"
-                        style={{ width: "80px", height: "80px" }}
+                        className="img-fluid"
                       />
                     </div>
                   </div>
