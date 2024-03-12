@@ -34,7 +34,7 @@ const LearningJourney = () => {
                   Try for free <i className="fa-solid fa-arrow-right"></i>
                 </button>
                 <div
-                  className="Pencil d-md-block d-none position-absolute top-100 start- translate-middle"
+                  className="Pencil d-md-block d-none position-absolute top-100  translate-middle-x"
                   style={{ left: "50px" }}
                 >
                   <img
