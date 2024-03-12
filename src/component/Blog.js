@@ -113,26 +113,21 @@ const Blog = () => {
             <div className="col-lg-4 col-md-4 col-12">
                 <div className="bg-primary p-lg-4 p-2 rounded-5">
                     <h3 className='text-center text-white  ' >Notice Board</h3>
-                    <div className="bg-white">
+                    <div className="">
                         <ul className='p-0 list-style-none'>
-                            <li className='border-bottom px-2 py-2'>
+                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
                                 <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom px-2 py-2'>
+                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
                                 <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom px-2 py-2'>
+                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
                                 <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom px-2 py-2'>
+                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
                                 <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom px-2 py-2'>
-                                <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
-                            </li> 
-                            <li className='border-bottom px-2 py-2'>
-                                <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
-                            </li> 
+                         
                             
                         </ul>
                     </div>

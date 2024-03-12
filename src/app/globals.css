@@ -298,11 +298,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .Wrapper-RightICon_aboutUS .fa-check:before {
     background-color: var(--eduact-base);
-    padding: 5px;
+    padding: 5px 8px;
     border-radius: 50%;
     color: var(--eduact-white);
 }
-
+.TiltLiner {
+    position: absolute;
+    top: 85px;
+    left: -99px;
+}
 .DiscoverMore-Abouts{
 
     background-color: var(--eduact-base);
