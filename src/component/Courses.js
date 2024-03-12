@@ -3,7 +3,7 @@ import React from 'react'
 
 const Courses = () => {
   return (
-    <section className='bg-soft1 py-md-5 py-3'>
+    <section className='bg-soft1 py-100 py-md-80 py-sm-50'>
         <div className="container">
             <div className="d-flex justify-content-between gap-1 align-items-end flex-wrap mb-lg-5 mb-3">
             <div className='mb-0'>
@@ -27,7 +27,7 @@ const Courses = () => {
             </div>
 
             <div className="row">
-                <div className="col-lg-4 col-md-6 col-12 mb-3">
+                <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
@@ -62,7 +62,7 @@ const Courses = () => {
 
                     </div>
                 </div> 
-                <div className="col-lg-4 col-md-6 col-12 mb-3">
+                <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
@@ -97,7 +97,7 @@ const Courses = () => {
 
                     </div>
                 </div> 
-                <div className="col-lg-4 col-md-6 col-12 mb-3">
+                <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
@@ -132,7 +132,7 @@ const Courses = () => {
 
                     </div>
                 </div> 
-                <div className="col-lg-4 col-md-6 col-12 mb-3">
+                <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
@@ -167,7 +167,7 @@ const Courses = () => {
 
                     </div>
                 </div> 
-                <div className="col-lg-4 col-md-6 col-12 mb-3">
+                <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
@@ -202,7 +202,7 @@ const Courses = () => {
 
                     </div>
                 </div> 
-                <div className="col-lg-4 col-md-6 col-12 mb-3">
+                <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">

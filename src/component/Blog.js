@@ -24,7 +24,7 @@ const Blog = () => {
       };
 
   return (
-    <section className='py-md-5 py-3'>
+    <section className='py-100 py-md-80 py-sm-50'>
         <div className="container">
         <div className="mb-4 text-center">
             <h5 className="text-primary mb-0"> 
@@ -115,18 +115,21 @@ const Blog = () => {
                     <h3 className='text-center text-white  ' >Notice Board</h3>
                     <div className="">
                         <ul className='p-0 list-style-none'>
-                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
-                                <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
+                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
-                                <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
+                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
-                                <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
+                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='border-bottom rounded my-2 bg-white px-2 py-2'>
-                                <Link href='#' className='cursive text-dark'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
+                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
+                         
+                           
+                           
                          
                             
                         </ul>
