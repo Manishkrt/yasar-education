@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="Section-AboutUs pt-lg-5 pt-3 pb-md-0 pb-3  ">
+    <section className="Section-AboutUs py-lg-5 py-3 pb-md-0 ">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 text-end position-relative mb-md-0 mb-5">
@@ -71,27 +71,27 @@ const AboutUs = () => {
                 which looks
               </p>
             </div> 
-            <div className="position-relative pb-4">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 125" style={{width: "180px"}} className="position-absolute top-0 start-0">
+            <div className="position-relative pb-2 bg-soft1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 125" style={{width: "260px"}} className="position-absolute top-0 start-0">
                 <path
                   fillRule="evenodd"
                   clipRule="evenodd"
                   d="M86 0.0805664H58C25.9675 0.0805664 0 26.048 0 58.0806V79.5806C0 104.157 19.9233 124.081 44.5 124.081H46.5C69.9721 124.081 89 105.053 89 81.5806C89 58.1085 108.028 39.0806 131.5 39.0806H268C282.912 39.0806 295 26.9923 295 12.0806C295 5.45315 289.627 0.0805664 283 0.0805664H89H86Z" fill="#F57005"
                 />
               </svg>
-              <div className="position-relativ" style={{paddingLeft:"70px", paddingTop:"30px"}}>
+              <div className="position-relative" style={{paddingLeft:"90px", paddingTop:"50px"}}>
                 <p>
                   The generated Lorem Ipsum is therefore always free from
                   repetition, injected humour, or non-characteristic words etc.
                 </p>
               </div> 
-              <p className="text-white position-absolute top-0" style={{left:"40px"}}>Flexible Classes</p> 
+              <p className="text-white position-absolute" style={{left:"70px",top:"7px"}}>Flexible Classes</p> 
               <span className="position-absolute" style={{top:"40px", left:"17px"}}>
                 <i className="fa-solid fa-person-chalkboard text-white fa-xl"></i>
               </span>
             </div>
 
-            <div className="row ">
+            <div className="row mt-4">
               <div className="col-lg-6">
                 <div className="Wrapper-RightICon_aboutUS d-flex">
                   <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;

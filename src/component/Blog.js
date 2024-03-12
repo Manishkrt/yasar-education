@@ -59,7 +59,7 @@ const Blog = () => {
                                         </span>
                                         <span className='text-secondary'>26 Mar, 2023</span>
                                     </div>
-                                    <h3>The Complete Web Developer Guideline 2023</h3>
+                                    <h5>The Complete Web Developer Guideline 2023</h5>
                                     <div className="text-end">
                                         <Link href="#"></Link>
                                     </div>
@@ -78,7 +78,7 @@ const Blog = () => {
                                         </span>
                                         <span className='text-secondary'>26 Mar, 2023</span>
                                     </div>
-                                    <h3>The Complete Web Developer Guideline 2023</h3>
+                                    <h5>The Complete Web Developer Guideline 2023</h5>
                                     <div className="text-end">
                                         <Link href="#"></Link>
                                     </div>
@@ -97,7 +97,7 @@ const Blog = () => {
                                         </span>
                                         <span className='text-secondary'>26 Mar, 2023</span>
                                     </div>
-                                    <h3>The Complete Web Developer Guideline 2023</h3>
+                                    <h5>The Complete Web Developer Guideline 2023</h5>
                                     <div className="text-end">
                                         <Link href="#"></Link>
                                     </div>
@@ -105,6 +105,8 @@ const Blog = () => {
                             </div>
                         </div>
                     </div> 
+                    
+                     
                 </Slider>
                 </div>
             </div>
