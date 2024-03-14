@@ -14,7 +14,7 @@ const Navigation = () => {
     <Navbar expand="lg" className="bg-body-tertiary bg-white">
       <Container > 
         <Link href='/'>
-        <img src="https://bracketweb.com/eduact-html/assets/images/logo-two.png" alt="" />
+        <img className="CommonSiteLogo" src="/assets/img/OracleLeft.png" alt="" width="181px" />
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll" className='d-lg-flex justify-content-end px-4 gap-4'>

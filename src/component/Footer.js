@@ -10,7 +10,8 @@ const Footer = () => {
             <div className="row">
               <div className="col-lg-3">
                 <ul>
-                  <img src="https://bracketweb.com/eduact-html/assets/images/footer-logo-two.png" />
+                <img className="CommonSiteLogo" src="/assets/img/OracleLeft.png" alt="" width="181px" />
+
 
                   <li>
                     <i className="fa-solid fa-location-dot"></i> &nbsp; 6391
