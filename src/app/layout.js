@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import {Urbanist} from "next/font/google";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css"; 
 import '@fortawesome/fontawesome-free/css/all.min.css';
 // import "slick-carousel/slick/slick.css";
@@ -12,6 +13,7 @@ import "./globals.css";
 import "./custom.css";
 
 const inter = Inter({ subsets: ["latin"] }); 
+const urbanist = Urbanist({ subsets: ["latin"] }); 
 
 export const metadata = {
   title: "Create Next App",
@@ -21,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={urbanist.className}>{children}</body>
     </html>
   );
 }
