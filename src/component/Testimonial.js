@@ -58,7 +58,7 @@ const Testimonial = () => {
          <div className='container'>
           <div className='row'>
             <div className='col-lg-6' >
-            <h3 className="text-dark">Student What people say about us</h3>
+            <h3 className="text-dark">What our students says about us</h3>
 
             <Slider {...settings}>
                     
@@ -175,7 +175,7 @@ const Testimonial = () => {
                 </Slider>
             </div>
             <div className='col-lg-6'>
-            <h3 className="text-dark">Company What people say about us</h3>
+            <h3 className="text-dark">What Our Employers says abut us</h3>
 
 
             <Slider {...settings}>

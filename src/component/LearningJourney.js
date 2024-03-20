@@ -3868,7 +3868,7 @@ const LearningJourney = () => {
           <div className="row">
             <div className="col-lg-6">
               <p className="text-danger fw-600">Learn English in Canada</p>
-              <h2 style={{color:'#0070b6'}} className="fs-80">Think<br></br>
+              <h2 style={{color:'#0070b6'}} className="fs-80 lh-1">Think<br></br>
 Canada,<br></br>
 Think ILAC</h2>
 <button className="btn bg-danger text-white pt-2 pb-2 ps-4 pe-4 fw-600">Apply Now</button>

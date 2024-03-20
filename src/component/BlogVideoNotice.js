@@ -98,6 +98,8 @@ const BlogVideoNotice = () => {
                     <iframe width="100%" height="300px"  src="https://www.youtube.com/embed/_Hq_hLWvuMA" title="Guru Randhawa : ISHARE TERE | Saiee M | Ft. Dhvani B | Golden Geet Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>   
                 <div className='col-lg-4'>
+                <h1 style={{visibility:'hidden'}}>Noticeboard</h1>
+
                 <div className="bg-primary p-lg-4 p-2 rounded-5">
                     <h3 className='text-center text-white  ' >Notice Board</h3>
                     <div className="">

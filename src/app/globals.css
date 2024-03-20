@@ -117,7 +117,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 100px;
 }
 
-
+.lh-1{
+    line-height: 1;
+}
 
 @media (max-width:992px) {
     .py-md-80{
@@ -151,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     position: sticky;
     top: 0px;
     background-color: var(--eduact-white);
-    box-shadow: 10px 3px 5px #aaaaaa;
+    /* box-shadow: 10px 3px 5px #aaaaaa; */
     z-index: 55;
     padding: 5px
 
@@ -179,6 +181,19 @@ nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
 }
 
 
+/* header css starting here  */
+@media (min-width:992px) and (max-width:2200px) {
+    .container-postition-Header{
+        position: relative;
+    }
+    .Navbar-wrapper-home div#navbarScroll {
+        position: absolute;
+        right: 0;
+    }
+}
+/* header css starting here  */
+
+
 div#navbarScroll{
     background-color: var(--LightBlue);
 }
@@ -201,7 +216,7 @@ div#navbarScroll{
 }
 }
 
-@media (min-width:200px) and (max-width:968px) {
+@media (min-width:200px) and (max-width:991px) {
      .Header-small-scrren{
         border-bottom-left-radius:0px !important;
         border-top-left-radius: 0px !important;
@@ -452,7 +467,7 @@ div#navbarScroll{
     width: 100%;
     height: 100%; 
     background-color: var(--eduact-black);
-    /* padding: 55px 25px; */
+    padding: 55px 25px;
 }
 footer {
     background-image: url('https://bracketweb.com/eduact-html/assets/images/shapes/footer-bg-2.png');

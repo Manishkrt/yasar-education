@@ -21,8 +21,8 @@ const Navigation = () => {
     </ul>
     </div>
   </div>
-    <Navbar expand="lg" className="bg-body-tertiary bg-white">
-      <Container > 
+    <Navbar expand="lg" className="Navbar-wrapper-home bg-body-tertiary bg-white" >
+      <div className='container-fluid container-postition-Header'> 
         <Link href='/'>
         <img className="CommonSiteLogo" src="/assets/img/OracleLeft.png" alt="" width="181px" />
         </Link>
@@ -73,7 +73,7 @@ const Navigation = () => {
           </Form> */}
         </Navbar.Collapse>
         
-      </Container>
+      </div>
     </Navbar>
 
     <div className="wrapper-whats-appicon">
