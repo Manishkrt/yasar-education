@@ -3818,7 +3818,7 @@ const LearningJourney = () => {
         </div>
       </section> */}
 
-<section className="Learining-wrapper py-100 py-md-80 py-sm-50" style={{width:'100%',height:'100vh'}}>
+<section className="Learining-wrapper py-100 py-md-80 py-sm-50" style={{width:'100%',height:'80vh'}}>
  
       {/* <div className="mb-0">
             <h5 className="text-primary mb-0"> 
