@@ -101,6 +101,7 @@ a{
     color: var(--eduact-secondary) !important;
 
 }
+
 /* home seond section css starting here */
 body {
     font-family: var(--eduact-font);
@@ -726,7 +727,7 @@ footer {
     position: fixed;
 }
 .wrapper-zoom-meeting .fa-video {
-    background-color: var(--eduact-black);
+    background-color: var(--eduact-secondary);
     color: var(--eduact-white);
     padding: 15px;
     border-radius: 50%;
