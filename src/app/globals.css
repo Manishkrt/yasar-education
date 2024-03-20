@@ -46,6 +46,13 @@ a{
 .bg-primary{
     background-color: var(--primary) !important;
 }
+
+.bg-LightGrey{
+    background-color: #efefef !important;
+}
+.bg-DarkGrey {
+    color: #444444;
+}
 .fs-10{
     font-size: 10px;
 }
@@ -86,8 +93,14 @@ a{
 }
 
 
+.Secondary-orange {
+    color: var(--eduact-secondary) !important;
+    margin-bottom: 10px;
+}
+.Secondary-orange-fotter{
+    color: var(--eduact-secondary) !important;
 
-
+}
 /* home seond section css starting here */
 body {
     font-family: var(--eduact-font);
@@ -137,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50px;
     transition: all .4s ease-in-out;
     border-radius: 30px 0px 30px 0px;
+    text-transform: uppercase;
 }
 
 .btn-hover:hover {
@@ -154,24 +168,25 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-hover.color-2 {
     background-image: linear-gradient(to right,#e85a19,#fa7199,#e43603, #f5ce62);
-    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    /* box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75); */
 }
 
 
 
 .DiscoverMore-Abouts {
-    width: 132px;
+    width: 180px;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
     cursor: pointer;
     margin: 20px 0px 0px 0px;
-    height: 42px;
+    height: 50px;
     text-align: center;
     border: none;
     background-size: 300% 100%;
     border-radius: 50px;
     transition: all .4s ease-in-out;
+    text-transform: uppercase;
    
 }
 
@@ -251,11 +266,13 @@ h1, h2, h3, h4, h5, h6 {
 
 nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
     width: 100%;
-    position: fixed;
-    top: 38px;
+    position: sticky;
+    top: 27px;
     z-index: 55;
+    margin: 0px 0px;
     
-    box-shadow: 10px 3px 5px #aaaaaa;
+    /* box-shadow: 10px 3px 5px #aaaaaa; */
+    box-shadow: 0px 4px 5px #aaaaaa;
 }
 
 
@@ -589,6 +606,9 @@ footer {
    color: var(--eduact-white);
 
 }
+.wrapper-container-footer h5{
+    text-transform: uppercase;
+}
 .Footer-SocialIcons .Facebook , .Linkedin, .Twitter, .Youtube{
     text-align: center;
     border: 1px solid var(--eduact-base);
@@ -655,7 +675,7 @@ footer {
 }
 
 .Blogs-card-wrapper-grid-common .card {
-    box-shadow: 5px 10px var(--LightBlue);
+    box-shadow: 5px 5px #f7f7f7;
 }
 .text-wrapper-combine-vbn h1{
     font-size: 16px;
@@ -663,7 +683,11 @@ footer {
     font-weight: 600;
 
 }
-
+.NoticeBoard-wrapper {
+    border: 1px solid #0000002d;
+    box-shadow: 5px 5px #efefef;
+    height: 320px;
+}
 
 
 @media (min-width:200px) and (max-width:992px) {
@@ -993,7 +1017,7 @@ footer {
 .CareerCounsellingStrip-wrapper {
     width: 100%;
     height: 100%;
-    background-color: #224376;
+    background-color: var(--LightBlue);
 }
 @media (max-width: 992px){
 .pb-md-80 {
@@ -1008,3 +1032,6 @@ footer {
     font-weight: 500;
 }
 /* CareerCounsellingStrip   css ending here  */
+section.courses-review-wrapper.py-100.py-md-80.py-sm-50{
+    background-color: #efefef;
+}

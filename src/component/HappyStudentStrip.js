@@ -49,13 +49,8 @@ const HappyStudentStrip = () => {
   <div className="container">
     <div className="row">
       <div
-        className="col-lg-3 col-md-6 wow fadeInUp animated"
-        data-wow-delay="100ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "100ms",
-          animationName: "fadeInUp"
-        }}
+        className="col-lg-3 col-md-6 "
+        
       >
         <div className="fact-one__item text-center">
           <svg
@@ -79,25 +74,20 @@ const HappyStudentStrip = () => {
           <div className="fact-one__count">
             <span className="count-box counted">
               <span className="count-text" data-stop="30.3" data-speed={1500}>
-                30.3
+             20,000
               </span>
             </span>
-            k
+            +
           </div>
           {/* /.fact-one__count */}
-          <h3 className="fact-one__title">Student Enrolled</h3>
+          <h3 className="fact-one__title">Happy Students</h3>
           {/* /.fact-one__title */}
         </div>
         {/* /.fact-item */}
       </div>
       <div
-        className="col-lg-3 col-md-6 wow fadeInUp animated"
-        data-wow-delay="200ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "200ms",
-          animationName: "fadeInUp"
-        }}
+        className="col-lg-3 col-md-6"
+       
       >
         <div className="fact-one__item text-center">
           <svg
@@ -119,15 +109,16 @@ const HappyStudentStrip = () => {
             />
           </svg>
           <div className="fact-one__count">
+            {/* <span style={{fontSize:'40px'}} ><i class="fa-solid fa-trophy"></i></span>&nbsp; */}
             <span className="count-box counted">
               <span className="count-text" data-stop="40.5" data-speed={1500}>
-                40.5
+                25
               </span>
             </span>
-            k
+            +
           </div>
           {/* /.fact-one__count */}
-          <h3 className="fact-one__title">Class completed</h3>
+          <h3 className="fact-one__title">Best Awards Won</h3>
           {/* /.fact-one__title */}
         </div>
         {/* /.fact-item */}
@@ -163,25 +154,20 @@ const HappyStudentStrip = () => {
           <div className="fact-one__count">
             <span className="count-box counted">
               <span className="count-text" data-stop="88.9" data-speed={1500}>
-                88.9
+                500+
               </span>
             </span>
-            %
+            
           </div>
           {/* /.fact-one__count */}
-          <h3 className="fact-one__title">satisfaction rate</h3>
+          <h3 className="fact-one__title">Clasess Completed</h3>
           {/* /.fact-one__title */}
         </div>
         {/* /.fact-item */}
       </div>
       <div
-        className="col-lg-3 col-md-6 wow fadeInUp animated"
-        data-wow-delay="400ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "400ms",
-          animationName: "fadeInUp"
-        }}
+        className="col-lg-3 col-md-6"
+       
       >
         <div className="fact-one__item text-center">
           <svg
@@ -205,13 +191,13 @@ const HappyStudentStrip = () => {
           <div className="fact-one__count">
             <span className="count-box counted">
               <span className="count-text" data-stop="6.30" data-speed={1500}>
-                6.3
+              20
               </span>
             </span>
             +
           </div>
           {/* /.fact-one__count */}
-          <h3 className="fact-one__title">Top instructors</h3>
+          <h3 className="fact-one__title">Total Courses</h3>
           {/* /.fact-one__title */}
         </div>
         {/* /.fact-item */}
