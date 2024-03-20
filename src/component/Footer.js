@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="col-lg-3 text-start">
                 <ul className="p-0">
 
-                <img className="CommonSiteLogo" src="/assets/img/OracleLeft.png" alt="" width="181px" />
+                <img className="" src="/assets/img/OracleLeft.png" alt="" width="181px" />
                 {/* <h5 className="text-white">About Us</h5> */}
 
 

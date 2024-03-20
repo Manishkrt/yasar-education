@@ -14,7 +14,7 @@ const Navigation = () => {
 
   <div className='Header-strip-wrapper'>
     <div className='container'>
-    <ul className='d-flex justify-content-between align-items-center mt-2'>
+    <ul className='d-flex justify-content-between align-items-center mt-1 mb-0'>
       <li><i class="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001</li>
       <li><i class="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
       <li><i class="fa-solid fa-phone"></i> +91-11-49404131 , +91-9953988288</li>

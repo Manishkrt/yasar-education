@@ -98,24 +98,25 @@ const BlogVideoNotice = () => {
                     <iframe width="100%" height="300px"  src="https://www.youtube.com/embed/_Hq_hLWvuMA" title="Guru Randhawa : ISHARE TERE | Saiee M | Ft. Dhvani B | Golden Geet Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>   
                 <div className='col-lg-4'>
-                <h1 style={{visibility:'hidden'}}>Noticeboard</h1>
+                <h1>Notice Board</h1>
 
                 <div className="bg-primary p-lg-4 p-2 rounded-5">
-                    <h3 className='text-center text-white  ' >Notice Board</h3>
+                    {/* <h3 className='text-center text-white  ' >Notice Board</h3> */}
                     <div className="">
                         <ul className='p-0 list-style-none'>
-                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
-                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded  my-2 text-white px-2 py-2'>
+                            1. <Link href='#' className='cursive text-white text-decoration-underline '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
-                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded  my-2 text-white px-2 py-2'>
+                            2. <Link href='#' className='cursive text-white text-decoration-underline '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
-                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded  my-2 text-white px-2 py-2'>
+                            3. <Link href='#' className='cursive text-white text-decoration-underline '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
-                            <li className='rounded text-decoration-underline  my-2 text-white px-2 py-2'>
-                                <Link href='#' className='cursive text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
+                            <li className='rounded  my-2 text-white px-2 py-2'>
+                            4. <Link href='#' className='cursive text-white text-decoration-underline '> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem modi numquam quo?</Link>
                             </li> 
+                           
                          
                            
                            

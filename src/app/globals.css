@@ -190,6 +190,9 @@ nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
         position: absolute;
         right: 0;
     }
+    img.CommonSiteLogo {
+        margin-left: 8rem;
+    }
 }
 /* header css starting here  */
 
@@ -643,7 +646,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
-    padding: 0px 0 85px;
+    padding:  85px 0px;
     background-image:url('https://bracketweb.com/eduact-html/assets/images/shapes/service-bg-2.jpg')
   }
   

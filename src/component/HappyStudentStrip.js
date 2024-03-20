@@ -3,7 +3,7 @@ import React from 'react'
 const HappyStudentStrip = () => {
   return (
     <>
-<section className='Happy-student-Strip-wrapper mt-5 p-4'>
+<section className='Happy-student-Strip-wrapper mt-0 p-4'>
 <div className='container'>
     <div className='row'>
         <div className='col-lg-3 text-center'>
