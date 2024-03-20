@@ -11,6 +11,10 @@ import Newsletter from "@/component/Newsletter";
 import Blog from "@/component/Blog";
 import Cta from "@/component/Cta";
 import Testimonial from "@/component/Testimonial";
+import BlogVideoNotice from "@/component/BlogVideoNotice";
+import OurService from "@/component/OurService";
+import HappyStudentStrip from "@/component/HappyStudentStrip";
+import CareerCounsellingStrip from "@/component/CareerCounsellingStrip";
 
 export default function Home() {
   return (
@@ -19,12 +23,17 @@ export default function Home() {
     <LearningJourney/> 
     <AboutUs/>
     <Courses/>
+    <OurService/>
+    <HappyStudentStrip/>
+    <BlogVideoNotice/>
     <CourseReview/>
     <Cta/>
     <Blog/>
     <Testimonial/>
+    <CareerCounsellingStrip/>
     <Newsletter/>
     <Footer/>
+   
     </>
   );
 }  

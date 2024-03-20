@@ -2,47 +2,25 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="Section-AboutUs py-100 py-md-80 py-sm-50">
+    <section className="Section-AboutUs py-100 pb-0 py-md-80 py-sm-50">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 text-end position-relative mb-md-0 mb-5">
+          <div className="col-lg-6 text-start position-relative mb-md-0 mb-5">
             <div className="wrapper-aboutus-left">
               <img
                 className="rounded-pill"
                 src="https://bracketweb.com/eduact-html/assets/images/resources/about-2-2.jpg"
               />
             </div>
-            <div className="Trophy-wrapper">
-              <i className="fa-solid fa-trophy"></i>
-            </div>
-            <div className="AwesomeAwards">
-              <div className="card" style={{ width: "16rem" }}>
-                <i className="fa-solid fa-plus"></i>
-                Awesome Awards
-              </div>
-            </div>
+         
+            
 
-            <div className="wrapper-dotted-aboutus ">
-              <img src="https://bracketweb.com/eduact-html/assets/images/shapes/about-2-shape-1.png" className="position-relative bounce-animate" />
-            </div>
-            <div className="Circle-Egg-Wrapper">
-              <img src="https://bracketweb.com/eduact-html/assets/images/shapes/about-2-shape-2.png" className="position-relative bounce-animate-bottom" />
-            </div>
-            <div className="Wrapper-AboutUs-Arrow">
-              <img src="https://bracketweb.com/eduact-html/assets/images/shapes/about-2-shape-4.png" />
-            </div>
-            <div className="Wrapper-AboutUS-layer rounded-pill bg-white p-2">
-              <img
-                className="rounded-pill"
-                src="https://bracketweb.com/eduact-html/assets/images/resources/about-2-1.jpg"
-              />
-            </div>
-            <div className="Wrapper-AboutUS-Bulb bounce-animate-bottom">
-              <i className="fa-solid fa-lightbulb"></i>
-            </div>
-            <div className="Abouts-Circle-Doted">
-              <img src="https://bracketweb.com/eduact-html/assets/images/shapes/about-2-shape-3.png" className="position-relative bounce-animate" />
-            </div>
+           
+            
+            
+            
+       
+           
           </div>
           <div className="col-lg-6">
             <div className="RightWapperAboutUS">

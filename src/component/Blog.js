@@ -9,7 +9,7 @@ const Blog = () => {
         autoplay: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2, 
+        slidesToShow: 3, 
         slidesToScroll: 1,
         prevArrow: null, 
         nextArrow: null, 
@@ -45,7 +45,7 @@ const Blog = () => {
             <h2 className="text-dark">Latest Updates & Notice</h2>
           </div>
           <div className="row">
-            <div className="col-lg-8 col-md-8 col-12">
+            <div className="col-lg-12 col-md-8 col-12">
                 <div className='blog-slider-wrap'>
                 <Slider {...settings}>
                     <div className="px-2">
@@ -110,7 +110,7 @@ const Blog = () => {
                 </Slider>
                 </div>
             </div>
-            <div className="col-lg-4 col-md-4 col-12">
+            {/* <div className="col-lg-4 col-md-4 col-12">
                 <div className="bg-primary p-lg-4 p-2 rounded-5">
                     <h3 className='text-center text-white  ' >Notice Board</h3>
                     <div className="">
@@ -136,7 +136,7 @@ const Blog = () => {
                     </div>
 
                 </div>
-            </div>
+            </div> */}
           </div>
         </div>
     </section>

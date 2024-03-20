@@ -34,6 +34,8 @@
     --eduact-black2-rgb: 0, 0, 0;
     --eduact-white: #ffffff;
     --eduact-white-rgb: 255, 255, 255;
+    --LightBlue : #4550b8;
+    --PurpleStrip :#552756;
 }
 a{
     text-decoration: none;
@@ -74,7 +76,14 @@ a{
 .fs-60{
     font-size: 60px;
 }
+.fs-80{
+    font-size: 80px;
 
+}
+
+.fw-600 {
+    font-weight: 800;
+}
 
 
 
@@ -133,6 +142,84 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 /* home page second section css starting here  */
+/* Header css starting here  */
+/* Header css starting here  */
+/* Header css ending here  */
+.Header-strip-wrapper {
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0px;
+    background-color: var(--eduact-white);
+    box-shadow: 10px 3px 5px #aaaaaa;
+    z-index: 55;
+    padding: 5px
+
+}
+
+
+.Header-strip-wrapper ul {
+    list-style: none;
+}
+.Header-strip-wrapper ul li {
+   font-weight: 600;
+   color: var(--eduact-black);
+}
+.Header-strip-wrapper ul .fa-solid{
+    color: var(--eduact-base);
+}
+
+nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
+    width: 100%;
+    position: fixed;
+    top: 38px;
+    z-index: 55;
+    
+    box-shadow: 10px 3px 5px #aaaaaa;
+}
+
+
+div#navbarScroll{
+    background-color: var(--LightBlue);
+}
+
+@media (min-width:1200px) and (max-width:1800px) {
+    div#navbarScroll{
+        height: 56px;
+    }  
+    .Header-rounder-Telephone {
+        height: 52px;
+    }
+}
+
+.bg-body-tertiary .nav-link  {
+    color: var(--eduact-white);
+}
+@media (min-width: 1200px){
+.gap-xl-5 {
+    gap: 2rem !important;
+}
+}
+
+@media (min-width:200px) and (max-width:968px) {
+     .Header-small-scrren{
+        border-bottom-left-radius:0px !important;
+        border-top-left-radius: 0px !important;
+    }
+    .Header-strip-wrapper {
+        display: none;
+    }
+    nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
+       
+        top: 0px;
+       
+    }
+}
+/* Header css ending here  */
+
+
+
+
 
 .tiltLiner svg{
     width: 96px;
@@ -231,78 +318,21 @@ h1, h2, h3, h4, h5, h6 {
 .wrapper-aboutus-left img{
     z-index: 3;
 }
-.Trophy-wrapper {
-    position: absolute;
-    top: 0;
-    background-color: #4F5DE4;
-    border-radius: 8px;
-    left: 12%;
-    z-index: 5;
-}
-.Trophy-wrapper i.fa-solid.fa-trophy {
-    color: white;
-    padding: 19px;
-    font-size: 35px;
-}
-.AwesomeAwards {
-    position: absolute;
-    top: 7%;
-    text-align: center;
-    z-index: 4;
-    left: 10%;
-}
-.AwesomeAwards .card {
-    padding: 37px;
-}
-.AwesomeAwards .card .fa-plus{
-    color: var(--eduact-secondary);
-    font-weight: 900;
-    font-size: 35px;
-}
-.wrapper-dotted-aboutus {
-    position: absolute;
-    top: 0px;
-    left: 40%;
-    z-index: 4;
-}
-.Circle-Egg-Wrapper {
-    position: absolute;
-    top: 19%;
-}
-.Wrapper-AboutUs-Arrow {
-    position: absolute;
-    bottom: -10%;
-    left: 30%;
-}
-.Wrapper-AboutUS-layer {
-    position: absolute;
-    top: 35%;
-    z-index: 5;
-    
-}
+
+
+
+
+
+
+
+
 
 .RightWapperAboutUS .fa-angles-right{
     color: var(--eduact-secondary);
 }
-.Wrapper-AboutUS-Bulb{
-    position: absolute;
-    bottom: 0;
-    background-color: #4F5DE4;
-    border-radius: 8px;
-    left: 50%;
-    z-index: 5;
-}
 
-.Wrapper-AboutUS-Bulb .fa-lightbulb {
-    color: white;
-    padding: 19px;
-    font-size: 35px;
-}
-.Abouts-Circle-Doted {
-    position: absolute;
-    bottom: 0;
-    z-index: 3;
-}
+
+
 
 .Wrapper-Flexible-classes svg{
     fill: var(--eduact-secondary);
@@ -374,39 +404,15 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 30px;
     }
  
-    .Circle-Egg-Wrapper {
-        display: none;
-    }
-    .Wrapper-AboutUs-Arrow{
-        display: none;
-    }
-    .Abouts-Circle-Doted{
-        display: none;
-    }
-    .Wrapper-AboutUS-Bulb{
-        display: none;
-    }
-    .Wrapper-AboutUS-layer{
-        display: none;
-    }
+    
+   
+   
+  
     .wrapper-dotted-aboutus{
         display: none;
     }
-    .AwesomeAwards {
-        position: absolute;
-        top: 78% !important;
-        text-align: center;
-        z-index: 4;
-        left: 24%;
-    }
-    .Trophy-wrapper {
-        position: absolute;
-        top: 75%;
-        background-color: #4F5DE4;
-        border-radius: 8px;
-        left: 22%;
-        z-index: 5;
-    }
+   
+
     .wrapper-aboutus-left {
         text-align: center;
     }
@@ -463,15 +469,28 @@ footer {
 }
 .Footer-section ul li{
    margin: 5px 0px;
+   font-size: 14px;
+   color: #8689a7;
+   font-family: sans-serif;
 
 
 }
+.right-arrow-foter-wrapper .fa-chevron-right{
+    font-size: 8px;
+    color: var(--eduact-white);
+}
+.Footer-section ul h5{
+    font-size: 16px;
+}
+.Footer-section ul span{
+    font-size: 14px;
+}
 .Footer-section  .wrapper-container-footer  .fa-location-dot,  .fa-envelope{
-   color: var(--eduact-secondary);
+   color: var(--eduact-white);
    
 }
 .Footer-section  .wrapper-container-footer  .fa-phone-volume{
-   color: var(--eduact-secondary);
+   color: var(--eduact-white);
 
 }
 .Footer-SocialIcons .Facebook , .Linkedin, .Twitter, .Youtube{
@@ -520,8 +539,324 @@ footer {
     color: var(--eduact-text2);
 }
 
+.Learining-wrapper{
+    background-image: url('https://www.ilac.com/wp-content/uploads/2023/06/DREAM-BIG-3D-1-2.0.png');
+    background-position: center;
+    background-size: cover;
+}
 
-
-      
 
 /* foooter css ending here  */
+
+
+/* BlogVideoNotice   css strting here  */
+/* BlogVideoNotice   css strting here  */
+/* BlogVideoNotice   css strting here  */
+/* BlogVideoNotice   css strting here  */
+.Blog-Video-Notice-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.Blogs-card-wrapper-grid-common .card {
+    box-shadow: 5px 10px var(--LightBlue);
+}
+.text-wrapper-combine-vbn h1{
+    font-size: 16px;
+    color: var(--LightBlue);
+    font-weight: 600;
+
+}
+
+
+
+@media (min-width:200px) and (max-width:992px) {
+    .text-wrapper-combine-vbn   .col-lg-4 {
+        margin: 20px 0px;
+    }
+    
+}
+/* BlogVideoNotice   css ending here  */
+/* BlogVideoNotice   css ending here  */
+/* BlogVideoNotice   css ending here  */
+/* BlogVideoNotice   css ending here  */
+
+
+
+/* whatsapp icon css starting here  */
+.wrapper-whats-appicon {
+    position: absolute;
+    bottom: 2%;
+    right: 0;
+    z-index: 55;
+    position: fixed;
+}
+.wrapper-whats-appicon .fa-whatsapp{
+    background-color: #03A84E;
+    color: var(--eduact-white);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 28px;
+}
+.wrapper-zoom-meeting{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    z-index: 55;
+    position: fixed;
+}
+.wrapper-zoom-meeting .fa-video {
+    background-color: var(--eduact-black);
+    color: var(--eduact-white);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 28px; 
+}
+/* whatsapp icon css ending here  */
+
+
+
+
+/* ourservice css starting here  */
+/* ourservice css starting here  */
+/* ourservice css starting here  */
+/* ourservice css starting here  */
+
+.service-two {
+    position: relative;
+    background-color: #f6f6f6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding: 0px 0 85px;
+    background-image:url('https://bracketweb.com/eduact-html/assets/images/shapes/service-bg-2.jpg')
+  }
+  
+  .section-title {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+  }
+  
+  .section-title__tagline {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #4f5de4;
+    margin: 0 0 11px;
+    position: relative;
+    z-index: 2;
+    padding: 0 20px;
+  }
+  
+  .section-title.text-center .section-title__tagline svg {
+    right: 0;
+    margin: auto;
+  }
+  
+  .section-title__tagline svg.arrow-svg {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    overflow: hidden;
+    margin: 0 0 0 9px !important;
+    fill: #f57005;
+  }
+  
+  .section-title__tagline svg {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    z-index: -1;
+    width: 133px;
+    height: 13px;
+  }
+  
+  .section-title__title {
+    font-size: 40px;
+    line-height: 47px;
+    color: #2a254d;
+    margin: 0;
+  }
+  
+  .service-two__item {
+    position: relative;
+    border-radius: 10px;
+    margin: 0 0 36px;
+    box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.07);
+  }
+  
+  .service-two__wrapper {
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .service-two__item svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 117px;
+    transition: 300ms ease;
+    fill: #f6f6f6;
+  }
+  
+  .service-two__icon {
+    width: 166px;
+    height: 166px;
+    background-color: #f57005;
+    font-size: 60px;
+    line-height: 1;
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+    margin: -66px auto 35px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 500ms ease;
+    padding: 0 0 22px;
+  }
+  
+  .service-two__icon span {
+    display: inline-block;
+    transition: all 500ms linear;
+    transition-delay: 0s;
+    transition-delay: 0.1s;
+    transform: scale(1);
+  }
+  
+ 
+  .icon-education:before {
+    content: "\e90f";
+  }
+  
+  .service-two__title {
+    font-size: 20px;
+    margin: 0 25px 18px;
+  }
+  
+  .service-two__title a {
+    color: inherit;
+  }
+  
+  .service-two__text {
+    font-weight: 500;
+    max-width: 230px;
+    margin: 0 auto 32px;
+    color: rgb(105, 117, 133);
+  }
+  
+  .service-two__title a:hover {
+    color: #4f5de4;
+  }
+  
+  .service-two__rm {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+    border-top: 1px solid #e4e4e4;
+    color: #2a254d;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 2;
+  }
+  
+  .service-two__rm::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    transition: 500ms ease;
+    background-image: url(https://bracketweb.com/eduact-html/assets/images/resources/service-rm.png);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease;
+    z-index: -1;
+    transform: scale(1.1);
+  }
+  
+  .service-two__rm span {
+    color: #f57005;
+    font-size: 10px;
+    position: relative;
+    top: 1px;
+    padding-left: 10px;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .icon-caret-right:before {
+    content: "\ea3c";
+  }
+  
+  .service-two__rm::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(var(0, 0, 0, 0.46));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 500ms ease;
+    transform: scale(1.1);
+    z-index: -1;
+  }
+  
+/* ourservice css ending here  */
+/* ourservice css ending here  */
+/* ourservice css ending here  */
+/* ourservice css ending here  */
+
+
+
+/* Happy-student-Strip-wrapper   section css starting here  */
+.Happy-student-Strip-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: var(--LightBlue);
+}
+
+@media (min-width:200px) and (max-width:1200px)
+{
+    .Happy-student-Strip-wrapper  .col-lg-3{
+        margin: 14px 0px;
+    }
+}
+/* Happy-student-Strip-wrapper   section css ending here  */
+
+/* CareerCounsellingStrip   css starting here  */
+.CareerCounsellingStrip-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #224376;
+}
+@media (max-width: 992px){
+.pb-md-80 {
+    padding-bottom: 40px;
+}
+}
+.CareerCounsellingStrip-wrapper  button {
+    border-radius: 51px;
+    padding: 7px 47px;
+    background-color: white !important;
+    color: #000000 !important;
+    font-weight: 500;
+}
+/* CareerCounsellingStrip   css ending here  */

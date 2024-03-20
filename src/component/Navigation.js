@@ -11,13 +11,23 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 const Navigation = () => {
   return (
     <>
+
+  <div className='Header-strip-wrapper'>
+    <div className='container'>
+    <ul className='d-flex justify-content-between align-items-center mt-2'>
+      <li><i class="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001</li>
+      <li><i class="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
+      <li><i class="fa-solid fa-phone"></i> +91-11-49404131 , +91-9953988288</li>
+    </ul>
+    </div>
+  </div>
     <Navbar expand="lg" className="bg-body-tertiary bg-white">
       <Container > 
         <Link href='/'>
         <img className="CommonSiteLogo" src="/assets/img/OracleLeft.png" alt="" width="181px" />
         </Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll" className='d-lg-flex justify-content-end px-4 gap-4'>
+        <Navbar.Collapse id="navbarScroll" className='Header-small-scrren d-lg-flex justify-content-end px-4 gap-4 rounded-start-pill'>
           <Nav
             className="my-2 my-lg-0 d-flex gap-xl-5 gap-lg-4"
             style={{ maxHeight: '400px' }}
@@ -36,11 +46,12 @@ const Navigation = () => {
             </NavDropdown>
             <Nav.Link href="#" className='fw-bold'>Gallery</Nav.Link> 
             <Nav.Link href="#" className='fw-bold'>Blogs</Nav.Link> 
+            <Nav.Link href="#" className='fw-bold'>Kids Section</Nav.Link> 
             <Nav.Link href="#" className='fw-bold'>contact</Nav.Link>  
           </Nav>
           <div className='d-flex align-items-center gap-3'>
-          <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button>
-          <div className="bg-primary rounded-start-pill d-flex align-items-center gap-2 ps-4 pe-5 py-3">
+          {/* <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button> */}
+          <div className="Header-rounder-Telephone  bg-primary rounded-start-pill d-flex align-items-center gap-2 ps-4 pe-5 py-3">
 
           <a href="tel:+0123456789" className='rounded-pill p-1 bg-white d-flex align-items-center justify-content-center' style={{width: "40px", height: "40px"}}>
           <i className="fa-solid fa-phone-volume fa-xl"></i>
@@ -65,7 +76,12 @@ const Navigation = () => {
       </Container>
     </Navbar>
 
-    
+    <div className="wrapper-whats-appicon">
+    <i class="fa-brands fa-whatsapp"></i>
+    </div>
+    <div className="wrapper-zoom-meeting">
+    <i class="fa-solid fa-bounce fa-video"></i>
+    </div>
     </>
   )
 }
