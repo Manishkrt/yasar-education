@@ -3818,7 +3818,7 @@ const LearningJourney = () => {
         </div>
       </section> */}
 
-<section className="Learining-wrapper py-100 py-md-80 py-sm-50" style={{width:'100%',height:'100%'}}>
+<section className="Learining-wrapper py-100 py-md-80 py-sm-50" style={{width:'100%',height:'100vh'}}>
  
       {/* <div className="mb-0">
             <h5 className="text-primary mb-0"> 
@@ -3871,7 +3871,8 @@ const LearningJourney = () => {
               <h2 style={{color:'#0070b6'}} className="fs-80 lh-1">Think<br></br>
 Canada,<br></br>
 Think ILAC</h2>
-<button className="btn bg-danger text-white pt-2 pb-2 ps-4 pe-4 fw-600">Apply Now</button>
+<button class="btn-hover DiscoverMore-Abouts color-2">Apply Now </button>
+
             </div>
             <div className="col-lg-6"></div>
           </div>
