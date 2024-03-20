@@ -2,14 +2,14 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section className="Section-AboutUs py-100 pb-0 py-md-80 py-sm-50">
+    <section className="Section-AboutUs py-100 pt-5 pb-5 py-md-80 py-sm-50">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 text-start position-relative mb-md-0 mb-5">
             <div className="wrapper-aboutus-left">
               <img
                 className="rounded-pill"
-                src="https://bracketweb.com/eduact-html/assets/images/resources/about-2-2.jpg"
+                src="https://www.oracleglobaleducation.com/images/about/about-img.png" style={{width:'500px'}}
               />
             </div>
          
@@ -25,7 +25,7 @@ const AboutUs = () => {
           <div className="col-lg-6">
             <div className="RightWapperAboutUS">
               <h5 className="d-flex align-items-center gap-3">
-                About Us 
+                Welcome To 
                 <svg
                 className="arrow-svg  subtitle-svg"
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,15 +41,15 @@ const AboutUs = () => {
                 
               </h5>
               <h2>
-                Establishing a Community that Encourages Lifelong Learning
+           
+              ORACLE INTERNATIONAL LANGUAGE INSTITUTE
               </h2>
+              <p className="text-dark fw-600 ">Best training institute for IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic.</p>
               <p>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures, to generate Lorem Ipsum
-                which looks
+              The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications through its high tech, state of the art teaching centers, strategically located across the country. It offers interesting and innovative programmes blended with industrial experience and practical application that will appeal to the academic community as well as to a range of other sectors in the market place..
               </p>
             </div> 
-            <div className="position-relative pb-2 bg-soft1">
+            {/* <div className="position-relative pb-2 bg-soft1">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 295 125" style={{width: "260px"}} className="position-absolute top-0 start-0">
                 <path
                   fillRule="evenodd"
@@ -67,7 +67,7 @@ const AboutUs = () => {
               <span className="position-absolute" style={{top:"40px", left:"17px"}}>
                 <i className="fa-solid fa-person-chalkboard text-white fa-xl"></i>
               </span>
-            </div>
+            </div> */}
 
             <div className="row mt-4">
               <div className="col-lg-6">
@@ -95,9 +95,11 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <button className="btn DiscoverMore-Abouts mt-5">
+            {/* <button className="btn DiscoverMore-Abouts mt-5">
               Discover More &nbsp; <i className="fa-solid fa-arrow-right"></i>
-            </button>
+            </button> */}
+    <button class="btn-hover DiscoverMore-Abouts color-2">Discover More </button>
+
           </div>
         </div>
       </div>

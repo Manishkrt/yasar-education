@@ -51,7 +51,7 @@ const Navigation = () => {
           </Nav>
           <div className='d-flex align-items-center gap-3'>
           {/* <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button> */}
-          <div className="Header-rounder-Telephone  bg-primary rounded-start-pill d-flex align-items-center gap-2 ps-4 pe-5 py-3">
+          {/* <div className="Header-rounder-Telephone  bg-primary rounded-start-pill d-flex align-items-center gap-2 ps-4 pe-5 py-3">
 
           <a href="tel:+0123456789" className='rounded-pill p-1 bg-white d-flex align-items-center justify-content-center' style={{width: "40px", height: "40px"}}>
           <i className="fa-solid fa-phone-volume fa-xl"></i>
@@ -60,17 +60,12 @@ const Navigation = () => {
             <p className='mb-0 text-white fs-20'>0123456789</p>
             <small className='text-white'>call to questions</small>
           </div>
-          </div>
+          </div> */}
+          {/* <button className='btn EnrollNow-headerBtn'>Enroll Now</button> */}
+    <button class="btn-hover color-2">Enroll Now</button>
+          
         </div>
-          {/* <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Search"
-              className="me-2"
-              aria-label="Search"
-            />
-            <Button variant="outline-success">Search</Button>
-          </Form> */}
+        
         </Navbar.Collapse>
         
       </div>

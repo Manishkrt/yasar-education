@@ -87,6 +87,7 @@ a{
 
 
 
+
 /* home seond section css starting here */
 body {
     font-family: var(--eduact-font);
@@ -120,6 +121,79 @@ h1, h2, h3, h4, h5, h6 {
 .lh-1{
     line-height: 1;
 }
+
+
+.btn-hover {
+    width: 132px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 42px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    border-radius: 30px 0px 30px 0px;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+
+.btn-hover.color-2 {
+    background-image: linear-gradient(to right,#e85a19,#fa7199,#e43603, #f5ce62);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+
+
+.DiscoverMore-Abouts {
+    width: 132px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px 0px 0px 0px;
+    height: 42px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+   
+}
+
+.DiscoverMore-Abouts:hover {
+    background-position: 100% 0;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.DiscoverMore-Abouts:focus{
+    outline: none;
+}
+
+.DiscoverMore-Abouts{
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    /* box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75); */
+}
+
+
+
 
 @media (max-width:992px) {
     .py-md-80{
@@ -155,18 +229,22 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--eduact-white);
     /* box-shadow: 10px 3px 5px #aaaaaa; */
     z-index: 55;
-    padding: 5px
+    padding: 0px;
+    border-bottom: 2px solid #efefef;
 
 }
-
+.Header-strip-wrapper ul li{
+    font-weight: 600;
+    color: var(--eduact-black);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 
 .Header-strip-wrapper ul {
     list-style: none;
 }
-.Header-strip-wrapper ul li {
-   font-weight: 600;
-   color: var(--eduact-black);
-}
+
 .Header-strip-wrapper ul .fa-solid{
     color: var(--eduact-base);
 }
@@ -845,7 +923,7 @@ footer {
 
 
 /* Happy-student-Strip-wrapper   section css starting here  */
-.Happy-student-Strip-wrapper {
+/* .Happy-student-Strip-wrapper {
     width: 100%;
     height: 100%;
     background-color: var(--LightBlue);
@@ -856,6 +934,58 @@ footer {
     .Happy-student-Strip-wrapper  .col-lg-3{
         margin: 14px 0px;
     }
+} */
+
+.fact-one {
+    position: relative;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 120px 0;
+    border-bottom: 1px solid var(--eduact-soft4);
+}
+@media (min-width: 1200px) and (max-width: 1399px){
+.fact-one__item {
+    padding: 38px 25px 40px;
+}
+}
+.fact-one__item {
+    position: relative;
+    border-radius: 14px;
+    background: var(--eduact-white);
+    box-shadow: -1px 3px 60px 0px rgba(var(--eduact-black2-rgb), 0.07);
+    padding: 50px 25px 53px;
+    transition: 500ms ease;
+}
+
+
+.fact-one__item svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.fact-one__count {
+    display: block;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--eduact-secondary);
+    margin: 0 0 9px;
+    position: relative;
+    z-index: 2;
+}
+
+.fact-one__title {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    color: var(--eduact-text);
+    position: relative;
+    z-index: 2;
 }
 /* Happy-student-Strip-wrapper   section css ending here  */
 
