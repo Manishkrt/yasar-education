@@ -4,7 +4,7 @@ import React from 'react'
 const BlogVideoNotice = () => {
   return (
     <>
-    <section className='Blog-Video-Notice-wrapper py-100'>
+    <section className='Blog-Video-Notice-wrapper py-100 pb-0'>
  <div className="mb-0 text-center">
           
             <h2 className="text-dark text-center">Latest Updates</h2>
