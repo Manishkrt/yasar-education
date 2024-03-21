@@ -166,6 +166,10 @@ h1, h2, h3, h4, h5, h6 {
     outline: none;
 }
 
+.pt-pb{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
 
 .btn-hover.color-2 {
     background-image: linear-gradient(to right,#e85a19,#fa7199,#e43603, #f5ce62);

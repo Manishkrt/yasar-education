@@ -4,7 +4,7 @@ const OurService = () => {
   return (
     <>
   <section
-  className="service-two py-100 pb-0"
+  className="service-two pt-pb"
 >
   <div className="container">
     <div

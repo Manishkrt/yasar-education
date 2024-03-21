@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cta = () => {
   return (
-    <section className='cta-wrapper py-md-0 py-3 '>
+    <section className='cta-wrapper pt-pb'>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6 col-12 mb-lg-0 mb-4">

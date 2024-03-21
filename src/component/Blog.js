@@ -24,7 +24,7 @@ const Blog = () => {
       };
 
   return (
-    <section className='py-100 py-md-80 py-sm-50'>
+    <section className='pt-pb'>
         <div className="container">
         <div className="mb-4 text-center">
             <h5 className="text-primary mb-0"> 

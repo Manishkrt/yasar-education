@@ -43,7 +43,7 @@ const HappyStudentStrip = () => {
 </section> */}
 
 <section
-  className="fact-one"
+  className="fact-one pt-pb"
   style={{ backgroundImage: "url(/assets/img/fact-bg-1.png)" }}
 >
   <div className="container">

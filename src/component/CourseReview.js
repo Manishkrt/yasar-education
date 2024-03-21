@@ -12,7 +12,7 @@ const CourseReview = () => {
     slidesToScroll: 1,
   };
   return (
-    <section className="courses-review-wrapper py-100 py-md-80 py-sm-50">
+    <section className="courses-review-wrapper pt-pb">
       <div className="container">
       <div className="mb-0">
             <h5 className="text-primary mb-0"> 
