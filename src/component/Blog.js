@@ -24,7 +24,7 @@ const Blog = () => {
       };
 
   return (
-    <section className='pt-pb'>
+    <section className='pt-pb' style={{backgroundColor:'#efefef'}}>
         <div className="container">
         <div className="mb-4 text-center">
             <h5 className="text-primary mb-0"> 
