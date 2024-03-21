@@ -60,10 +60,7 @@ const OurService = () => {
               hendrerit
             </p>
             {/* /.service-content */}
-            <a className="service-two__rm">
-              Read More
-              <i class="fa-solid fa-chevron-right"></i>
-            </a>
+          
           </div>
         </div>
         {/* /.service-card-one */}
@@ -94,11 +91,7 @@ const OurService = () => {
               hendrerit
             </p>
             {/* /.service-content */}
-            <a className="service-two__rm">
-              Read More
-              <i class="fa-solid fa-chevron-right"></i>
-
-            </a>
+           
           </div>
         </div>
         {/* /.service-card-one */}
@@ -129,11 +122,7 @@ const OurService = () => {
               hendrerit
             </p>
             {/* /.service-content */}
-            <a className="service-two__rm">
-              Read More
-              <i class="fa-solid fa-chevron-right"></i>
-
-            </a>
+          
           </div>
         </div>
         {/* /.service-card-one */}
@@ -165,11 +154,7 @@ const OurService = () => {
               hendrerit
             </p>
             {/* /.service-content */}
-            <a className="service-two__rm">
-              Read More
-              <i class="fa-solid fa-chevron-right"></i>
-
-            </a>
+          
           </div>
         </div>
         {/* /.service-card-one */}
