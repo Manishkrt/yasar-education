@@ -92,6 +92,9 @@ a{
     font-weight: 800;
 }
 
+.h-image-rounded {
+    height: 350px;
+}
 
 .Secondary-orange {
     color: var(--eduact-secondary) !important;
@@ -661,11 +664,13 @@ footer {
     color: var(--eduact-text2);
 }
 
-.Learining-wrapper{
+
+
+/* .Learining-wrapper{
     background-image: url('https://www.ilac.com/wp-content/uploads/2023/06/DREAM-BIG-3D-1-2.0.png');
     background-position: center;
     background-size: cover;
-}
+} */
 
 
 /* foooter css ending here  */

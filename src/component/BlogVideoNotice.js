@@ -12,12 +12,12 @@ const BlogVideoNotice = () => {
           <div className='container text-wrapper-combine-vbn mt-5'>
             <div className='row'>
               
-                <div className='col-lg-4'>
-                    <h1  className='Secondary-orange'>Blogs</h1>
+                <div className='col-lg-8'>
+                    <h1  className='Secondary-orange text-center'>Blogs</h1>
                     <div className='row'>
                         
                         <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
-  <div className="card mb-3" style={{ maxWidth: 540 }}>
+  <div className="card mb-3" >
     <div className="row g-0">
       <div className="col-md-4 blog-imageswrapper">
         <img
@@ -58,7 +58,10 @@ const BlogVideoNotice = () => {
           <p className="mb-1">
             This Article’s Title goes Here, but not too long.
           </p>
-         <button className='btn text-danger fw-600 text-start p-0'><i class="fa-solid fa-angle-down"></i> Read More</button>
+          <div className='text-end'>
+          <button className='btn text-danger fw-600 text-end p-0'><i class="fa-solid fa-angle-down"></i> Read More</button>
+
+          </div>
         </div>
       </div>
     </div>
@@ -70,14 +73,14 @@ const BlogVideoNotice = () => {
                     </div>
                     </div>  
                     <div className='col-lg-4'>
-                    <h1  className='Secondary-orange'>Video</h1>
+                    <h1  className='Secondary-orange text-center'>Video</h1>
                     <iframe width="100%" height="320px"  src="https://www.youtube.com/embed/_Hq_hLWvuMA" title="Guru Randhawa : ISHARE TERE | Saiee M | Ft. Dhvani B | Golden Geet Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>   
-                <div className='col-lg-4'>
+                {/* <div className='col-lg-4'>
                 <h1 className='Secondary-orange'>Notice Board</h1>
 
                 <div className="bg-LightGrey p-lg-4 p-2 rounded-2 NoticeBoard-wrapper">
-                    {/* <h3 className='text-center text-white  ' >Notice Board</h3> */}
+                 
                     <div className="">
                         <ul className='p-0 list-style-none'>
                             <li className='rounded  my-2 bg-DarkGrey px-2 py-2'>
@@ -100,7 +103,7 @@ const BlogVideoNotice = () => {
                     </div>
 
                 </div>
-                    </div>   
+                    </div>    */}
             </div>
           </div>
     </section>

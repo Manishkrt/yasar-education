@@ -17,7 +17,7 @@ const Courses = () => {
                             </g>
                         </svg>
             </h5>
-            <h2 className='text-dark'>Featured Course On This Month</h2>
+            <h2 className='text-dark'>Featured Course </h2>
             </div>
             <div className="mb-0 "> 
                 <button className='rounded-end-pill border-0 text-white view-all-btn d-flex align-items-center gap-2'>View All

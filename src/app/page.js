@@ -29,9 +29,9 @@ export default function Home() {
     <CourseReview/>
     <Cta/>
     <Blog/>
-    <Testimonial/>
+    {/* <Testimonial/> */}
     <CareerCounsellingStrip/>
-    <Newsletter/>
+    {/* <Newsletter/> */}
     <Footer/>
    
     </>

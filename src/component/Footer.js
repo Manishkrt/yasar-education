@@ -39,20 +39,28 @@ const Footer = () => {
               <div className="col-lg-3">
                 <ul>
                   <h5 className="Secondary-orange">Office Location</h5>
-                  <li className="text-white"><i className="fa-solid fa-location-dot"></i><span className="fw-500 Secondary-orange">  Connaught Place Details :</span><br></br>3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place. Delhi - 110001, India </li>
-                 
-                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange">Kingsway CampBranch Details:</span><br></br>109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi 110009</li>
+                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange">Connaught Place:</span><br></br>3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place, Delhi - 110001, India </li>
+                  <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-11-4940-4131</li>
+                  <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-17-35-17</li>
+                  <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-99-53-988-288</li>
+                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange">Kingsway Camp:</span><br></br>109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi - 110009, India</li>
+                  <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-11-450-41-999</li>
+                  <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-745-645</li>
+
+                  <li className="text-white d-flex align-items-center">
+                    <i className="fa-solid fa-envelope"></i>&nbsp;inquiry@oracleglobaleducation.com
+                  </li>
                 </ul>
               </div>
               <div className="col-lg-3 wrapper-image-Gallery">
                 <ul>
-                  <h5 className="Secondary-orange">Contact Us</h5>
+                  {/* <h5 className="Secondary-orange">Contact Us</h5>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-11-4940-4131</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-17-35-17</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-99-53-988-288</li>
                   <li className="text-white d-flex align-items-center">
                     <i className="fa-solid fa-envelope"></i>&nbsp;inquiry@oracleglobaleducation.com
-                  </li>
+                  </li> */}
                   <div className="Footer-SocialIcons d-flex  mt-3">
                     <div className="Facebook">
                       <i className="fa-brands fa-facebook-f"></i>

@@ -154,13 +154,13 @@ const HappyStudentStrip = () => {
           <div className="fact-one__count">
             <span className="count-box counted">
               <span className="count-text" data-stop="88.9" data-speed={1500}>
-                500+
+                1500+
               </span>
             </span>
             
           </div>
           {/* /.fact-one__count */}
-          <h3 className="fact-one__title">Clasess Completed</h3>
+          <h3 className="fact-one__title">Batches Completed</h3>
           {/* /.fact-one__title */}
         </div>
         {/* /.fact-item */}
@@ -191,13 +191,13 @@ const HappyStudentStrip = () => {
           <div className="fact-one__count">
             <span className="count-box counted">
               <span className="count-text" data-stop="6.30" data-speed={1500}>
-              20
+              25
               </span>
             </span>
             +
           </div>
           {/* /.fact-one__count */}
-          <h3 className="fact-one__title">Total Courses</h3>
+          <h3 className="fact-one__title">Courses</h3>
           {/* /.fact-one__title */}
         </div>
         {/* /.fact-item */}

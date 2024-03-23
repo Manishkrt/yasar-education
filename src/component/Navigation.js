@@ -15,9 +15,9 @@ const Navigation = () => {
   <div className='Header-strip-wrapper'>
     <div className='container'>
     <ul className='d-flex justify-content-between align-items-center mt-2 mb-2'>
-      <li><i class="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001</li>
+      <li><i class="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001 <i class="fa-solid fa-phone"></i> 9953988288</li>
       <li><i class="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
-      <li><i class="fa-solid fa-phone"></i> +91-11-49404131 , +91-9953988288</li>
+      <li><i class="fa-solid fa-location-dot"></i> GTB NAGAR 110009 <i class="fa-solid fa-phone"></i> 9999745645</li>
     </ul>
     </div>
   </div>
@@ -47,7 +47,7 @@ const Navigation = () => {
             <Nav.Link href="#" className='fw-bold'>Gallery</Nav.Link> 
             <Nav.Link href="#" className='fw-bold'>Blogs</Nav.Link> 
             <Nav.Link href="#" className='fw-bold'>Kids Section</Nav.Link> 
-            <Nav.Link href="#" className='fw-bold'>contact</Nav.Link>  
+            <Nav.Link href="#" className='fw-bold'>Contact</Nav.Link>  
           </Nav>
           <div className='d-flex align-items-center gap-3'>
           {/* <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button> */}

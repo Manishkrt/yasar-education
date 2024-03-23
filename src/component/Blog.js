@@ -27,7 +27,7 @@ const Blog = () => {
     <section className='pt-pb' style={{backgroundColor:'#efefef'}}>
         <div className="container">
         <div className="mb-4 text-center">
-            <h5 className="text-primary mb-0"> 
+            {/* <h5 className="text-primary mb-0"> 
               News &nbsp;
               <svg
                 className="arrow-svg  subtitle-svg"
@@ -41,8 +41,8 @@ const Blog = () => {
                   <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z"></path>
                 </g>
               </svg>
-            </h5>
-            <h2 className="text-dark">Latest Updates & Notice</h2>
+            </h5> */}
+            <h2 className="text-dark"> Notice Board</h2>
           </div>
           <div className="row">
             <div className="col-lg-12 col-md-8 col-12">
@@ -50,7 +50,7 @@ const Blog = () => {
                 <Slider {...settings}>
                     <div className="px-2">
                         <div className="blog-card-wrap rounded-4 position-relative mb-5">
-                            <img src="/assets/img/blog-2-1.jpeg" alt="blog" className='img-fluid w-100 rounded-4'  />
+                            <img src="/assets/img/blog-2-1.jpeg" alt="blog" className='img-fluid w-100 rounded-4 h-image-rounded '  />
                             <div className="blog-card-detail position-absolute top-100 start-50 translate-middle px-3 w-100">
                                 <div className="bg-white shadow rounded-top-4 rounded-bottom-5 p-3">
                                     <div className="d-flex align-items-center justify-content-between mb-3">
@@ -69,7 +69,7 @@ const Blog = () => {
                     </div> 
                     <div className="px-2">
                         <div className="blog-card-wrap rounded-4 position-relative mb-5">
-                            <img src="/assets/img/blog-2-1.jpeg" alt="blog" className='img-fluid w-100 rounded-4'  />
+                            <img src="/assets/img/blog-2-1.jpeg" alt="blog" className='img-fluid w-100 rounded-4 h-image-rounded '  />
                             <div className="blog-card-detail position-absolute top-100 start-50 translate-middle px-3 w-100">
                                 <div className="bg-white shadow rounded-top-4 rounded-bottom-5 p-3">
                                     <div className="d-flex align-items-center justify-content-between mb-3">
@@ -88,7 +88,7 @@ const Blog = () => {
                     </div> 
                     <div className="px-2">
                         <div className="blog-card-wrap rounded-4 position-relative mb-5">
-                            <img src="/assets/img/blog-2-1.jpeg" alt="blog" className='img-fluid w-100 rounded-4'  />
+                            <img src="/assets/img/blog-2-1.jpeg" alt="blog" className='img-fluid w-100 rounded-4 h-image-rounded '  />
                             <div className="blog-card-detail position-absolute top-100 start-50 translate-middle px-3 w-100">
                                 <div className="bg-white shadow rounded-top-4 rounded-bottom-5 p-3">
                                     <div className="d-flex align-items-center justify-content-between mb-3">
