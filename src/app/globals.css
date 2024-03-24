@@ -1269,6 +1269,73 @@ section.courses-review-wrapper{
     position: relative;
     z-index: 2;
   }  
+
+  .banner-TextWrapper {
+    top: 90px;
+    left: 10px;
+  }
+  .banner-TextWrapper  .Banner-heading {
+    font-size: 80px;
+}
+
+
+
+.Learining-wrapper {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+  @media (min-width:0px) and (max-width:576px) {
+    .banner-TextWrapper .Banner-heading {
+        font-size: 20px;
+    }
+    .banner-TextWrapper {
+        top: 50%;
+        left: 10px;
+        transform: translate(0px,-50%);
+      }
+      .Learining-wrapper {
+        height: fit-content;
+      }
+    
+  }
+  @media (min-width:577px) and (max-width:767px) {
+    .banner-TextWrapper .Banner-heading {
+        font-size: 34px;
+    }
+    .banner-TextWrapper {
+        top: 50%;
+        left: 10px;
+        transform: translate(0px,-50%);
+      }
+      .Learining-wrapper {
+        height: fit-content;
+      }
+    
+  }
+  @media (min-width:768px) and (max-width:991px) {
+    .banner-TextWrapper .Banner-heading {
+        font-size: 44px;
+    }
+    .banner-TextWrapper {
+        top: 50%;
+        left: 10px;
+        transform: translate(0px,-50%);
+      }
+    
+  }
+  @media (min-width:992px) and (max-width:1200px) {
+    .banner-TextWrapper .Banner-heading {
+        font-size: 64px;
+    }
+    .banner-TextWrapper {
+        top: 80px;
+        left: 40px;
+      }
+    
+  }
+
+
 /* dashdotted ourservice after css ending here  */
 /* dashdotted ourservice after css ending here  */
 /* dashdotted ourservice after css ending here  */
