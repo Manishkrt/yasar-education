@@ -37,7 +37,13 @@ const LearningJourney = () => {
       />
       Your browser does not support the video tag.
     </video>
-   
+    <div className="position-absolute banner-TextWrapper">
+    <p className="text-danger  fw-600">Learn English in Canada</p>
+              <h2 style={{color:'#0070b6'}} className="Banner-heading lh-1">Think
+Abroad,<br></br>
+Think Oracle Language</h2>
+<button class="btn-hover DiscoverMore-Abouts color-2">Enquire Now </button>
+    </div>
           </div>
                 </div>
                 <div>
@@ -49,13 +55,7 @@ const LearningJourney = () => {
      
                 
               </Slider>
-              <div className="position-absolute banner-TextWrapper">
-    <p className="text-danger  fw-600">Learn English in Canada</p>
-              <h2 style={{color:'#0070b6'}} className="Banner-heading lh-1">Think
-Abroad,<br></br>
-Think Oracle Language</h2>
-<button class="btn-hover DiscoverMore-Abouts color-2">Enquire Now </button>
-    </div>
+    
     </section>
      
     </>
