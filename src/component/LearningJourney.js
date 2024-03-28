@@ -7,7 +7,7 @@ const LearningJourney = () => {
   var settings = {
     dots: false,
     infinite: true,
-    // autoplay:true,
+    autoplay:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
