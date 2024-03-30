@@ -32,15 +32,15 @@ const Cta = () => {
                                 <defs>
                                     <linearGradient id="paint0_linear_268_9" x1="137.156" y1="59.5939" x2="389.089" y2="514.127" gradientUnits="userSpaceOnUse">
                                         <stop offset="0" stop-color="#FF7200"></stop>
-                                        <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+                                        <stop offset="1" stop-color="white" stopOpacity="0"></stop>
                                     </linearGradient>
                                     <linearGradient id="paint1_linear_268_9" x1="137.275" y1="26.0413" x2="435.685" y2="537.491" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0" stop-color="#FF7200" stop-opacity="0.71"></stop>
-                                        <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+                                        <stop offset="0" stop-color="#FF7200" stopOpacity="0.71"></stop>
+                                        <stop offset="1" stop-color="white" stopOpacity="0"></stop>
                                     </linearGradient>
                                     <linearGradient id="paint2_linear_268_9" x1="137.156" y1="59.5939" x2="389.089" y2="514.127" gradientUnits="userSpaceOnUse">
                                         <stop offset="0" stop-color="#FF7200"></stop>
-                                        <stop offset="1" stop-color="white" stop-opacity="0"></stop>
+                                        <stop offset="1" stop-color="white" stopOpacity="0"></stop>
                                     </linearGradient>
                                 </defs>
                             </svg>

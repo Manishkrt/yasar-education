@@ -1,7 +1,12 @@
+import { CourseData } from '@/utils/data'
 import Link from 'next/link'
 import React from 'react'
 
+
 const Courses = () => {
+
+    const CourseList = CourseData
+
   return (
     <section className='bg-soft1 py-100 pt-pb'>
         <div className="container">
@@ -27,6 +32,50 @@ const Courses = () => {
             </div>
 
             <div className="row">
+
+                
+                {CourseList.map((courseVallue)=>(
+                     <div className="col-lg-4 col-md-6 col-12 mt-3" key={courseVallue.id}>
+                     <div className="courses-card-wrapper">
+                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
+                         <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
+                             {/* <img src="/assets/img/flag1.png" alt="courses" className='img-fluid w-100 rounded-circle' /> */}
+                             <img src={courseVallue.flagImage} alt="courses" className='img-fluid w-100 rounded-circle' />
+                         </span> 
+                         <div className='mb-3'>
+                             <span className="bg-primary px-2 py-1 text-white rounded">20 Hours</span>
+                         </div>
+                         <div className='d-flex align-items-center mb-2 gap-2'>
+                             <div className='d-flex '>
+                             <i className="fa-solid text-secondary fa-star"></i> 
+                             <i className="fa-solid text-secondary fa-star"></i> 
+                             <i className="fa-solid text-secondary fa-star"></i> 
+                             <i className="fa-solid text-secondary fa-star"></i> 
+                             <i className="fa-solid text-secondary fa-star"></i> 
+                             </div> 
+                         </div>
+                         <h3 className='courses-courseName mb-3'>
+                             <Link className='text-primar' href={`/${courseVallue.slug}`}>{courseVallue.title}</Link>
+                         </h3>
+                         <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - {courseVallue.batchSize} Students</p>
+                         <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
+                             <div>
+                                 <p className="fw-bold text-dark mb-0">Teacher</p>
+                                 <p className="text-muted mb-0 fs-14">Manish Chauhan</p>
+                             </div>
+                             <div>
+                                 <h5 className="text-primary text-end">$ 234.90</h5>
+                                 <p className='text-secondary mb-0 text-end'>17 Lessons</p>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     </div>
+                 </div> 
+                ))} 
+
+
                 <div className="col-lg-4 col-md-6 col-12 mt-3">
                     <div className="courses-card-wrapper">
                     <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
@@ -48,8 +97,8 @@ const Courses = () => {
                         <h3 className='courses-courseName mb-3'>
                             <Link className='text-primar' href='#'>ENGLISH SPEAKING COURSE</Link>
                         </h3>
-                        <p className='mb-0'><i class="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
-                        <p><i class="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                        <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
+                        <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                             <div>
                                 <p className="fw-bold text-dark mb-0">Teacher</p>
@@ -85,8 +134,8 @@ const Courses = () => {
                         <h3 className='courses-courseName mb-3'>
                             <Link className='text-primar' href='#'>SPANISH LANGUAGE COURSE</Link>
                         </h3>
-                        <p className='mb-0'><i class="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
-                        <p><i class="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                        <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
+                        <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                             <div>
                                 <p className="fw-bold text-dark mb-0">Teacher</p>
@@ -122,8 +171,8 @@ const Courses = () => {
                         <h3 className='courses-courseName mb-3'>
                             <Link className='text-primar' href='#'>FRENCH LANGUAGE COURSE</Link>
                         </h3>
-                        <p className='mb-0'><i class="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
-                        <p><i class="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                        <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
+                        <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                             <div>
                                 <p className="fw-bold text-dark mb-0">Teacher</p>
@@ -159,8 +208,8 @@ const Courses = () => {
                         <h3 className='courses-courseName mb-3'>
                             <Link className='text-primar' href='#'>GERMAN LANGUAGE COURSE</Link>
                         </h3>
-                        <p className='mb-0'><i class="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
-                        <p><i class="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                        <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
+                        <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                             <div>
                                 <p className="fw-bold text-dark mb-0">Teacher</p>
@@ -196,8 +245,8 @@ const Courses = () => {
                         <h3 className='courses-courseName mb-3'>
                             <Link className='text-primar' href='#'>IELTS COACHING</Link>
                         </h3>
-                        <p className='mb-0'><i class="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
-                        <p><i class="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                        <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
+                        <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                             <div>
                                 <p className="fw-bold text-dark mb-0">Teacher</p>
@@ -233,8 +282,8 @@ const Courses = () => {
                         <h3 className='courses-courseName mb-3'>
                             <Link className='text-primar' href='#'>ARABIC LANGUAGE COURSE</Link>
                         </h3>
-                        <p className='mb-0'><i class="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
-                        <p><i class="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
+                        <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - 06 - 07 Students</p>
+                        <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- 9.30 AM - 9.30 PM</p>
                         <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                             <div>
                                 <p className="fw-bold text-dark mb-0">Teacher</p>

@@ -55,7 +55,7 @@ useEffect(()=>{
             <div className="col-lg-12 col-md-8 col-12">
                 <div className='blog-slider-wrap'>
                 <Slider {...settings}>
-                    {noticeData.map((noticeValue)=>(
+                    {noticeData.slice(0,4).map((noticeValue)=>(
                         <div className="px-2" key={noticeValue.id}>
                         <div className="blog-card-wrap rounded-4 position-relative mb-5">
                             <img src={noticeValue.image} alt="blog" className='img-fluid w-100 rounded-4 h-image-rounded '  />

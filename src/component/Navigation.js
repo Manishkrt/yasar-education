@@ -15,9 +15,9 @@ const Navigation = () => {
   <div className='Header-strip-wrapper'>
     <div className='container'>
     <ul className='d-flex justify-content-between align-items-center mt-2 mb-2'>
-      <li><i class="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001 <i class="fa-solid fa-phone"></i> 9953988288</li>
-      <li><i class="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
-      <li><i class="fa-solid fa-location-dot"></i> GTB NAGAR 110009 <i class="fa-solid fa-phone"></i> 9999745645</li>
+      <li><i className="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001 <i className="fa-solid fa-phone"></i> 9953988288</li>
+      <li><i className="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
+      <li><i className="fa-solid fa-location-dot"></i> GTB NAGAR 110009 <i className="fa-solid fa-phone"></i> 9999745645</li>
     </ul>
     </div>
   </div>
@@ -62,7 +62,7 @@ const Navigation = () => {
           </div>
           </div> */}
           {/* <button className='btn EnrollNow-headerBtn'>Enroll Now</button> */}
-    <button class="btn-hover color-2">Enroll Now</button>
+    <button className="btn-hover color-2">Enroll Now</button>
           
         </div>
         
@@ -72,10 +72,10 @@ const Navigation = () => {
     </Navbar>
 
     <div className="wrapper-whats-appicon">
-    <i class="fa-brands fa-whatsapp"></i>
+    <i className="fa-brands fa-whatsapp"></i>
     </div>
     <div className="wrapper-zoom-meeting">
-    <i class="fa-solid fa-bounce fa-video"></i>
+    <i className="fa-solid fa-bounce fa-video"></i>
     </div>
     </>
   )
