@@ -295,8 +295,28 @@ nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
     /* box-shadow: 10px 3px 5px #aaaaaa; */
     box-shadow: 0px 4px 5px #aaaaaa;
 }
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  position: relative;
+transition: 0.5s ease;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+  position: absolute;
+transition: 0.5s ease !important;
+content:'';
+width:0;
+height: 2px;
+display: block;
+width:68%;
+/* background-color: var(--eduact-secondary); */
+background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 
 
+}
 /* header css starting here  */
 @media (min-width:992px) and (max-width:2200px) {
     .container-postition-Header{
@@ -751,7 +771,8 @@ footer {
     position: fixed;
 }
 .wrapper-zoom-meeting .fa-video {
-    background-color: var(--eduact-secondary);
+    /* background-color: var(--eduact-secondary); */
+    background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
     color: var(--eduact-white);
     padding: 15px;
     border-radius: 50%;
@@ -2239,7 +2260,8 @@ left: 45%;
 width: 14%;
 height: 3px;
 display: block;
-background-color: var(--eduact-secondary);
+/* background-color: var(--eduact-secondary); */
+background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 
 }
 /* common query form all page css ending here  */
