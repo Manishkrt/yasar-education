@@ -4,168 +4,20 @@ import React from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Slider from 'react-slick';
 import CompanyLogoSlider from '../CompanyLogoSlider';
+import QuiryForm from '@/component/QuiryForm';
+import Navigation from '@/component/Navigation';
+import Footer from '@/component/Footer';
+import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 
 const Page = () => {
-  const settings = {
-    dots: false,
-    autoplay: true,
-    infinite: true,
-    speed: 800,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    centerMode: true,
-    focusOnSelect: true, 
-    responsive: [ 
-      {
-        breakpoint: 992, // Medium screen
-        settings: {
-          slidesToShow: 1,
-          centerMode: false,
-          focusOnSelect: false
-        }
-      },
-      {
-        breakpoint: 576, // Small screen
-        settings: {
-          slidesToShow: 1,
-          centerMode: true,
-          focusOnSelect: true
-        }
-      }
-    ]
-  };
-  
+
  
   return (
     <>
     
+    <Navigation/>
 
-    <section className='Course-details-Home-banner'>
-
-    
-       
-      
-   
-         <div className='container'>
-         
-        
-            {/* <h3 className="text-dark">What our students says about us</h3> */}
-            <h5 className="text-white  text-center"> 
-              Student Feedback
-              
-            </h5>
-            <Slider {...settings}>
-                    
-                    {/* <div className='testimonial-slider-wrap px-2 text-start'>
-                      
-                           
-                           
-                            <div className="p-3 mb-lg-3">
-                              <div className='' style={{ overflow:'hidden',width:'80px'}}>
-                            <img src="/assets/img/testimonial-1-author-1.png" className='rounded-4 text-start' alt="testimonial" style={{width:'100%',height:'100%'}} />
-                            </div>
-                            <p className="fs-18 fs-sm-14 text-white">
-                            Flexible Classes refers to the process of acquiring knowledge or skills<br></br> through the use of digital technologies and the internet
-                            </p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white">Manish Chauhan</p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white Secondary-orange-fotter">Spanish Lanuage course</p>
-                            </div>
-                          
-                        
-                    </div>  */}
-                    <div className='testimonial-slider-wrap px-2 container' style={{margin:'0 auto'}}>
-                      <div className='row'>   
-                      <div className='col-lg-4 text-end'>
-                                       <div className='' style={{ overflow:'hidden',width:'100%',textAlign: '-webkit-right'}}>
-                            <img src="/assets/img/testimonial-1-author-1.png" className='rounded-4 text-end' alt="testimonial" style={{width:'50%',height:'100%'}} />
-                            </div>
-                            </div>
-                      <div className='col-lg-8'>
-                           
-                            <div className="p-3 mb-lg-3">
-                             
-                            <p className="fs-18 fs-sm-14 text-white">
-                            Flexible Classes refers to the process of acquiring knowledge or skills<br></br> through the use of digital technologies and the internet
-                            </p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white">Manish Chauhan</p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white Secondary-orange-fotter">Spanish Lanuage course</p>
-                            </div>
-                            </div>
-                            </div>
-
-                        
-                    </div> 
-                    <div className='testimonial-slider-wrap px-2 container' style={{margin:'0 auto'}}>
-                      <div className='row'>   
-                      <div className='col-lg-4 text-end'>
-                                       <div className='' style={{ overflow:'hidden',width:'100%',textAlign: '-webkit-right'}}>
-                            <img src="/assets/img/testimonial-1-author-1.png" className='rounded-4 text-end' alt="testimonial" style={{width:'50%',height:'100%'}} />
-                            </div>
-                            </div>
-                      <div className='col-lg-8'>
-                           
-                            <div className="p-3 mb-lg-3">
-                             
-                            <p className="fs-18 fs-sm-14 text-white">
-                            Flexible Classes refers to the process of acquiring knowledge or skills<br></br> through the use of digital technologies and the internet
-                            </p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white">Manish Chauhan</p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white Secondary-orange-fotter">Spanish Lanuage course</p>
-                            </div>
-                            </div>
-                            </div>
-
-                        
-                    </div> 
-                    {/* <div className='testimonial-slider-wrap px-2 container' style={{margin:'0 auto'}}>
-                      <div className='row'>   
-                      <div className='col-lg-4 text-end'>
-                                     
-                            <img src="/assets/img/testimonial-1-author-1.png" className='rounded-4 text-end' alt="testimonial" style={{width:'50%',height:'100%'}} />
-                            
-                            </div>
-                      <div className='col-lg-8'>
-                           
-                            <div className="p-3 mb-lg-3">
-                             
-                            <p className="fs-18 fs-sm-14 text-white">
-                            Flexible Classes refers to the process of acquiring knowledge or skills<br></br> through the use of digital technologies and the internet
-                            </p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white">Manish Chauhan</p>
-                            <p className="text-dark fs-18 fs-sm-16 text-white Secondary-orange-fotter">Spanish Lanuage course</p>
-                            </div>
-                            </div>
-                            </div>
-
-                        
-                    </div>  */}
-                
-                 
-                
-                
-               
-                   
-                
-                 
-                 
-                
-                 
-                   
-                       
-                </Slider>
-           
-            
-       
-
-         </div>
-       
-
-
-    
-    
-
-    </section>
-
+  <CoomonStudentSlider/>
 
 
 
@@ -581,77 +433,13 @@ const Page = () => {
     </div>
   </div>
 </section>
-
+<QuiryForm/>
 
 <CompanyLogoSlider/>
 
 
-<section className='Query-form-wrapper p-5'>
-  <div className='container'>
-    <div className='row'>
-      <div className='col-lg-6 Query-form-wrapper'>
-<img src="/assets/img/slide-girl.png"/>
-      </div>
-      <div className='col-lg-6'>
-      <h4 class="course-details__curriculum__title text-center EnquiryForm-underline">Enquiry Form <i className="fa-solid fa-circle-question"></i></h4>
 
-      <form>
-
-  <div className="mb-3">
-    <label htmlFor="exampleInputEmail1" className="form-label">
-      Email 
-    </label>
-    <input
-      type="email"
-      className="form-control"
-      id="exampleInputEmail1"
-      aria-describedby="emailHelp"
-    />
-
-  </div>
-  <div className="mb-3">
-    <label htmlFor="exampleInputPassword1" className="form-label">
-      Password
-    </label>
-    <input
-      type="password"
-      className="form-control"
-      id="exampleInputPassword1"
-    />
-  </div>
-  <div className="mb-3">
-    <label htmlFor="  Contact Number" className="form-label">
-      Contact Number
-    </label>
-    <input
-      type="password"
-      className="form-control"
-      id="Contact Number"
-    />
-  </div>
-  <div className="mb-3">
-    <label htmlFor="  Contact Number" className="form-label">
-      Courses
-    </label>
-    <select className="form-select" aria-label="Default select example">
-  <option selected="">Open this select menu</option>
-  <option value={1}>One</option>
-  <option value={2}>Two</option>
-  <option value={3}>Three</option>
-</select>
-
-  </div>
- 
-  <button type="submit" className="btn Secondary-orange  text-white">
-    Submit <i className="fa-solid fa-arrow-right-to-bracket"></i>
-  </button>
-</form>
-
-      </div>
-    </div>
-  </div>
-
-</section>
+<Footer/>
 
     </>
   )

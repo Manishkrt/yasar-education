@@ -1,9 +1,17 @@
 import React from 'react'
 import CompanyLogoSlider from '../CompanyLogoSlider'
+import QuiryForm from '@/component/QuiryForm'
+import Navigation from '@/component/Navigation'
+import Footer from '@/component/Footer'
+import CoomonStudentSlider from '@/component/CoomonStudentSlider'
+
 
 const page = () => {
   return (
     <>
+    <Navigation/>
+  <CoomonStudentSlider/>
+
 
 <section className="about-two about-two--about">
   <div className="container">
@@ -647,8 +655,10 @@ const page = () => {
     </div>
   </div>
 </section>
+<QuiryForm/>
 <CompanyLogoSlider/>
 
+<Footer/>
     
     </>
   )
