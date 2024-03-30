@@ -8,6 +8,7 @@ import QuiryForm from '@/component/QuiryForm';
 import Navigation from '@/component/Navigation';
 import Footer from '@/component/Footer';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
+import Accordion from 'react-bootstrap/Accordion';
 
 const Page = () => {
 
@@ -29,7 +30,7 @@ const Page = () => {
     <div className="row">
       <div className="col-xl-8">
         <div className="course-details__thumb">
-          <img src="/assets/img/course-detail-2.jpg" alt="eduact" />
+          <img src="/assets/img/china.jpg" alt="eduact" />
         </div>
         {/* details-thumb */}
         <div className="course-details__meta">
@@ -56,7 +57,7 @@ const Page = () => {
         </div>
         {/* details-meta */}
         <h3 className="course-details__title">
-          The Ultimate Developer Course For Future Learner
+        BEST CHINESE LANGUAGE INSTITUTE IN DELHI
         </h3>
         {/* details-title */}
       
@@ -142,73 +143,65 @@ const Page = () => {
               </div>
           </div>
         </Tab>
-        <Tab eventKey="curriculum" title="Curriculum">
-          <div className="tabs-content">
+        <Tab eventKey="curriculum" title="Levels">
+          <div className="tabs-content Levels-content-tab-btn">
           <div className="course-details__curriculum">
                 <h4 className="course-details__curriculum__title">
-                  Starting Beginners Level Course
+                LEVELS:
                 </h4>
-                <p className="course-details__curriculum__text">
-                  Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam
-                  nec eros id magna hendrerit sagittis. Nullam sed mi non odio
-                  feugiat volutpat sit amet nec elit. Maecenas id hendrerit
-                  ipsum. Sed eget auctor metus, ac dapibus dolor. Nam vel lacus
-                  eu nisl bibendum accumsan vitae vitae nibh.
-                </p>
-                <ul className="list-unstyled course-details__curriculum__lists">
-                  <li>
-                    <i className="fa-regular fa-circle-play  icon-play-border" />
-                    <span className="course-details__curriculum__lists__title">
-                      Introduction of Editing
-                    </span>
-                    <span className="course-details__curriculum__lists__preview">
-                      Preview
-                    </span>
-                    <span className="course-details__curriculum__lists__time">
-                      10 Minutes
-                    </span>
-                  </li>
-                  <li>
-               
-                    <i className="fa-regular fa-circle-play  icon-play-border" />
-                    <span className="course-details__curriculum__lists__title">
-                      Overview of Editing
-                    </span>
-                    <span className="course-details__curriculum__lists__preview">
-                      Preview
-                    </span>
-                    <span className="course-details__curriculum__lists__time">
-                      10 Minutes
-                    </span>
-                  </li>
-                  <li>
-                    <i className="fa-regular fa-folder-open icon-file" />
-                    <span className="course-details__curriculum__lists__title">
-                      Basic Editing Technology
-                    </span>
-                  </li>
-                  <li>
-                 
-                    <i className="fa-regular fa-lightbulb icon-logical-thinking" />
-                    <span className="course-details__curriculum__lists__title">
-                      Quiz
-                    </span>
-                    <span className="course-details__curriculum__lists__time">
-                      6 Questions
-                    </span>
-                  </li>
-                </ul>
-                <h4 className="course-details__curriculum__title">
-                  Intermediate Level Course
-                </h4>
-                <p className="course-details__curriculum__text">
-                  Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam
-                  nec eros id magna hendrerit sagittis. Nullam sed mi non odio
-                  feugiat volutpat sit amet nec elit. Maecenas id hendrerit
-                  ipsum. Sed eget auctor metus, ac dapibus dolor. Nam vel lacus
-                  eu nisl bibendum accumsan vitae vitae nibh.
-                </p>
-                <ul className="list-unstyled course-details__curriculum__lists">
+             
+                <p className="course-details__curriculum__text"><b>A1:</b>  A lot of motivation is given to the learner to express his/her feelings, opinions and needs in the
+                              same language. The learner will be able to understand and use common expressions and very simple
+                              sentences. The learner will be able to introduce himself/herself and freely ask general questions from
+                              others.
+                           </p>
+                           <p className="course-details__curriculum__text"><b>A2:</b> The learner will be able to read and write simple sentences and paragraphs. A lot of emphases is
+                              given on the grammar and pronunciation of the language. The clear understanding of the basics is given
+                              a lot of significance. The learner will be able to communicate in general daily tasks.
+                           </p>
+
+                           <Accordion defaultActiveKey="0">
+      <Accordion.Item eventKey="0">
+        <Accordion.Header>LEVEL A</Accordion.Header>
+        <Accordion.Body>
+        <p className='course-details__curriculum__text'><b>A1:</b>  A lot of motivation is given to the learner to express his/her feelings, opinions and needs in the
+                              same language. The learner will be able to understand and use common expressions and very simple
+                              sentences. The learner will be able to introduce himself/herself and freely ask general questions from
+                              others.
+                           </p>
+                           <p className='course-details__curriculum__text'><b>A2:</b> The learner will be able to read and write simple sentences and paragraphs. A lot of emphases is
+                              given on the grammar and pronunciation of the language. The clear understanding of the basics is given
+                              a lot of significance. The learner will be able to communicate in general daily tasks.
+                           </p>
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="1">
+        <Accordion.Header>LEVEL B</Accordion.Header>
+        <Accordion.Body>
+        <p className='course-details__curriculum__text'><b>B1:</b> The learner will be able to improve their speaking ability and fluency. Also, a clear understanding
+                              of the language will be developed and he/she will easily be able to express himself/herself on a range of
+                              topics related to personal interests, work, and other familiar topics.
+                           </p>
+                           <p className='course-details__curriculum__text'><b>B2:</b> A great importance is given to provide the learners with space where they can learn and communicate
+                              freely in the language. She/he will learn new idioms, expressions and will master the creative use of the
+                              language. The learner will be able to create comprehensive and detailed text on a wide range of topics. 
+                           </p>
+
+        </Accordion.Body>
+      </Accordion.Item>
+      <Accordion.Item eventKey="2">
+        <Accordion.Header>LEVEL C</Accordion.Header>
+        <Accordion.Body>
+        <p className='course-details__curriculum__text'><b>C1:</b> The learner will be able to write letters and will have a hands-on practice to use the language in a smooth manner. The learners are given a thorough knowledge about the literature, history, and culture of the language.</p>
+        <p className='course-details__curriculum__text'><b>C2:</b> The learner will have a great command on the language. The learners are instructed to practice novels,
+                              magazines and a variety of assignments. The learner will be able to understand, read and write the
+                              language with ease and will achieve perfection in all the circumstances. 
+                           </p>
+        </Accordion.Body>
+      </Accordion.Item>
+    </Accordion>
+    <button class="btn-hover color-2">For more details - Call 011-49404131</button> 
+                {/* <ul className="list-unstyled course-details__curriculum__lists">
                   <li>
                     <i className="fa-regular fa-circle-play  icon-play-border" />
                     <span className="course-details__curriculum__lists__title">
@@ -236,7 +229,7 @@ const Page = () => {
                       6 Questions
                     </span>
                   </li>
-                </ul>
+                </ul> */}
               </div>
           </div>
         </Tab>

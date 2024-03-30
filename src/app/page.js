@@ -15,6 +15,7 @@ import BlogVideoNotice from "@/component/BlogVideoNotice";
 import OurService from "@/component/OurService";
 import HappyStudentStrip from "@/component/HappyStudentStrip";
 import CareerCounsellingStrip from "@/component/CareerCounsellingStrip";
+import QuiryForm from "@/component/QuiryForm";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
     <Cta/>
     <Blog/>
     {/* <Testimonial/> */}
+    <QuiryForm/>
     <CareerCounsellingStrip/>
     {/* <Newsletter/> */}
     <Footer/>
