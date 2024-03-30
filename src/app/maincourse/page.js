@@ -2,7 +2,7 @@ import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
 import Navigation from '@/component/Navigation';
 import React from 'react'
-import CompanyLogoSlider from '../CompanyLogoSlider';
+import CompanyLogoSlider from '../../component/CompanyLogoSlider';
 import QuiryForm from '@/component/QuiryForm';
 
 const page = () => {
@@ -14,12 +14,7 @@ const page = () => {
    <section className="course-two course-two--page">
   <div
     className="course-two__shape-top wow fadeInRight animated"
-    data-wow-delay="300ms"
-    style={{
-      visibility: "visible",
-      animationDelay: "300ms",
-      animationName: "fadeInRight"
-    }}
+   
   >
     <img src="assets/images/shapes/course-shape-1.png" alt="eduact" />
   </div>
@@ -27,12 +22,7 @@ const page = () => {
     <div className="row">
       <div
         className="col-xl-4 col-md-6 wow fadeInUp animated"
-        data-wow-delay="100ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "100ms",
-          animationName: "fadeInUp"
-        }}
+       
       >
         <div className="course-two__item">
           <div className="course-two__thumb">
@@ -80,12 +70,7 @@ const page = () => {
       </div>
       <div
         className="col-xl-4 col-md-6 wow fadeInUp animated"
-        data-wow-delay="200ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "200ms",
-          animationName: "fadeInUp"
-        }}
+       
       >
         <div className="course-two__item">
           <div className="course-two__thumb">
@@ -133,12 +118,7 @@ const page = () => {
       </div>
       <div
         className="col-xl-4 col-md-6 wow fadeInUp animated"
-        data-wow-delay="300ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "300ms",
-          animationName: "fadeInUp"
-        }}
+      
       >
         <div className="course-two__item">
           <div className="course-two__thumb">
@@ -186,12 +166,7 @@ const page = () => {
       </div>
       <div
         className="col-xl-4 col-md-6 wow fadeInUp animated"
-        data-wow-delay="400ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "400ms",
-          animationName: "fadeInUp"
-        }}
+      
       >
         <div className="course-two__item">
           <div className="course-two__thumb">
@@ -237,12 +212,7 @@ const page = () => {
       </div>
       <div
         className="col-xl-4 col-md-6 wow fadeInUp animated"
-        data-wow-delay="500ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "500ms",
-          animationName: "fadeInUp"
-        }}
+       
       >
         <div className="course-two__item">
           <div className="course-two__thumb">
@@ -288,12 +258,7 @@ const page = () => {
       </div>
       <div
         className="col-xl-4 col-md-6 wow fadeInUp animated"
-        data-wow-delay="600ms"
-        style={{
-          visibility: "visible",
-          animationDelay: "600ms",
-          animationName: "fadeInUp"
-        }}
+      
       >
         <div className="course-two__item">
           <div className="course-two__thumb">
@@ -343,12 +308,7 @@ const page = () => {
   </div>
   <div
     className="course-two__shape-bottom wow fadeInLeft animated"
-    data-wow-delay="400ms"
-    style={{
-      visibility: "visible",
-      animationDelay: "400ms",
-      animationName: "fadeInLeft"
-    }}
+   
   >
     <img src="assets/images/shapes/course-shape-2.png" alt="eduact" />
   </div>

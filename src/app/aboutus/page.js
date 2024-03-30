@@ -1,5 +1,5 @@
 import React from 'react'
-import CompanyLogoSlider from '../CompanyLogoSlider'
+import CompanyLogoSlider from '../../component/CompanyLogoSlider'
 import QuiryForm from '@/component/QuiryForm'
 import Navigation from '@/component/Navigation'
 import Footer from '@/component/Footer'

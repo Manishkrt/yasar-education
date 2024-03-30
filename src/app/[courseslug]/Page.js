@@ -3,7 +3,7 @@
 import React from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Slider from 'react-slick';
-import CompanyLogoSlider from '../CompanyLogoSlider';
+import CompanyLogoSlider from '../../component/CompanyLogoSlider';
 import QuiryForm from '@/component/QuiryForm';
 import Navigation from '@/component/Navigation';
 import Footer from '@/component/Footer';
