@@ -5367,3 +5367,127 @@ button.accordion-button.collapsed{
 /* contactus page css ending here  */
 /* contactus page css ending here  */
 /* contactus page css ending here  */
+
+
+
+/* gallery page css starting here  */
+/* gallery page css starting here  */
+/* gallery page css starting here  */
+/* gallery page css starting here  */
+.gallery-page {
+  position: relative;
+  padding: 50px 0px ;
+}
+
+@media (max-width: 767px) {
+  .gallery-page {
+    padding: 80px 0 40px;
+  }
+}
+
+.gallery-page__carousel {
+  padding-bottom: 40px;
+}
+
+.gallery-page__single {
+  position: relative;
+  overflow: hidden;
+  border-radius: 238px;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+.gallery-page__single img {
+  width: 100%;
+  transition: all 500ms ease;
+  transform: scale(1);
+}
+
+.gallery-page__single::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  -webkit-transform: perspective(400px) rotateX(-90deg);
+  -ms-transform: perspective(400px) rotateX(-90deg);
+  transform: perspective(400px) rotateX(-90deg);
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  background-color: rgba(var(--eduact-base-rgb), 0.62);
+}
+
+.gallery-page__single:hover::after {
+  opacity: 1;
+  -webkit-transform: perspective(400px) rotateX(0deg);
+  -ms-transform: perspective(400px) rotateX(0deg);
+  transform: perspective(400px) rotateX(0deg);
+}
+
+.gallery-page__single:hover img {
+  transform: scale(1.04);
+}
+
+.gallery-page__single:hover .gallery-page__icon a {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  transition-delay: 500ms;
+  opacity: 1;
+}
+
+.gallery-page__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.gallery-page__icon a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  z-index: 2;
+}
+
+.gallery-page__icon a::after, .gallery-page__icon a::before {
+  content: "";
+  width: 80px;
+  height: 6px;
+  background-color: var(--eduact-white);
+  display: block;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery-page__icon a::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+/* gallery page css ending here  */
+/* gallery page css ending here  */
+/* gallery page css ending here  */
+/* gallery page css ending here  */
