@@ -211,27 +211,16 @@ const Page = () => {
         <div className="course-details__tabs tabs-box">
       <Tabs defaultActiveKey="curriculum" id="course-details-tabs">
         <Tab eventKey="overview" title="Overview">
-         <div className='tabs-content'>
+         <div className='tabs-content mt-4'>
          <div className="course-details__overview">
   <p className="course-details__overview__text">
-    Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id
-    magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet
-    nec elit. Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus
-    dolor. Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh.
+  Chinese itself is not a single language, but a language family. The Chinese languages are mutually unintelligible. The fact that these languages share a common history and vocabulary it is usually much easier for a speaker of one Chinese language to learn other Chinese languages. 1.2 billion People use the Chinese language as their first language. Mandarin (one of the forms of the language) hold the status of official language in Mainland China, Singapore, and Taiwan, whereas Cantonese (another form) is the official language of Hong Kong and Macau.
   </p>
   <p className="course-details__overview__text">
-    Himenaeos. Vestibulum sollicitudin varius mauris non dignissim. Sed quis
-    iaculis est. Nulla quam neque, interdum vitae fermentum lacinia, interdum eu
-    magna. Mauris non posuere tellus. Donec quis euismod tellus. Nam vel lacus
-    eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit
-    sagittis. Nullam sed mi non odio feugiat volutpat sit amet nec elit.
-    Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus dolo
+  French is spoken as the first language in France, Quebec, Ontario, and New Brunswick as well as other Francophone regions, Belgium, Western Switzerland, Monaco, parts of the United States, partly in Luxembourg and in Northern Italy. Also, it is the most studied language worldwide.
   </p>
   <p className="course-details__overview__text">
-    Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id
-    magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet
-    nec elit. Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus
-    dolor. Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh.
+  As we account the history of French, it is considered to be an international language of literature and scientific standards and is a primary or second language of many international organizations including the UN, the EU, the North Atlantic Treaty Organization, the WTO, and the International Olympic Committee.
   </p>
   <ul className="list-unstyled course-details__overview__lists">
     <li>
@@ -251,6 +240,55 @@ const Page = () => {
 </div>
 
          </div>
+        </Tab>
+        <Tab eventKey="Why Oracle" title="Why Oracle">
+          <div className="tabs-content">
+          <div className="course-details__curriculum">
+                <h4 className="course-details__curriculum__title">
+                WHY ORACLE
+                </h4>
+                <ul className="list-unstyled course-details__overview__lists">
+    <li>
+   
+      <span className="fa-solid fa-check icon-check" />
+      We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.
+    </li>
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      Form small batches of 10-12 students to ensure quality education.
+    </li>
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      Regular assessment of students in a comprehensive manner.
+    </li>
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      Activities like role play, video case study, etc. to facilitate all around understanding.
+    </li>
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      360-degree feedback mechanism.
+    </li>
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      Flexible batches for kids, professionals, doctors, engineers.
+    </li>
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.
+    </li>
+   
+    <li>
+      <span className="fa-solid fa-check icon-check" />
+      Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.
+    </li>
+  </ul>
+             
+                
+              
+                
+              </div>
+          </div>
         </Tab>
         <Tab eventKey="curriculum" title="Curriculum">
           <div className="tabs-content">
@@ -430,17 +468,18 @@ const Page = () => {
             <ul className="course-details__sidebar__lists clerfix">
               <li>
               {/* <i class="fa-solid fa-clock"></i> */}
-                <i className="fa-regular fa-clock icon-history" />
-                Duration:<span>20 Hours</span>
+                <i className="fa-regular fa-calendar-days icon-history" />
+                
+                Duration:<span>3 Month - 18 Month</span>
               </li>
               <li>
-                <i className="fa-regular fa-clipboard icon-book" />
-                Lessons:<span>15</span>
+                <i className="fa-regular fa-clock icon-history" />
+                Timing:<span>9:30 AM - 9:30 PM</span>
               </li>
               <li>
              
-                <i className="fa-solid fa-building-columns icon-reading" />
-                Students:<span>Max 15</span>
+                <i className="fa-solid fa-users icon-reading"/>
+                Batch Size :<span>  7-10 Students</span>
               </li>
               <li>
               
@@ -545,6 +584,75 @@ const Page = () => {
 
 
 <CompanyLogoSlider/>
+
+
+<section className='Query-form-wrapper p-5'>
+  <div className='container'>
+    <div className='row'>
+      <div className='col-lg-6 Query-form-wrapper'>
+<img src="/assets/img/slide-girl.png"/>
+      </div>
+      <div className='col-lg-6'>
+      <h4 class="course-details__curriculum__title text-center EnquiryForm-underline">Enquiry Form <i className="fa-solid fa-circle-question"></i></h4>
+
+      <form>
+
+  <div className="mb-3">
+    <label htmlFor="exampleInputEmail1" className="form-label">
+      Email 
+    </label>
+    <input
+      type="email"
+      className="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+    />
+
+  </div>
+  <div className="mb-3">
+    <label htmlFor="exampleInputPassword1" className="form-label">
+      Password
+    </label>
+    <input
+      type="password"
+      className="form-control"
+      id="exampleInputPassword1"
+    />
+  </div>
+  <div className="mb-3">
+    <label htmlFor="  Contact Number" className="form-label">
+      Contact Number
+    </label>
+    <input
+      type="password"
+      className="form-control"
+      id="Contact Number"
+    />
+  </div>
+  <div className="mb-3">
+    <label htmlFor="  Contact Number" className="form-label">
+      Courses
+    </label>
+    <select className="form-select" aria-label="Default select example">
+  <option selected="">Open this select menu</option>
+  <option value={1}>One</option>
+  <option value={2}>Two</option>
+  <option value={3}>Three</option>
+</select>
+
+  </div>
+ 
+  <button type="submit" className="btn Secondary-orange  text-white">
+    Submit <i className="fa-solid fa-arrow-right-to-bracket"></i>
+  </button>
+</form>
+
+      </div>
+    </div>
+  </div>
+
+</section>
+
     </>
   )
 }
