@@ -100,6 +100,10 @@ a{
     color: var(--eduact-secondary) !important;
     margin-bottom: 10px;
 }
+.Secondary-orange-footer {
+    color: var(--eduact-secondary) !important;
+    margin-bottom: 10px;
+}
 .Secondary-orange-fotter{
     color: var(--eduact-secondary) !important;
 
