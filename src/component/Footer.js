@@ -26,14 +26,14 @@ const Footer = () => {
                 <ul className="">
                   <h5 className="Secondary-orange">Useful Links</h5>
 
-                  <li className="text-white">Home <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">About <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Our Branch <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Service <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Gallery <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Blogs <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Kids Section <i class="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Contact Us <i class="fa-solid fa-chevron-right"></i> </li>
+                  <li className="text-white">Home <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">About <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">Our Branch <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">Service <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">Gallery <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">Blogs <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">Kids Section <i className="fa-solid fa-chevron-right"></i></li>
+                  <li className="text-white">Contact Us <i className="fa-solid fa-chevron-right"></i> </li>
                 </ul>
               </div>
               <div className="col-lg-3">

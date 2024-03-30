@@ -9,7 +9,7 @@ const HappyStudentStrip = () => {
         <div className='col-lg-3 text-center'>
             <div className='wrapper-happy-card'>
            
-            <h2 className='text-white'><i class="fa-regular fa-face-smile"></i>&nbsp;20,000 <i class="fa-solid fa-plus"></i></h2>
+            <h2 className='text-white'><i className="fa-regular fa-face-smile"></i>&nbsp;20,000 <i className="fa-solid fa-plus"></i></h2>
             <p className='text-white mb-0'>Happy Students</p>
            
             </div>
@@ -17,7 +17,7 @@ const HappyStudentStrip = () => {
         <div className='col-lg-3 text-center'>
             <div className='wrapper-happy-card'>
            
-            <h2 className='text-white'><i class="fa-solid fa-trophy"></i>&nbsp;25 <i class="fa-solid fa-plus"></i></h2>
+            <h2 className='text-white'><i className="fa-solid fa-trophy"></i>&nbsp;25 <i className="fa-solid fa-plus"></i></h2>
             <p className='text-white mb-0'>BEST AWARDS WON</p>
            
             </div>
@@ -25,7 +25,7 @@ const HappyStudentStrip = () => {
         <div className='col-lg-3 text-center'>
             <div className='wrapper-happy-card'>
            
-            <h2 className='text-white'><i class="fa-solid fa-circle-check"></i>&nbsp;500 <i class="fa-solid fa-plus"></i></h2>
+            <h2 className='text-white'><i className="fa-solid fa-circle-check"></i>&nbsp;500 <i className="fa-solid fa-plus"></i></h2>
             <p className='text-white mb-0'>CLASSES COMPLETED</p>
            
             </div>
@@ -33,7 +33,7 @@ const HappyStudentStrip = () => {
         <div className='col-lg-3 text-center'>
             <div className='wrapper-happy-card'>
            
-            <h2 className='text-white'><i class="fa-solid fa-book"></i>&nbsp;20 <i class="fa-solid fa-plus"></i></h2>
+            <h2 className='text-white'><i className="fa-solid fa-book"></i>&nbsp;20 <i className="fa-solid fa-plus"></i></h2>
             <p className='text-white mb-0'>TOTAL COURSES</p>
            
             </div>
@@ -109,7 +109,7 @@ const HappyStudentStrip = () => {
             />
           </svg>
           <div className="fact-one__count">
-            {/* <span style={{fontSize:'40px'}} ><i class="fa-solid fa-trophy"></i></span>&nbsp; */}
+            {/* <span style={{fontSize:'40px'}} ><i className="fa-solid fa-trophy"></i></span>&nbsp; */}
             <span className="count-box counted">
               <span className="count-text" data-stop="40.5" data-speed={1500}>
                 25

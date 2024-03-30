@@ -42,7 +42,7 @@ const LearningJourney = () => {
               <h2 style={{color:'#0070b6'}} className="Banner-heading lh-1">Think
 Abroad,<br></br>
 Think Oracle Language</h2>
-<button class="btn-hover DiscoverMore-Abouts color-2">Enquire Now </button>
+<button className="btn-hover DiscoverMore-Abouts color-2">Enquire Now </button>
     </div>
           </div>
                 </div>

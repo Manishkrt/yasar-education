@@ -48,7 +48,7 @@ const OurService = () => {
             </svg>
             <div className="service-two__icon">
               {/* <span className="icon-education" /> */}
-              <i class="fa-solid fa-book"></i>
+              <i className="fa-solid fa-book"></i>
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
@@ -79,7 +79,7 @@ const OurService = () => {
               <circle cx={151} cy={-129} r={246} />
             </svg>
             <div className="service-two__icon">
-            <i class="fa-regular fa-lightbulb"></i>
+            <i className="fa-regular fa-lightbulb"></i>
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
@@ -110,7 +110,7 @@ const OurService = () => {
               <circle cx={151} cy={-129} r={246} />
             </svg>
             <div className="service-two__icon">
-            <i class="fa-solid fa-tv"></i>
+            <i className="fa-solid fa-tv"></i>
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
@@ -142,7 +142,7 @@ const OurService = () => {
               <circle cx={151} cy={-129} r={246} />
             </svg>
             <div className="service-two__icon">
-            <i class="fa-solid fa-up-down-left-right"></i>
+            <i className="fa-solid fa-up-down-left-right"></i>
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">

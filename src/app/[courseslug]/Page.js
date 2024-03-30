@@ -7,8 +7,8 @@ import CompanyLogoSlider from '../../component/CompanyLogoSlider';
 import QuiryForm from '@/component/QuiryForm';
 import Navigation from '@/component/Navigation';
 import Footer from '@/component/Footer';
-import CoomonStudentSlider from '@/component/CoomonStudentSlider';
-import Accordion from 'react-bootstrap/Accordion';
+import CoomonStudentSlider from '@/component/CoomonStudentSlider';  
+import Accordion from 'react-bootstrap/Accordion'; 
 
 const Page = () => {
 

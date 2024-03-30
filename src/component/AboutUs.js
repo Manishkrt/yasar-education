@@ -98,7 +98,7 @@ const AboutUs = () => {
             {/* <button className="btn DiscoverMore-Abouts mt-5">
               Discover More &nbsp; <i className="fa-solid fa-arrow-right"></i>
             </button> */}
-    <button class="btn-hover DiscoverMore-Abouts color-2">Discover More </button>
+    <button className="btn-hover DiscoverMore-Abouts color-2">Discover More </button>
 
           </div>
         </div>
