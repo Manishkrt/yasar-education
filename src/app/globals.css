@@ -2212,6 +2212,9 @@ background-size: contain;
 .Query-form-wrapper select.form-select {
   border: 1px solid #d9c8c8;
 }
+.Query-form-wrapper  form textarea.form-control{
+  border: 1px solid #d9c8c8;
+}
  .Query-form-wrapper form {
   
     background-color: white;

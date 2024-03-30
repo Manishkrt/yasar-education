@@ -1,8 +1,9 @@
 import CompanyLogoSlider from '@/component/CompanyLogoSlider';
+import ContacusForm from '@/component/ContacusForm';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
 import Navigation from '@/component/Navigation';
-import QuiryForm from '@/component/QuiryForm';
+
 import React from 'react'
 
 const page = () => {
@@ -10,7 +11,7 @@ const page = () => {
   <>
     <Navigation/>
    <CoomonStudentSlider/>
-   <QuiryForm/>
+   <ContacusForm/>
 
    <section className="contact-info">
   <div className="container">
