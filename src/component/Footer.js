@@ -32,7 +32,7 @@ const Footer = () => {
                   <li className="text-white"><Link className="text-white" href="/visit-our-branches-in-delhi">Our Branch <i className="fa-solid fa-chevron-right"></i></Link></li>
                   <li className="text-white"><Link className="text-white" href="/best-international-laungage-service">Service <i className="fa-solid fa-chevron-right"></i></Link></li>
                   <li className="text-white"><Link className="text-white" href="/visit-our-gallery">Gallery <i className="fa-solid fa-chevron-right"></i></Link></li>
-                  <li className="text-white"><Link className="text-white" href="">Blogs <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="/blog">Blogs <i className="fa-solid fa-chevron-right"></i></Link></li>
                   <li className="text-white"> <Link className="text-white" href="/visit-our-kids-section">Kids Section <i className="fa-solid fa-chevron-right"></i></Link></li>
                   <li className="text-white"><Link className="text-white" href="/contact-us-for-more-information">Contact Us <i className="fa-solid fa-chevron-right"></i> </Link></li>
                 </ul>

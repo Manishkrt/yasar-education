@@ -46,7 +46,7 @@ const Navigation = () => {
               </NavDropdown.Item>
             </NavDropdown> */}
             <Nav.Link href="/visit-our-gallery" className='fw-bold'>Gallery</Nav.Link> 
-            <Nav.Link href="#" className='fw-bold'>Blogs</Nav.Link> 
+            <Nav.Link href="/blog" className='fw-bold'>Blogs</Nav.Link> 
             <Nav.Link href="/visit-our-kids-section" className='fw-bold'>Kids Section</Nav.Link> 
             <Nav.Link href="/contact-us-for-more-information" className='fw-bold'>Contact</Nav.Link>  
           </Nav>
