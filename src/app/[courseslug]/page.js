@@ -39,12 +39,12 @@ const Page = async ({ params }) => {
           <div className="row">
             <div className="col-xl-8">
               <div className="course-details__thumb">
-                <img src="/assets/img/china.jpg" alt="eduact" />
+                <img src={courseValue.image} alt="eduact" />
               </div>
               {/* details-thumb */}
               <div className="course-details__meta">
                 <div className="course-details__meta__author">
-                  <img src="/assets/img/author-7.png" alt="eduact" />
+                  <img src="/assets/img/author-7.png" alt="eduact" /> 
                   <h5 className="course-details__meta__name"> {courseValue.projectManager}</h5>
                   <p className="course-details__meta__designation">Project Manager</p>
                 </div>
@@ -76,19 +76,7 @@ const Page = async ({ params }) => {
                     <div className='tabs-content mt-4'>
                       <div className="course-details__overview">
                         <div dangerouslySetInnerHTML={{ __html: courseValue.description }} /> 
-
-                        
-                        {/* <p className="course-details__overview__text">
-                          As we account the history of French, it is considered to be an international language of literature and scientific standards and is a primary or second language of many international organizations including the UN, the EU, the North Atlantic Treaty Organization, the WTO, and the International Olympic Committee.
-                        </p>
-                        <ul className="list-unstyled course-details__overview__lists">
-                          <li>
-
-                            <span className="fa-solid fa-check icon-check" ></span>
-                            Nam at elit nec neque suscipit gravida.
-                          </li>
-                         
-                        </ul> */}
+ 
                       </div>
 
                     </div>
@@ -100,45 +88,7 @@ const Page = async ({ params }) => {
                           WHY ORACLE
                         </h4>
                         <div dangerouslySetInnerHTML={{ __html: courseValue.oracleDescription }} />
-                        <ul className="list-unstyled course-details__overview__lists">
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.
-                          </li>
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            Form small batches of 10-12 students to ensure quality education.
-                          </li>
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            Regular assessment of students in a comprehensive manner.
-                          </li>
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            Activities like role play, video case study, etc. to facilitate all around understanding.
-                          </li>
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            360-degree feedback mechanism.
-                          </li>
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            Flexible batches for kids, professionals, doctors, engineers.
-                          </li>
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.
-                          </li>
-
-                          <li>
-                            <span className="fa-solid fa-check icon-check" />
-                            Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.
-                          </li>
-                        </ul>
-
-
-
-
+                        
                       </div>
                     </div>
                   </Tab>
@@ -147,18 +97,7 @@ const Page = async ({ params }) => {
                       <div className="course-details__curriculum">
                         <h4 className="course-details__curriculum__title">
                           LEVELS:
-                        </h4>
-
-                        <p className="course-details__curriculum__text"><b>A1:</b>  A lot of motivation is given to the learner to express his/her feelings, opinions and needs in the
-                          same language. The learner will be able to understand and use common expressions and very simple
-                          sentences. The learner will be able to introduce himself/herself and freely ask general questions from
-                          others.
-                        </p>
-                        <p className="course-details__curriculum__text"><b>A2:</b> The learner will be able to read and write simple sentences and paragraphs. A lot of emphases is
-                          given on the grammar and pronunciation of the language. The clear understanding of the basics is given
-                          a lot of significance. The learner will be able to communicate in general daily tasks.
-                        </p>
-
+                        </h4> 
                         <Accordion defaultActiveKey="0">
                           <Accordion.Item eventKey="0">
                             <Accordion.Header>LEVEL A</Accordion.Header>
@@ -200,35 +139,7 @@ const Page = async ({ params }) => {
                           </Accordion.Item>
                         </Accordion>
                         <button className="btn-hover color-2">For more details - Call 011-49404131</button>
-                        {/* <ul className="list-unstyled course-details__curriculum__lists">
-                  <li>
-                    <i className="fa-regular fa-circle-play  icon-play-border" />
-                    <span className="course-details__curriculum__lists__title">
-                      Introduction of Editing
-                    </span>
-                    <span className="course-details__curriculum__lists__preview">
-                      Preview
-                    </span>
-                    <span className="course-details__curriculum__lists__time">
-                      10 Minutes
-                    </span>
-                  </li>
-                  <li>
-                    <i className="fa-regular fa-folder-open icon-file" />
-                    <span className="course-details__curriculum__lists__title">
-                      Basic Editing Technology
-                    </span>
-                  </li>
-                  <li>
-                    <i className="fa-regular fa-lightbulb  icon-logical-thinking" />
-                    <span className="course-details__curriculum__lists__title">
-                      Quiz
-                    </span>
-                    <span className="course-details__curriculum__lists__time">
-                      6 Questions
-                    </span>
-                  </li>
-                </ul> */}
+                       
                       </div>
                     </div>
                   </Tab>

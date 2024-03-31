@@ -8,8 +8,8 @@ const AboutUs = () => {
           <div className="col-lg-6 text-start position-relative mb-md-0 mb-5">
             <div className="wrapper-aboutus-left">
               <img
-                className="rounded-pill"
-                src="https://www.oracleglobaleducation.com/images/about/about-img.png" style={{width:'500px'}}
+                className="rounded-pill img-fluid "
+                src="https://www.oracleglobaleducation.com/images/about/about-img.png" 
               />
             </div>
          

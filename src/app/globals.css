@@ -1632,7 +1632,7 @@ section.courses-review-wrapper{
     color: var(--eduact-black);
     margin: 0 0 14px; 
   }
-  .course-details__curriculum ul li::before{
+  .course-details__curriculum ul li::before, .course-details__overview ul li::before{
 
   content: '';
   position: absolute;
@@ -1653,12 +1653,12 @@ section.courses-review-wrapper{
   }
 
 
-  .course-details__curriculum ul li span.icon {
+  .course-details__curriculum ul li span.icon, .course-details__overview ul li span.icon {
     display: inline-block;
     vertical-align: middle;
   }
 
-  .course-details__curriculum ul li span.icon svg {
+  .course-details__curriculum ul li span.icon svg, .course-details__overview ul li span.icon svg {
     width: 80%;
     height: auto;
   }

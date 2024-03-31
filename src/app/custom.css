@@ -106,6 +106,12 @@ h2{
 .cursive{
     font-style: italic;
 }
+.border-bottom-doted{
+    border-bottom-style: dashed !important;
+}
+.border-color-secondary{
+    border-color: var(--eduact-secondary) !important;
+}
 
 @media (max-width: 1200px){
     .fs-lg-12{
@@ -464,4 +470,34 @@ h2{
     }
 }
 
+
+/* blog style  */
+.blog-link{
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--eduact-secondary);
+    width: 40px;
+    height: 40px;
+    transition: .3s;
+}
+.blog-link i{
+    transition: .3s;
+    color: var(--eduact-secondary);
+}
+.blog-link:hover{
+    background-color: var(--eduact-secondary);
+}
+.blog-link:hover i{
+    color: #ffffff;
+}
+.blog-author-img{
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+}
 

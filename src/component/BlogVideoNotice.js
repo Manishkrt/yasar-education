@@ -14,6 +14,7 @@ async function fetchVideo() {
   const videoId = extractVideoId(responseJson.videos.data[0].video_link);
   return videoId
 }
+
 function extractVideoId(url) { 
   const match = url.match(/(?:\?|&)v=([^&#]+)/);
   return match ? match[1] : null;
@@ -21,8 +22,7 @@ function extractVideoId(url) {
 
   const BlogVideoNotice = async () => {
   const blogData = await fetchBlog()
-  const videoData = await fetchVideo()
-  console.log("blogData", blogData);
+  const videoData = await fetchVideo() 
 
   return (
     <>
