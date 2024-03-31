@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
               <div className="col-lg-3 right-arrow-foter-wrapper">
                 <ul className="">
-                  <h5 className="Secondary-orange">Useful Links</h5>
+                  <h5 className="Secondary-orange-footer">Useful Links</h5>
 
                   <li className="text-white">Home <i className="fa-solid fa-chevron-right"></i></li>
                   <li className="text-white">About <i className="fa-solid fa-chevron-right"></i></li>
@@ -38,12 +38,12 @@ const Footer = () => {
               </div>
               <div className="col-lg-3">
                 <ul>
-                  <h5 className="Secondary-orange">Office Location</h5>
-                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange">Connaught Place:</span><br></br>3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place, Delhi - 110001, India </li>
+                  <h5 className="Secondary-orange-footer">Office Location</h5>
+                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange-footer">Connaught Place:</span><br></br>3rd Floor, Mythri House, M-5A, Middle Circle, Connaught Place, Delhi - 110001, India </li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-11-4940-4131</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-17-35-17</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-99-53-988-288</li>
-                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange">Kingsway Camp:</span><br></br>109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi - 110009, India</li>
+                  <li className="text-white"><i className="fa-solid fa-location-dot"></i> <span className="fw-500 Secondary-orange-footer">Kingsway Camp:</span><br></br>109 Mall Road, Kingsway Camp, GTB Nagar, (Near GTB Nagar Metro Station Gate No.-1) Delhi - 110009, India</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-11-450-41-999</li>
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-745-645</li>
 
@@ -79,7 +79,7 @@ const Footer = () => {
                     </div>
                   </div>
 
-                  <li className="Secondary-orange mb-2 mt-3">
+                  <li className="Secondary-orange-footer mb-2 mt-3">
                     Subscribe to Our Newsletter
                   </li>
                   <li>
