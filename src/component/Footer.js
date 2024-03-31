@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -26,14 +27,14 @@ const Footer = () => {
                 <ul className="">
                   <h5 className="Secondary-orange-footer">Useful Links</h5>
 
-                  <li className="text-white">Home <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">About <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Our Branch <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Service <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Gallery <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Blogs <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Kids Section <i className="fa-solid fa-chevron-right"></i></li>
-                  <li className="text-white">Contact Us <i className="fa-solid fa-chevron-right"></i> </li>
+                  <li className="text-white"><Link className="text-white" href="/">Home <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="/about">About <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="/visit-our-branches-in-delhi">Our Branch <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="/best-international-laungage-service">Service <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="/visit-our-gallery">Gallery <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="">Blogs <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"> <Link className="text-white" href="/visit-our-kids-section">Kids Section <i className="fa-solid fa-chevron-right"></i></Link></li>
+                  <li className="text-white"><Link className="text-white" href="/contact-us-for-more-information">Contact Us <i className="fa-solid fa-chevron-right"></i> </Link></li>
                 </ul>
               </div>
               <div className="col-lg-3">

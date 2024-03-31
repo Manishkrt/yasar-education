@@ -33,8 +33,9 @@ const Navigation = () => {
             style={{ maxHeight: '400px' }}
             navbarScroll
           >
-            <Nav.Link href="#" className='fw-bold'>Home</Nav.Link> 
-            <NavDropdown title="Course" className='fw-bold' id="navbarScrollingDropdown" >
+            <Nav.Link href="/" className='fw-bold'>Home</Nav.Link> 
+            <Nav.Link href="/best-international-laungage-courses" className='fw-bold'>Course</Nav.Link> 
+            {/* <NavDropdown title="Course" className='fw-bold' id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -43,11 +44,11 @@ const Navigation = () => {
               <NavDropdown.Item href="#action5">
                 Something else here
               </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#" className='fw-bold'>Gallery</Nav.Link> 
+            </NavDropdown> */}
+            <Nav.Link href="/visit-our-gallery" className='fw-bold'>Gallery</Nav.Link> 
             <Nav.Link href="#" className='fw-bold'>Blogs</Nav.Link> 
-            <Nav.Link href="#" className='fw-bold'>Kids Section</Nav.Link> 
-            <Nav.Link href="#" className='fw-bold'>Contact</Nav.Link>  
+            <Nav.Link href="/visit-our-kids-section" className='fw-bold'>Kids Section</Nav.Link> 
+            <Nav.Link href="/contact-us-for-more-information" className='fw-bold'>Contact</Nav.Link>  
           </Nav>
           <div className='d-flex align-items-center gap-3'>
           {/* <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button> */}

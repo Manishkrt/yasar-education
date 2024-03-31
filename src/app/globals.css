@@ -5530,3 +5530,40 @@ button.accordion-button.collapsed{
 /* gallery page css ending here  */
 /* gallery page css ending here  */
 /* gallery page css ending here  */
+
+
+
+/* course categories css starting here  */
+/* course categories css starting here  */
+/* course categories css starting here  */
+/* course categories css starting here  */
+.Course-Categories-wrapper .course-details__sidebar__lists li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  
+  line-height: 26px;
+
+  padding: 0 0 9px;
+  margin: 0px 0 0;}
+/* course categories css ending here  */
+/* course categories css ending here  */
+/* course categories css ending here  */
+/* course categories css ending here  */
+
+/* branch page css starting here  */
+/* branch page css starting here  */
+/* branch page css starting here  */
+/* branch page css starting here  */
+.visit-our-branches-in-delhi {
+  padding: 31px 0;
+}
+/* branch page css ending here  */
+/* branch page css ending here  */
+/* branch page css ending here  */
+/* branch page css ending here  */
+.Kids-section-ul li {
+  padding: 0 0 0px !important;
+  margin: 8px 0 0 !important;
+}
+
