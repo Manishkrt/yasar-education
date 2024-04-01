@@ -501,3 +501,9 @@ h2{
     border-radius: 50%;
 }
 
+.blog-sidebar-img-wrapper{
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 8px;
+}
