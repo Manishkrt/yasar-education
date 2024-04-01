@@ -3,7 +3,7 @@ import React from 'react'
 const CareerCounsellingStrip = () => {
   return (
     <>
-    <section className='CareerCounsellingStrip-wrapper mb-3 '>
+    <section className='CareerCounsellingStrip-wrapper'>
    <div className='container p-5'>
    
 
