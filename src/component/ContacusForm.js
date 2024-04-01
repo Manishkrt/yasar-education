@@ -3,7 +3,7 @@ import React from 'react'
 const ContacusForm = () => {
   return (
   <>
-    <section className='Query-form-wrapper p-5'>
+    <section className='Query-form-wrapper pt-pb'>
   <div className='container'>
     <div className='row'>
       <div className='col-lg-6 Query-form-wrapper'>

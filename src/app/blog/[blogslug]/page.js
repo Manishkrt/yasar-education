@@ -37,7 +37,7 @@ const page = async ({ params }) => {
       <Navigation />
       <CoomonStudentSlider />
 
-      <section className='py-100'>
+      <section className='pt-pb'>
         <div className="container">
           {/* <div className="text-center pb-5">
             <h2 className='text-upppercase'>Blog</h2>

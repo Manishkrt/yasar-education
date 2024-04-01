@@ -1389,14 +1389,10 @@ section.courses-review-wrapper{
 --------------------------------------------------------------*/
 .course-details {
     position: relative;
-    padding: 120px 0px 0px 0;
+    
   }
   
-  @media (max-width: 767px) {
-    .course-details {
-      padding: 80px 0;
-    }
-  }
+ 
   
   .course-details__thumb {
     position: relative;
@@ -2228,9 +2224,6 @@ section.courses-review-wrapper{
 /* common query form all page css starting here  */
 /* common query form all page css ending here  */
 .Query-form-wrapper {
-
-
-  padding: 25px;
   background-color: #f2f1f1;;
 }
 
@@ -2273,7 +2266,7 @@ background-size: contain;
 .EnquiryForm-underline::after {
 content: '';
 position: absolute;
-left: 45%;
+left: 40%;
 width: 14%;
 height: 3px;
 display: block;
@@ -2294,15 +2287,9 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 /* aboutus page css staring here  */
 .about-one {
   position: relative;
-  padding: 90px 0 120px;
   background-color: var(--eduact-white);
 }
 
-@media (max-width: 767px) {
-  .about-one {
-    padding: 50px 0 80px;
-  }
-}
 
 .about-one .container {
   position: relative;
@@ -2594,7 +2581,7 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 .about-two {
   position: relative;
   overflow: hidden;
-  padding: 120px 0 168px;
+ 
 }
 
 @media (max-width: 1199px) {
@@ -2603,21 +2590,9 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
   }
 }
 
-@media (max-width: 767px) {
-  .about-two {
-    padding: 80px 0;
-  }
-}
 
-.about-two--about {
-  padding-bottom: 65px;
-}
 
-@media (max-width: 1199px) {
-  .about-two--about {
-    padding-bottom: 0;
-  }
-}
+
 
 .about-two__thumb {
   position: relative;
@@ -4076,12 +4051,12 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 /* main-coursecss starting here  */
 
 .course-two--page {
-  padding: 120px 0 85px;
+  /* padding: 120px 0 85px; */
 }
 
 @media (max-width: 767px) {
   .course-two--page {
-    padding: 80px 0 45px;
+    /* padding: 80px 0 45px; */
   }
 }
 
@@ -4623,14 +4598,9 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 --------------------------------------------------------------*/
 .course-details {
   position: relative;
-  padding: 120px 0;
+  
 }
 
-@media (max-width: 767px) {
-  .course-details {
-    padding: 80px 0;
-  }
-}
 
 .course-details__thumb {
   position: relative;
@@ -5274,14 +5244,10 @@ button.accordion-button.collapsed{
 }
 .contact-info {
   position: relative;
-  padding: 0 0 120px;
+ 
 }
 
-@media (max-width: 767px) {
-  .contact-info {
-    padding-bottom: 80px;
-  }
-}
+
 
 .contact-info ul {
   margin: 0;
@@ -5415,13 +5381,11 @@ button.accordion-button.collapsed{
 /* gallery page css starting here  */
 .gallery-page {
   position: relative;
-  padding: 50px 0px ;
+ 
 }
 
 @media (max-width: 767px) {
-  .gallery-page {
-    padding: 80px 0 40px;
-  }
+  
 }
 
 .gallery-page__carousel {
@@ -5555,9 +5519,7 @@ button.accordion-button.collapsed{
 /* branch page css starting here  */
 /* branch page css starting here  */
 /* branch page css starting here  */
-.visit-our-branches-in-delhi {
-  padding: 31px 0;
-}
+
 /* branch page css ending here  */
 /* branch page css ending here  */
 /* branch page css ending here  */

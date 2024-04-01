@@ -13,7 +13,7 @@ const page = () => {
    <CoomonStudentSlider/>
    <ContacusForm/>
 
-   <section className="contact-info">
+   <section className="contact-info pt-pb">
   <div className="container">
     <ul className="contact-info__wrapper">
       <li>
@@ -47,7 +47,7 @@ const page = () => {
   </div>
 </section>
 
-<section className='wrapper-maps-cotactpage'>
+<section className='wrapper-maps-cotactpage pt-pb'>
     <div className='container'>
         <div className='row'>
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
@@ -79,10 +79,10 @@ const page = () => {
         </div>
     </div>
 </section>
-<div className='mt-mb-50'>
+
    <CompanyLogoSlider/>
 
-   </div>
+  
 
 <Footer/>
 

@@ -4,14 +4,14 @@ const QuiryForm = () => {
   return (
    <>
    
-   <section className='Query-form-wrapper p-5'>
+   <section className='Query-form-wrapper pt-pb'>
   <div className='container'>
     <div className='row'>
       <div className='col-lg-6 Query-form-wrapper'>
 <img src="/assets/img/slide-girl.png"/>
       </div>
       <div className='col-lg-6'>
-      <h4 className="course-details__curriculum__title text-center EnquiryForm-underline">Enquiry Form <i className="fa-solid fa-circle-question"></i></h4>
+      <h4 className="course-details__curriculum__title text-center EnquiryForm-underline">Enquiry Form <i className="fa-solid fa-circle-question"></i></h4><br></br>
 
       <form>
 

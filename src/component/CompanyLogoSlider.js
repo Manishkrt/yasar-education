@@ -36,7 +36,7 @@ const CompanyLogoSlider = () => {
   
   return (
    <>
-    <section className='wrapper-company-logos-sslider'>
+    <section className='wrapper-company-logos-sslider pt-pb'>
  <div className='container'>
          
         

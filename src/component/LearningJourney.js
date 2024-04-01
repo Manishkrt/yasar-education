@@ -7,7 +7,7 @@ const LearningJourney = () => {
   var settings = {
     dots: false,
     infinite: true,
-    autoplay:true,
+    // autoplay:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -49,7 +49,7 @@ Think Oracle Language</h2>
                 <div>
               
           <div className="position-relative">
-            <img className="img-fluid w-100" src ="/assets/img/Homebanners1.jpg"/>
+            <img className="img-fluid w-100" src ="/assets/img/univercity.jpg"/>
           </div>
                 </div>
      
