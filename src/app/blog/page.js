@@ -31,9 +31,9 @@ const page = async() => {
 
     <section className='py-100'>
         <div className="container">
-            <div className="text-center pb-5">
+            {/* <div className="text-center pb-5">
                 <h2 className='text-upppercase'>Blog</h2>
-            </div>
+            </div> */}
             <div className="row">
                 <div className=" col-12">
                     <div className="row">
@@ -41,7 +41,12 @@ const page = async() => {
                         <div className="col-lg-4 col-md-6 mb-4" key={blogValue.id}>
                         <div className="px-2" >
                         <div className="blog-card-wrap rounded-4 position-relative mb-5">
+                            <Link href={`/blog/${blogValue.slug}`} className='position-relative d-block blog-image-link-wrapper rounded-4'>
                             <img src={blogValue.blog_image} alt="blog" className='img-fluid w-100 rounded-4 h-image-rounded shadow '  />
+                            <div className='position-absolute w-100 h-100 d-flex align-items-center justify-content-between  text-center blog-hover-wrapper'>
+                                <div className='text-center w-100'><i className="fa-solid fa-plus text-white fa-xl"></i></div>
+                            </div>
+                            </Link>
                             <div className="blog-card-detail position-absolute top-100 start-50 translate-middle px-3 w-100">
                                 <div className="bg-white shadow rounded-top-4 rounded-bottom-5 p-3">
                                     <div className="d-flex align-items-center justify-content-between mb-3">

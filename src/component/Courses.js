@@ -57,8 +57,8 @@ const Courses = () => {
                          <h3 className='courses-courseName mb-3'>
                              <Link className='text-primar' href={`/${courseVallue.slug}`}>{courseVallue.title}</Link>
                          </h3>
-                         <p className='mb-0'><i className="fa-solid fa-users"></i>&nbsp;Batch Size - {courseVallue.batchSize} Students</p>
-                         <p><i className="fa-regular fa-clock"></i>&nbsp;Timing- {courseVallue.timing}</p>
+                         <p className='mb-0'><i className="fa-solid fa-users text-secondary me-2"></i>&nbsp;Batch Size - {courseVallue.batchSize} Students</p>
+                         <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseVallue.timing}</p>
                          <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                              <div>
                                  <p className="fw-bold text-dark mb-0">Teacher</p>

@@ -107,6 +107,7 @@ h2{
     font-style: italic;
 }
 .border-bottom-doted{
+    border-bottom-width: 1px;
     border-bottom-style: dashed !important;
 }
 .border-color-secondary{
@@ -506,4 +507,36 @@ h2{
     height: 90px;
     overflow: hidden;
     border-radius: 8px;
+}
+.blog-search-input{
+    border: 0px;
+    background-color: transparent;
+    color: #ffffff;
+}
+.blog-search-input:focus{
+    border: 0px;
+    outline: 0px;
+    color: #ffffff;
+}
+.blog-search-input::placeholder{
+    color: #ffffff;
+}
+.blog-search-wrapper{
+    border-radius: 8px;
+    height: 80px;
+    padding-left: 30px;
+}
+
+.blog-image-link-wrapper{
+    overflow: hidden;
+}
+.blog-hover-wrapper{
+    top: -50%;
+    transition: .3s;
+    background-color: #00000055;
+    opacity: 0;
+}
+.blog-image-link-wrapper:hover .blog-hover-wrapper{
+    top: 0px;
+    opacity: 1;
 }

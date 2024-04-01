@@ -34,9 +34,9 @@ const CourseReview = () => {
           </div>
         <div className="row align-items-center">
           <div className="col-lg-8 col-md-7 col-12 px-md-0 px-2 ">
-            <div className="border-top border-start border-bottom px-lg-5 px-2 pt-lg-5 pt-3 pb-5 border-color-primary rounded-start-5 shadow position-relative">
-              <Slider {...settings}>
-                <div>
+            <div className="border-top bg-white border-start border-bottom px-lg-5 px-2 pt-lg-5 pt-3 pb-5 border-color-primary rounded-start-5 shadow position-relative">
+              <Slider {...settings} >
+                <div >
                 <div className='d-flex align-items-center mb-3 gap-2'>
                             <div className='d-flex '>
                             <i className="fa-solid text-secondary fa-star"></i> 
