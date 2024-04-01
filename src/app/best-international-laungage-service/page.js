@@ -14,7 +14,7 @@ const page = () => {
    <>
    <Navigation/>
    <CoomonStudentSlider/>
-   <section className="course-details branch visit-our-branches-in-delhi">
+   <section className="course-details branch visit-our-branches-in-delhi pt-pb">
   <h5 className="section-title__tagline text-center">
   HOME GET OUR ESSISIAL SERVICES IN DELHI
     <svg
@@ -255,10 +255,10 @@ const page = () => {
   </div>
 </section>
 <QuiryForm/>
-<div className='mt-mb-50'>
+
    <CompanyLogoSlider/>
 
-   </div>
+
 <Footer/>
    </>
   )

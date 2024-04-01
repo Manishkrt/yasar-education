@@ -11,7 +11,7 @@ const page = () => {
     <Navigation/>
 
    <CoomonStudentSlider/>
-   <section className="course-two course-two--page">
+   <section className="course-two course-two--page pt-pb">
   <div
     className="course-two__shape-top wow fadeInRight animated"
    

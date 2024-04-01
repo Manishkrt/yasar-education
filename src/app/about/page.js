@@ -13,7 +13,7 @@ const page = () => {
   <CoomonStudentSlider/>
 
 
-<section className="about-two about-two--about">
+<section className="about-two about-two--about pt-pb">
   <div className="container">
     <div className="row">
       <div className="col-xl-6">
@@ -346,7 +346,7 @@ const page = () => {
   </div>
 </section>
 
-<section className="service-one">
+<section className="service-one pt-pb">
   <div
     className="service-one__bg"
     style={{ backgroundImage: "url(assets/images/shapes/service-bg-1.png)" }}
@@ -505,7 +505,7 @@ const page = () => {
   </div>
 </section>
 
-<section className="about-one">
+<section className="about-one pt-pb">
   <div className="container">
     <div className="row">
       <div className="col-xl-6">
