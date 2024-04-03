@@ -55,7 +55,10 @@ function extractVideoId(url) {
                           <p className="mb-1">
                           {blogData[0].short_desc}
                           </p>
-                          <button className='btn text-danger fw-600 text-start p-0'><i className="fa-solid fa-angle-down"></i> Read More</button>
+                          <div className='text-end'>
+
+                          <button className='btn text-danger fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</button>
+                        </div>
                         </div>
                       </div>
                     </div>
@@ -64,7 +67,7 @@ function extractVideoId(url) {
 
                 </div>
                 <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
-                  <div className="card mb-3" style={{ maxWidth: 540 }}>
+                  <div className="card mb-3">
                     <div className="row g-0">
                       <div className="col-md-4 blog-imageswrapper">
                         <img

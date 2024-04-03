@@ -210,12 +210,7 @@ const Page = async ({ params }) => {
             </div>
             <div
               className="col-xl-4 wow fadeInRight animated"
-              data-wow-delay="300ms"
-              style={{
-                visibility: "visible",
-                animationDelay: "300ms",
-                animationName: "fadeInRight"
-              }}
+          
             >
               <div className="course-details__sidebar">
                 <div className="course-details__sidebar__item">

@@ -1406,7 +1406,7 @@ section.courses-review-wrapper{
   }
   
   .course-details__title {
-    font-size: 32px;
+    font-size: 24px;
     margin: 0 0 32px;
   }
   
@@ -4613,9 +4613,9 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
   border-radius: 14px;
 }
 
-.course-details__title {
-  font-size: 32px;
-  margin: 0 0 32px;
+.course-details__overview b, strong {
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .course-details__meta {
@@ -5529,3 +5529,12 @@ button.accordion-button.collapsed{
   margin: 8px 0 0 !important;
 }
 
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #4550b8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
