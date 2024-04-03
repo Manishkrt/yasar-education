@@ -88,7 +88,7 @@ const page = async ({ params }) => {
                       </div>
                       <div> 
                         <div className='mb-2'><span><i className="fa-regular fa-clock fa-lg text-secondary"></i></span> &nbsp; <span>{ formatDate(value.date)}</span></div>
-                        <h6 className='text-capitalize'> <Link href={`/blog/${value.slug}`}>{value.blog_title}</Link> </h6>
+                        <h3 className='text-capitalize sidebar__post__content__title'> <Link href={`/blog/${value.slug}`}>{value.blog_title}</Link> </h3>
                       </div>
                     </div>
                   </div>

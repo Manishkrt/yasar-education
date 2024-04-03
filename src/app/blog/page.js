@@ -55,7 +55,7 @@ const page = async() => {
                                         </span>
                                         <span className='text-secondary'> {formatDate(blogValue.date)}</span>
                                     </div>
-                                    <h5> <Link href={`/blog/${blogValue.slug}`}>{blogValue.blog_title}</Link> </h5>
+                                    <h3 className='blog-two__title'> <Link href={`/blog/${blogValue.slug}`}>{blogValue.blog_title}</Link> </h3>
                                     {/* <div className="text-end">
                                         <Link href="#"></Link>
                                     </div> */}
