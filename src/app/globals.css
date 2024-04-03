@@ -1623,7 +1623,7 @@ section.courses-review-wrapper{
   
   .course-details__overview__text, .course-details__overview p {
     font-weight: 600;
-    line-height: 32px;
+    line-height: 22px;
     letter-spacing: 0.32px;
     margin: 0 0 19px;
   }
@@ -5559,4 +5559,15 @@ button.accordion-button.collapsed{
 .sidebar__post__content__title a{
   color: #2a254d;
 
+}
+
+.course-details__overview__lists li, .course-details__overview ul li, .course-details__curriculum ul li{
+  display: block;
+  position: relative;
+  padding: 0 0 0 38px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #697585;
+  margin: 0 0 14px;
 }
