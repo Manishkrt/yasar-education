@@ -34,7 +34,7 @@ const Page = async ({ params }) => {
 
 
 
-      <section className="course-details">
+      <section className="course-details pt-pb">
         <div className="container">
           <div className="row">
             <div className="col-xl-8">

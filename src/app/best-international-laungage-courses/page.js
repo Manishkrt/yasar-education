@@ -25,7 +25,9 @@ const page = () => {
               className="col-xl-4 col-md-6 wow fadeInUp animated">
               <div className="course-two__item">
                 <div className="course-two__thumb">
+                  <Link href={`/${courseValue.slug}`}>
                   <img src={courseValue.image} alt="eduact" />
+                  </Link>
                   {/* <img src="/assets/img/course-2-1.png" alt="eduact" /> */}
                   <a className="course-two__like" href="javascript:void(0);">
                     <span className="icon-like fa-regular fa-heart" />
@@ -45,10 +47,8 @@ const page = () => {
                     <span className="icon-star fa-solid fa-star" />
                     <div className="course-two__ratings__reviews">( {courseValue.ratingCount} Reviews) </div>
                   </div>
-                  <h3 className="course-two__title">
-                    <Link href="management-consulting.html"> 
-                      {courseValue.title}
-                    </Link>
+                  <h3 className="course-two__title"> 
+                    <Link href={`/${courseValue.slug}`}>{courseValue.title}</Link>
                   </h3>
                   <div className="course-two__bottom">
                     <div className="course-two__author">
@@ -59,7 +59,7 @@ const page = () => {
                       </p>
                     </div>
                     <div className="course-two__meta">
-                      <h4 className="course-two__meta__price">$ {courseValue.price}</h4>
+                      <h4 className="course-two__meta__price"> {courseValue.price}</h4>
                       <p className="course-two__meta__class">{courseValue.totalLesson} Lessons</p>
                     </div>
                   </div>
