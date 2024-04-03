@@ -1685,13 +1685,7 @@ section.courses-review-wrapper{
     margin: 0 0 14px;
   }
   
-  .course-details__curriculum__text {
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0.32px;
-    margin: 0 0 39px;
-  }
-  
+ 
   .course-details__curriculum__lists {
     margin: 27px 0 0;
     padding: 0;
@@ -4877,12 +4871,7 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
   margin: 0 0 14px;
 }
 
-.course-details__curriculum__text {
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: 0.32px;
-  margin: 0 0 39px;
-}
+
 
 .course-details__curriculum__lists {
   margin: 27px 0 0;
@@ -5570,4 +5559,11 @@ button.accordion-button.collapsed{
   font-weight: 600;
   color: #697585;
   margin: 0 0 14px;
+}
+.course-details__curriculum__text {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #697585;
+  margin: 0 0 39px;
 }
