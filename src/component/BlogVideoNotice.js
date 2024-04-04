@@ -52,8 +52,11 @@ function extractVideoId(url) {
                         </Link>
                       </div>
                       <div className="col-md-8">
-                        <div className="card-body mb-3 text-start">
-                          <p className=" mb-1 text-danger fw-600">{blogValue.blog_title}</p>
+                        <div className="card-body mb-3 text-start"> 
+                          <p className=" mb-1 text-danger fw-600">
+                            <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-danger'>{blogValue.blog_title}</Link>
+            
+                          </p>
                           <p className="mb-1">
                             <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-dark'>{blogValue.short_desc}</Link>
                           
