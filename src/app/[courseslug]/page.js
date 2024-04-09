@@ -92,13 +92,13 @@ const Page = async ({ params }) => {
                       </div>
                     </div>
                   </Tab>
-                  <Tab eventKey="curriculum" title="Levels">
+                  <Tab eventKey="curriculum" title="Course Labels">
                     <div className="tabs-content Levels-content-tab-btn">
                       <div className="course-details__curriculum">
                         <h4 className="course-details__curriculum__title">
                           LEVELS:
                         </h4> 
-                        <Accordion defaultActiveKey="0">
+                        {/* <Accordion defaultActiveKey="0">
                           <Accordion.Item eventKey="0">
                             <Accordion.Header>LEVEL A</Accordion.Header>
                             <Accordion.Body>
@@ -137,24 +137,46 @@ const Page = async ({ params }) => {
                               </p>
                             </Accordion.Body>
                           </Accordion.Item>
-                        </Accordion>
+                        </Accordion> */}
+                        <table className="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Language</th>
+      <th scope="col">Course</th>
+      <th scope="col">Level</th>
+      <th scope="col">Duration</th>
+      <th scope="col">Fees</th>
+      <th scope="col">No. Of Classes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">German</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+   
+  </tbody>
+</table>
+
                         <button className="btn-hover color-2">For more details - Call 011-49404131</button>
                        
                       </div>
                     </div>
                   </Tab>
-                  <Tab eventKey="reviews" title="Reviews">
+                  {/* <Tab eventKey="reviews" title="Reviews">
                     <div className='tab-content'>
                       <div className="course-details__comment">
                         <h3 className="course-details__review-title">2 Reviews</h3>
-                        {/*Start Comment Box*/}
+                       
                         <div className="course-details__comment-box">
                           <figure className="course-details__comment-box__thumb">
                             <img src="/assets/img/review-2-1.jpg" alt="eduact" />
                           </figure>
-                          {/* comment-image */}
+                         
                           <h4 className="course-details__comment-box__meta">David Shon</h4>
-                          {/* comment-meta */}
+                         
                           <div className="course-details__comment-box__ratings">
                             <span className="fa fa-star" />
                             <span className="fa fa-star" />
@@ -162,24 +184,23 @@ const Page = async ({ params }) => {
                             <span className="fa fa-star" />
                             <span className="fa fa-star" />
                           </div>
-                          {/* comment-ratings */}
+                        
                           <p className="course-details__comment-box__text">
                             Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id
                             magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet
                             nec elit. Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus
                             dolor.
                           </p>
-                          {/* comment-text */}
+                        
                         </div>
-                        {/*End Comment Box*/}
-                        {/*Start Comment Box*/}
+                       
                         <div className="course-details__comment-box">
                           <figure className="course-details__comment-box__thumb">
                             <img src="/assets/img/review-2-2.jpg" alt="eduact" />
                           </figure>
-                          {/* comment-image */}
+                          
                           <h4 className="course-details__comment-box__meta">Sarah Albert</h4>
-                          {/* comment-meta */}
+                      
                           <div className="course-details__comment-box__ratings">
                             <span className="fa fa-star" />
                             <span className="fa fa-star" />
@@ -187,23 +208,23 @@ const Page = async ({ params }) => {
                             <span className="fa fa-star" />
                             <span className="fa fa-star" />
                           </div>
-                          {/* comment-ratings */}
+                         
                           <p className="course-details__comment-box__text">
                             Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id
                             magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet
                             nec elit. Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus
                             dolor.
                           </p>
-                          {/* comment-text */}
+                         
                         </div>
-                        {/*End Comment Box*/}
+                      
                       </div>
 
                     </div>
                   </Tab>
                   <Tab eventKey="instructor" title="Instructor">
-                    {/* Instructor Content */}
-                  </Tab>
+                 
+                  </Tab> */}
                 </Tabs>
               </div>
               {/* tabs */}
@@ -231,11 +252,11 @@ const Page = async ({ params }) => {
                       <i className="fa-solid fa-users icon-reading" />
                       Batch Size :<span>   {courseValue.batchSize} Students</span>
                     </li>
-                    <li>
+                    {/* <li>
 
                       <i className=" fa-regular fa-circle-play icon-play-border" />
                       Videos<span>  {courseValue.videosTime}</span>
-                    </li>
+                    </li> */}
                     <li>
                       <i className="fa-regular fa-lightbulb icon-logical-thinking" />
                       Skill Level<span>  {courseValue.skillLevel}</span>
@@ -248,7 +269,7 @@ const Page = async ({ params }) => {
                   </ul>
                   <a href="contact.html" className="eduact-btn eduact-btn-second">
                     <span className="eduact-btn__curve" />
-                    Buy This Course
+                    Enroll Now
                     <i className="icon-arrow" />
                   </a>
                 </div>

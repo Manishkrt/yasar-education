@@ -46,7 +46,7 @@ const AboutUs = () => {
               </h2>
               <p className="text-dark fw-600 ">Best training institute for IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic.</p>
               <p>
-              The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications through its high tech, state of the art teaching centers, strategically located across the country. It offers interesting and innovative programmes blended with industrial experience and practical application that will appeal to the academic community as well as to a range of other sectors in the market place..
+              Speak Your Success: Empower Your Journey with Oracle Language Institute – the premier institute for English, IELTS, TOEFL, PTE, German, French, Spanish, Chinese & Arabic.
               </p>
             </div> 
             {/* <div className="position-relative pb-2 bg-soft1">
@@ -70,28 +70,28 @@ const AboutUs = () => {
             </div> */}
 
             <div className="row mt-4">
-              <div className="col-lg-6">
+              <div className="col-lg-12 mb-3">
                 <div className="Wrapper-RightICon_aboutUS d-flex">
                   <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Free Incoming method</h6>
+                  <h6>Seamless Process of Enrolment in language courses</h6>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-12 mb-3">
                 <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
                   <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Provide Best Support</h6>
+                  <h6>Premier Assistance to Students in all language courses</h6>
                 </div>
               </div>
-              <div className="col-lg-6 mt-3">
+              <div className="col-lg-12 mb-3">
                 <div className="Wrapper-RightICon_aboutUS d-flex">
                   <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Expert Many Teacher</h6>
+                  <h6>Diverse Expert Faculty in German, French, Spanish, </h6>
                 </div>
               </div>
-              <div className="col-lg-6 mt-3">
+              <div className="col-lg-12 mb-3">
                 <div className="Wrapper-RightICon_aboutUS d-flex">
                   <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Lifetime access</h6>
+                  <h6>Lifetime Membership after enrolling in any of the language courses </h6>
                 </div>
               </div>
             </div>

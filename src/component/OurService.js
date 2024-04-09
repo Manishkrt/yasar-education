@@ -27,8 +27,8 @@ const OurService = () => {
         </svg>
       </h5>
       <h2 className="section-title__title">
-        Creating a Lifelong Learning
-        <br /> Best Community{" "}
+      Fostering Continuous Learning in Various Languages 
+        <br /> Exceptional Community{" "}
       </h2>
     </div>
     {/* section-title */}
@@ -52,12 +52,11 @@ const OurService = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
-              <a>Exclusive Coach</a>
+              <a>International Curriculum </a>
             </h3>
             {/* /.service-title */}
             <p className="service-two__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit
+            We adhere to global curriculum standards in all our courses – English, IELTS, German, French, Spanish, Chinese & Arabic
             </p>
             {/* /.service-content */}
           
@@ -83,12 +82,11 @@ const OurService = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
-              <a >Exclusive Coach</a>
+              <a >Certified instructors</a>
             </h3>
             {/* /.service-title */}
             <p className="service-two__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit
+            The faculty members consist of trained and experienced language instructors.
             </p>
             {/* /.service-content */}
            
@@ -114,12 +112,11 @@ const OurService = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
-              <a href="team.html">Exclusive Coach</a>
+              <a href="team.html">Regularly enhance teaching competencies</a>
             </h3>
             {/* /.service-title */}
             <p className="service-two__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit
+            We upgrade our teaching methodologies in IELTS, TOEFL, PTE and other language courses from time to time to stay relevant. 
             </p>
             {/* /.service-content */}
           
@@ -146,12 +143,11 @@ const OurService = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-two__title">
-              <a >Exclusive Coach</a>
+              <a >Superior quality language training </a>
             </h3>
             {/* /.service-title */}
             <p className="service-two__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit
+            We ensure continual high-quality education and training in French, Spanish and all other languages.
             </p>
             {/* /.service-content */}
           

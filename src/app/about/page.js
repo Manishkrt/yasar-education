@@ -153,15 +153,12 @@ const page = () => {
               </svg>
             </h5>
             <h2 className="section-title__title">
-              Establishing a Community that Encourages Lifelong Learning
+            WE CREATE LEADERS FOR TOMORROW
             </h2>
           </div>
           {/* section-title */}
           <p className="about-two__content__text">
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence structures, to generate Lorem Ipsum which
-            looks The generated Lorem Ipsum is therefore always free from
-            repetition
+          The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications through its high tech, state of the art teaching centers, strategically located across the country. It offers interesting and innovative programmes blended with industrial experience and practical application that will appeal to the academic community as well as to a range of other sectors in the market place.
           </p>
           <div className="about-two__about-box">
             <div className="about-two__about-box__top">
@@ -171,10 +168,9 @@ const page = () => {
               <h4 className="about-two__about-box__title">Our Mission</h4>
             </div>
             <p className="about-two__about-box__text">
-              It uses a dictionary of over 200 Latin words, combined with a
-              handful of model sentence structures, to generate Lorem Ipsum
-              which looks The generated Lorem Ipsum is therefore always free
-              from repetition
+            Achieve academic excellence in professional education at par with the leading national and international institutions. Focus on practical aspects of the course material so as to make learning a meaningful and interesting experience in our intellectually stimulating campus.
+            Create an environment with people having similar goals and aspirations to be visionaries. Actively encourage collaboration with industries, communities and the fellow institutions in the country and abroad. Work to inculcate high moral and ethical values amongst the students to make them responsible citizens and good human beings.
+            The Institute offers something for everyone, from high school students looking to enhance their academic profile, to experienced practitioners who are seeking to focus on developing new skills, increase their knowledge base and keep up to date with developments within their particular areas of expertise. The Oracle International Language Institute also assists those who are looking for a qualification in India that can be used as a stepping-stone or as a pathway to further Study Overseas as well as those looking to develop their skill set to enhance their career opportunities in today's competitive global market.
             </p>
           </div>
           {/* /.icon-box */}

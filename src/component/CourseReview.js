@@ -16,7 +16,7 @@ const CourseReview = () => {
       <div className="container">
       <div className="mb-0">
             <h5 className="text-primary mb-0"> 
-              Course Review &nbsp;
+            Language Courses Feedback &nbsp;
               <svg
                 className="arrow-svg  subtitle-svg"
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ const CourseReview = () => {
                 </g>
               </svg>
             </h5>
-            <h2 className="text-dark">Student say about course</h2>
+            <h2 className="text-dark">Student Testimonials</h2>
           </div>
         <div className="row align-items-center">
           <div className="col-lg-8 col-md-7 col-12 px-md-0 px-2 ">

@@ -35,7 +35,7 @@ function extractVideoId(url) {
           <div className='row'>
 
             <div className='col-lg-8'>
-              <h1 className='Secondary-orange text-center'>Blogs</h1>
+              <h1 className='blog-video-fs-bg text-center'>Blogs</h1>
               <div className='row'>
 
                 <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
@@ -52,12 +52,14 @@ function extractVideoId(url) {
                       <div className="col-md-8 ">
                         <div className="card-body text-start">
                           <p className=" mb-1 text-danger fw-600">{blogData[0].blog_title}</p>
+                          <div className='d-flex align-items-center justify-content-between'>
                           <p className="mb-1">
                           {blogData[0].short_desc}
                           </p>
                           <div className='text-end'>
 
                           <button className='btn text-danger fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</button>
+                          </div>
                         </div>
                         </div>
                       </div>
@@ -80,13 +82,15 @@ function extractVideoId(url) {
                       <div className="col-md-8">
                         <div className="card-body mb-3 text-start">
                           <p className=" mb-1 text-danger fw-600">{blogData[1].blog_title}</p>
+                    
                           <p className="mb-1">
-                          {blogData[1].short_desc}
-                          </p>
-                          <div className='text-end'>
-                            <button className='btn text-danger fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</button>
+                          {blogData[1].short_desc} &nbsp;
+                          <button className='btn text-danger fw-600 text-end p-0'>ReadMore<i className="fa-solid fa-angle-down"></i></button>
 
-                          </div>
+                          </p>
+                        
+             
+                       
                         </div>
                       </div>
                     </div>
@@ -98,7 +102,7 @@ function extractVideoId(url) {
               </div> 
             </div> 
             <div className='col-lg-4'>
-              <h1 className='Secondary-orange text-center'>Video</h1>
+              <h1 className='blog-video-fs-bg text-center'>Video</h1>
               <iframe width="100%" height="320px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             

@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6 {
 
   color:#2a254d
 
+
+
+}
+.blog-video-fs-bg{
+  font-size: 32px !important;
+  color: var(--eduact-base);
 }
 :root {
     --primary : #4F5DE4;
@@ -309,7 +315,8 @@ nav.bg-body-tertiary.bg-white.navbar.navbar-expand-lg.navbar-light {
     margin: 0px 0px;
     
     /* box-shadow: 10px 3px 5px #aaaaaa; */
-    box-shadow: 0px 4px 5px #aaaaaa;
+    box-shadow: 0px 4px 5px #f57005;
+     /* #aaaaaa; */
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: white;
@@ -5566,4 +5573,19 @@ button.accordion-button.collapsed{
   font-weight: 600;
   color: #697585;
   margin: 0 0 39px;
+}
+.course-details__tabs  li.nav-item {
+  margin: 0px 5px;
+  
+}
+button#course-details-tabs-tab-overview{
+  border: 1px solid #f57005;
+
+}
+button#course-details-tabs-tab-Why\ Oracle{
+  border: 1px solid #f57005;
+
+}
+button#course-details-tabs-tab-curriculum {
+  border: 1px solid #f57005;
 }
