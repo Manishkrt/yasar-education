@@ -15,9 +15,9 @@ const Navigation = () => {
   <div className='Header-strip-wrapper'>
     <div className='container'>
     <ul className='d-flex justify-content-between align-items-center mt-2 mb-2'>
-      <li><i className="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001 <i className="fa-solid fa-phone"></i> 9953988288</li>
+      <li><i className="fa-solid fa-location-dot"></i> Conanaught Place Delhi -110001&nbsp; <i className="fa-solid fa-phone"></i> 9953988288</li>
       <li><i className="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
-      <li><i className="fa-solid fa-location-dot"></i> GTB NAGAR 110009 <i className="fa-solid fa-phone"></i> 9999745645</li>
+      <li><i className="fa-solid fa-location-dot"></i> GTB NAGAR 110009&nbsp; <i className="fa-solid fa-phone"></i> 9999745645</li>
     </ul>
     </div>
   </div>
@@ -33,8 +33,8 @@ const Navigation = () => {
             style={{ maxHeight: '400px' }}
             navbarScroll
           >
-            <Nav.Link href="/" className='fw-bold'>Home</Nav.Link> 
-            <Nav.Link href="/best-international-laungage-courses" className='fw-bold'>Course</Nav.Link> 
+            <Link href="/" className='fw-bold'>Home</Link> 
+            <Link href="/best-international-laungage-courses" className='fw-bold'>Course</Link> 
             {/* <NavDropdown title="Course" className='fw-bold' id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
@@ -45,10 +45,10 @@ const Navigation = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="/visit-our-gallery" className='fw-bold'>Gallery</Nav.Link> 
-            <Nav.Link href="/blog" className='fw-bold'>Blogs</Nav.Link> 
-            <Nav.Link href="/visit-our-kids-section" className='fw-bold'>Kids Section</Nav.Link> 
-            <Nav.Link href="/contact-us-for-more-information" className='fw-bold'>Contact</Nav.Link>  
+            <Link href="/visit-our-gallery" className='fw-bold'>Gallery</Link> 
+            <Link href="/blog" className='fw-bold'>Blogs</Link> 
+            <Link href="/visit-our-kids-section" className='fw-bold'>Kids Section</Link> 
+            <Link href="/contact-us-for-more-information" className='fw-bold'>Contact</Link>  
           </Nav>
           <div className='d-flex align-items-center gap-3'>
           {/* <button className='border-0 bg-transparent'><i className="fa-solid fa-magnifying-glass fa-xl text-muted"></i></button> */}

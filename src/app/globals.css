@@ -110,6 +110,22 @@ a{
 
 }
 
+.text-dark-fw-500 {
+  color: #000000;
+  font-weight: 700;
+}
+
+.text-color-orange-fw {
+  color: var(--eduact-secondary);
+  font-weight: 600;
+}
+
+.w-max-content{
+  min-width: max-content;
+}
+
+
+
 .fw-600 {
     font-weight: 800;
 }
@@ -123,7 +139,7 @@ a{
     margin-bottom: 10px;
 }
 .Secondary-orange-footer {
-    color: var(--eduact-secondary) !important;
+    color: var(--eduact-white)!important;
     margin-bottom: 10px;
 }
 .Secondary-orange-fotter{
@@ -327,6 +343,19 @@ transition: 0.5s ease;
 
 }
 
+@media (min-width:993px) and (max-width:2200px) {
+  .nav-link {
+    padding: 0px !important;
+  }
+  
+}
+@media (min-width:200px) and (max-width:992px) {
+  .Navbar-wrapper-home  a {
+    padding: 8px !important;
+  }
+  
+}
+
 .navbar-expand-lg .navbar-nav .nav-link:hover::after{
   position: absolute;
 transition: 0.5s ease !important;
@@ -369,7 +398,7 @@ div#navbarScroll{
     }
 }
 
-.bg-body-tertiary .nav-link  {
+.bg-body-tertiary a {
     color: var(--eduact-white);
 }
 @media (min-width: 1200px){
@@ -533,11 +562,7 @@ div#navbarScroll{
     bottom: 23px;
     left: 29px;
 }
-.Presentation-AboutUs  .fa-solid, .fas {
-    color: white;
-    font-weight: 900;
-    font-size: 32px;
-}
+
 
 
 .Wrapper-RightICon_aboutUS .fa-check:before {
@@ -652,6 +677,14 @@ footer {
    font-family: sans-serif;
 
 
+}
+.sitemap-widget li a {
+  color: #e8e8e8;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: normal;
 }
 .right-arrow-foter-wrapper .fa-chevron-right{
     font-size: 8px;
@@ -2286,7 +2319,7 @@ left: 40%;
 width: 14%;
 height: 3px;
 display: block;
-/* background-color: var(--eduact-secondary); */
+
 background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 
 }
@@ -2535,7 +2568,7 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 
 .about-one__box__wrapper {
   border-radius: 23px;
-  padding: 18px 32px 23px 130px;
+  padding: 17px 3px 15px 9px;
   width: 100%;
   background-color: var(--eduact-white);
 }
@@ -5588,4 +5621,8 @@ button#course-details-tabs-tab-Why\ Oracle{
 }
 button#course-details-tabs-tab-curriculum {
   border: 1px solid #f57005;
+}
+
+.blog-imageswrapper img.img-fluid.rounded-start {
+  height: 133px;
 }

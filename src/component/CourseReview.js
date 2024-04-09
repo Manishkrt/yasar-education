@@ -11,6 +11,33 @@ const CourseReview = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
+const Feedback = [
+  {
+    "image": "/assets/img/pooja.jpg",
+    "comment": "Very pleasant and helpful, I REALLY liked it.",
+    "name": "Pooja",
+    "occupation": "Student",
+    "subject": "English"
+  },
+  {
+    "image": "/assets/img/devanshu.jpg",
+    "comment": "I would recommend this institute to anyone who wants to improve their English skills in a short period of time. I've made immense progress.",
+    "name": "devanshu",
+    "occupation": "Student",
+    "subject": "English"
+  },
+  {
+    "image": "/assets/img/gurleen.jpg",
+    "comment": "They have been very clear in their communications and the level of instruction is superlative.",
+    "name": "Gurleen",
+    "occupation": "Student",
+    "subject": "French"
+  }
+ 
+]
+
+
   return (
     <section className="courses-review-wrapper pt-pb">
       <div className="container">
@@ -36,7 +63,37 @@ const CourseReview = () => {
           <div className="col-lg-8 col-md-7 col-12 px-md-0 px-2 ">
             <div className="border-top bg-white border-start border-bottom px-lg-5 px-2 pt-lg-5 pt-3 pb-5 border-color-primary rounded-start-5 shadow position-relative">
               <Slider {...settings} >
-                <div >
+                {
+                  Feedback.map((val, i)=>{
+                    return(
+                      <div key={i}>
+                      <img src={val.image} className="rounded-circle img-fluid mb-2"/>
+     
+                     <div className='d-flex align-items-center mb-3 gap-2'>
+                                 <div className='d-flex '>
+                                 <i className="fa-solid text-secondary fa-star"></i> 
+                                 <i className="fa-solid text-secondary fa-star"></i> 
+                                 <i className="fa-solid text-secondary fa-star"></i> 
+                                 <i className="fa-solid text-secondary fa-star"></i> 
+                                 <i className="fa-solid text-secondary fa-star"></i> 
+                                 </div> 
+                             </div>
+                       <p className="fs-20">
+                        
+                       {val.comment}
+                          
+                       </p>
+                       <h5 className="text-uppercase">{val.name}</h5>
+                       <p>|| {val.occupation} <span className="text-capitalize">{val.subject} ||</span> </p>
+                     </div>
+                    )
+
+})
+                }
+                
+                {/* <div>
+                 <img src="/assets/img/devanshu.jpg" className="rounded-circle img-fluid mb-2"/>
+
                 <div className='d-flex align-items-center mb-3 gap-2'>
                             <div className='d-flex '>
                             <i className="fa-solid text-secondary fa-star"></i> 
@@ -47,14 +104,16 @@ const CourseReview = () => {
                             </div> 
                         </div>
                   <p className="fs-20">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Itaque odio similique at exercitationem sapiente ipsam
-                    dolorum. Sint magni quaerat deserunt qui velit harum?
+                   
+                  I would recommend this institute to anyone who wants to improve their English skills in a short period of time. I've made immense progress.
+                     {Feedback.length}
                   </p>
-                  <h5 className="text-uppercase">manish chauhan</h5>
-                  <p>Course : <span className="text-capitalize">english</span> </p>
+                  <h5 className="text-uppercase">Devanshu</h5>
+                  <p>|| Student <span className="text-capitalize">English ||</span> </p>
                 </div>
                 <div>
+                 <img src="/assets/img/devanshu.jpg" className="rounded-circle img-fluid mb-2"/>
+
                 <div className='d-flex align-items-center mb-3 gap-2'>
                             <div className='d-flex '>
                             <i className="fa-solid text-secondary fa-star"></i> 
@@ -65,14 +124,14 @@ const CourseReview = () => {
                             </div> 
                         </div>
                   <p className="fs-20">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Itaque odio similique at exercitationem sapiente ipsam
-                    dolorum. Sint magni quaerat deserunt qui velit harum?
+                   
+                  I would recommend this institute to anyone who wants to improve their English skills in a short period of time. I've made immense progress.
+                     
                   </p>
-                  <h5 className="text-uppercase">manish chauhan</h5>
-                  <p>Course : <span className="text-capitalize">english</span> </p>
-                </div>
-                
+                  <h5 className="text-uppercase">Devanshu</h5>
+                  <p>|| Student <span className="text-capitalize">English ||</span> </p>
+                </div> */}
+               
               </Slider>
             </div>
           </div>

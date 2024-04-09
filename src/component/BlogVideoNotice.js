@@ -34,8 +34,8 @@ function extractVideoId(url) {
         <div className='container text-wrapper-combine-vbn mt-5'>
           <div className='row'>
 
-            <div className='col-lg-8'>
-              <h1 className='Secondary-orange text-center'>Blogs</h1>
+            <div className='col-lg-7'>
+              <h1 className='blog-video-fs-bg  text-center'>Blogs</h1>
               <div className='row'>
                 {blogData.slice(0,2).map((blogValue)=>(
                   <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
@@ -54,16 +54,28 @@ function extractVideoId(url) {
                       <div className="col-md-8">
                         <div className="card-body mb-3 text-start"> 
                           <p className=" mb-1 text-danger fw-600">
-                            <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-danger'>{blogValue.blog_title}</Link>
+                            <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-dark-fw-500'>{blogValue.blog_title}</Link>
             
                           </p>
+                          {/* <div className='d-flex'>
                           <p className="mb-1">
                             <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-dark'>{blogValue.short_desc}</Link>
                           
                           </p>
                           <div className='text-end'>
-                            <Link href={`/blog/${blogValue.slug}`} className='btn text-danger fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</Link>
+                            <Link href={`/blog/${blogValue.slug}`} className='btn text-color-orange-fw fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</Link>
 
+                          </div>
+                          </div> */}
+                          <div className='d-flex'>
+                          <p className="mb-1">
+                            <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-dark'>{blogValue.short_desc}</Link>
+                            <Link href={`/blog/${blogValue.slug}`} className='btn text-color-orange-fw fw-600 text-end p-0 w-max-content'><i className="fa-solid fa-angle-down"></i> Read More</Link>
+                          </p>
+                          {/* <div className='text-end'>
+                            <Link href={`/blog/${blogValue.slug}`} className='btn text-color-orange-fw fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</Link>
+
+                          </div> */}
                           </div>
                         </div>
                       </div>
@@ -76,9 +88,9 @@ function extractVideoId(url) {
 
               </div> 
             </div> 
-            <div className='col-lg-4'>
-              <h1 className='Secondary-orange text-center'>Video</h1>
-              <iframe width="100%" height="320px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+            <div className='col-lg-5'>
+              <h1 className='blog-video-fs-bg text-center'>Video</h1>
+              <iframe width="100%" height="286px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             
           </div>

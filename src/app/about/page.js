@@ -174,7 +174,7 @@ const page = () => {
             </p>
           </div>
           {/* /.icon-box */}
-          <div className="about-two__about-box">
+          {/* <div className="about-two__about-box">
             <div className="about-two__about-box__top">
               <div className="about-two__about-box__icon">
                 <span className="fa-solid fa-eye-low-vision icon-vision" />
@@ -187,7 +187,7 @@ const page = () => {
               which looks The generated Lorem Ipsum is therefore always free
               from repetition
             </p>
-          </div>
+          </div> */}
           {/* /.icon-box */}
         </div>
         {/* about content end */}
@@ -356,16 +356,15 @@ const page = () => {
         <div className="service-one__item">
           <div className="service-one__wrapper">
             <div className="service-one__icon">
-              <span className="icon-education" />
+              <span className=" fa-solid fa-book" />
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="team.html">Exclusive Coach</a>
+              <a href="team.html">International Curriculum</a>
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit diam. Mauris cursus suscipit
+            We adhere to global curriculum standards in all our courses – English, IELTS, German, French, Spanish, Chinese & Arabic
             </p>
             {/* /.service-content */}
             <a className="service-one__rm" href="team.html">
@@ -393,16 +392,15 @@ const page = () => {
         <div className="service-one__item">
           <div className="service-one__wrapper">
             <div className="service-one__icon">
-              <span className="icon-business" />
+              <span className="fa-regular fa-lightbulb" />
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="team-become.html">Creative Minds</a>
+              <a href="team-become.html">Certified instructors</a>
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit diam. Mauris cursus suscipit
+            The faculty members consist of trained and experienced language instructors.
             </p>
             {/* /.service-content */}
             <a className="service-one__rm" href="team-become.html">
@@ -430,16 +428,15 @@ const page = () => {
         <div className="service-one__item">
           <div className="service-one__wrapper">
             <div className="service-one__icon">
-              <span className="icon-webinar" />
+              <span className="fa-solid fa-tv" />
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="course.html">Video Tutorials</a>
+              <a href="course.html">Regularly enhance teaching competencies</a>
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit diam. Mauris cursus suscipit
+            We upgrade our teaching methodologies in IELTS, TOEFL, PTE and other language courses from time to time to stay relevant.
             </p>
             {/* /.service-content */}
             <a className="service-one__rm" href="course.html">
@@ -467,16 +464,15 @@ const page = () => {
         <div className="service-one__item">
           <div className="service-one__wrapper">
             <div className="service-one__icon">
-              <span className="icon-neural" />
+              <span className="fa-solid fa-up-down-left-right" />
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="about.html">Worlds Record</a>
+              <a href="about.html">Superior quality language training</a>
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
-              Lorem ipsum dolor sit amet consectetur. Convallis ornare semper id
-              hendrerit diam. Mauris cursus suscipit
+            We ensure continual high-quality education and training in French, Spanish and all other languages.
             </p>
             {/* /.service-content */}
             <a className="service-one__rm" href="about.html">
@@ -529,19 +525,20 @@ const page = () => {
          
           >
             <img src="assets/img/about-shape-1-2.png" alt="eduact" />
+            
           </div>
           <div
             className="about-one__thumb__box wow fadeInLeft animated"
         
           >
             <div className="about-one__thumb__box__icon">
-              <span className="icon-Headphone-Women" />
+              <span className="fa-solid fa-phone" />
             </div>
             <h4 className="about-one__thumb__box__title">
               Need to Know More Details?
             </h4>
             <p className="about-one__thumb__box__text">
-              <a href="tel:6845550102">+(684) 555-0102</a>
+              <a href="tel:9953988288">9953988288</a>
             </p>
           </div>
         </div>
@@ -552,7 +549,7 @@ const page = () => {
           {/* about content start*/}
           <div className="section-title">
             <h5 className="section-title__tagline">
-              About Us
+            OUR OBJECTIVE
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 133 13"
@@ -601,43 +598,108 @@ const page = () => {
               </svg>
             </h5>
             <h2 className="section-title__title">
-              Creating a Lifelong Learning Best Community
+            (We Create Leaders For Tomorrow)
             </h2>
           </div>
           {/* section-title */}
           <p className="about-one__content__text">
-            It uses a dictionary of over 200 Latin words, combined with a
-            handful of model sentence structures, to generate Lorem Ipsum which
-            looks
+          To enhance the employability of students by developing the following skills:
           </p>
           <div className="about-one__box">
             <div className="about-one__box__wrapper">
-              <div className="about-one__box__icon">
-                <span className="fa-solid fa-school icon-Presentation" />
-              </div>
+           
               <h4 className="about-one__box__title">Flexible Classes</h4>
-              <p className="about-one__box__text">
-                The generated Lorem Ipsum is therefore always free from
-                repetition, injected humour, or non-characteristic words etc.
-              </p>
+             <div className='container'>
+             <div className="row mt-4">
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>Resume Writing</h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6> Effective Meetings</h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6> Interview Skills</h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Listening Skills
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Group Discussion Skills
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Questioning Skills
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Effective Communication
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Team Building
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Presentation Skills
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Art of Negotiation
+      </h6>
+    </div>
+  </div>
+  <div className="col-lg-6 mb-3">
+    <div className="Wrapper-RightICon_aboutUS d-flex">
+      <i className="fa-solid fa-check" /> &nbsp;&nbsp;&nbsp;&nbsp;
+      <h6>
+      Public Speaking
+      </h6>
+    </div>
+  </div>
+</div>
+
+             </div>
             </div>
           </div>
           {/* /.icon-box */}
-          <div className="about-one__box">
-            <div className="about-one__box__wrapper">
-              <div className="about-one__box__icon">
-                <span className="fa-solid fa-graduation-cap  icon-Online-learning" />
-                
-              </div>
-              <h4 className="about-one__box__title">
-                Live Class From anywhere
-              </h4>
-              <p className="about-one__box__text">
-                The generated Lorem Ipsum is therefore always free from
-                repetition, injected humour, or non-characteristic words etc.
-              </p>
-            </div>
-          </div>
+       
           {/* /.icon-box */}
           <a  className="eduact-btn">
             <span className="eduact-btn__curve" />
