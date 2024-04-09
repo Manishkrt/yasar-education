@@ -1688,14 +1688,14 @@ section.courses-review-wrapper{
   content: '';
   position: absolute;
   left: 0; 
-  width: 24px; 
-  height: 24px; 
+  width: 20px; 
+  height: 20px; 
   background-image: url('/assets/img/check-solid.svg'); 
   background-repeat: no-repeat;
   background-size: contain; 
   padding: 5px; 
   margin-right: 10px;  
-  top: 4px; 
+  top: 2px; 
   background-color: var(--eduact-secondary);
   border-radius: 50%;
   background-size: 60% 60%;
@@ -5593,7 +5593,7 @@ button.accordion-button.collapsed{
 .course-details__overview__lists li, .course-details__overview ul li, .course-details__curriculum ul li{
   display: block;
   position: relative;
-  padding: 0 0 0 38px;
+  padding: 0 0 0 32px;
   font-size: 16px;
   line-height: 22px;
   font-weight: 600;

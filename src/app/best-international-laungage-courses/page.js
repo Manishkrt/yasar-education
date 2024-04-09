@@ -21,24 +21,20 @@ const page = () => {
         <div className="container">
           <div className="row">
             {CourseList.map((courseValue)=>( 
-            <div
-              className="col-xl-4 col-md-6 wow fadeInUp animated">
+            <div  className="col-xl-4 col-md-6 wow fadeInUp animated" key={courseValue.id}>
               <div className="course-two__item">
                 <div className="course-two__thumb">
                   <Link href={`/${courseValue.slug}`}>
-                  <img src={courseValue.image} alt="eduact" />
-                  </Link>
-                  {/* <img src="/assets/img/course-2-1.png" alt="eduact" /> */}
-                  {/* <a className="course-two__like" href="javascript:void(0);">
-                    <span className="icon-like fa-regular fa-heart" />
-                  </a> */}
+                  {/* <img src={courseValue.image} alt="eduact" /> */}
+                  <img src={courseValue.thumbnail} alt="eduact" />
+                  </Link> 
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 177">
                     <path d="M37 0C16.5655 0 0 16.5655 0 37V93.4816C0 103.547 4.00259 113.295 11.7361 119.737C54.2735 155.171 112.403 177 176.496 177C240.589 177 298.718 155.171 341.261 119.737C348.996 113.295 353 103.546 353 93.4795V37C353 16.5655 336.435 0 316 0H37Z" />
                   </svg>
                 </div>
                 
                 <div className="course-two__content">
-                  <div className="course-two__time">{courseValue.videosTime}</div>
+                  <div className="course-two__time">{courseValue.totalClass} Classes</div>
                   <div className="course-two__ratings">
                     <span className="icon-star fa-solid fa-star" />
                     <span className="icon-star fa-solid fa-star" />
@@ -59,8 +55,8 @@ const page = () => {
                       </p>
                     </div>
                     <div className="course-two__meta">
-                      <h4 className="course-two__meta__price"> {courseValue.price}</h4>
-                      <p className="course-two__meta__class">{courseValue.totalLesson} Lessons</p>
+                      <h4 className="course-two__meta__price"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h4>
+                      {/* <p className="course-two__meta__class">{courseValue.duration} </p> */}
                     </div>
                   </div>
                 </div>
@@ -69,52 +65,7 @@ const page = () => {
               
             </div>
             ))}
-            <div
-              className="col-xl-4 col-md-6 wow fadeInUp animated">
-              <div className="course-two__item">
-                <div className="course-two__thumb">
-                  <img src="/assets/img/course-2-1.png" alt="eduact" />
-                  <a className="course-two__like" href="javascript:void(0);">
-                    <span className="icon-like fa-regular fa-heart" />
-                  </a>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 177">
-                    <path d="M37 0C16.5655 0 0 16.5655 0 37V93.4816C0 103.547 4.00259 113.295 11.7361 119.737C54.2735 155.171 112.403 177 176.496 177C240.589 177 298.718 155.171 341.261 119.737C348.996 113.295 353 103.546 353 93.4795V37C353 16.5655 336.435 0 316 0H37Z" />
-                  </svg>
-                </div>
-                
-                <div className="course-two__content">
-                  <div className="course-two__time">20 Hours</div>
-                  <div className="course-two__ratings">
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <div className="course-two__ratings__reviews">(25 Reviews)</div>
-                  </div>
-                  <h3 className="course-two__title">
-                    <a href="management-consulting.html">
-                      Management Consultants in Competitive Markets
-                    </a>
-                  </h3>
-                  <div className="course-two__bottom">
-                    <div className="course-two__author">
-                      <img src="assets/images/course/author-1.png" alt="eduact" />
-                      <h5 className="course-two__author__name">Guy Hawkins</h5>
-                      <p className="course-two__author__designation">
-                        Project Manager
-                      </p>
-                    </div>
-                    <div className="course-two__meta">
-                      <h4 className="course-two__meta__price">$473.00</h4>
-                      <p className="course-two__meta__class">15 Lessons</p>
-                    </div>
-                  </div>
-                </div>
-                
-              </div>
-              
-            </div>
+           
             {/* <div
               className="col-xl-4 col-md-6 wow fadeInUp animated"
 

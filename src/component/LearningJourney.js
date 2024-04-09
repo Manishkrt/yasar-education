@@ -7,7 +7,7 @@ const LearningJourney = () => {
   var settings = {
     dots: false,
     infinite: true,
-    // autoplay:true,
+    // autoPlay:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,7 +27,7 @@ const LearningJourney = () => {
                 <div>
               
           <div className="position-relative">
-          <video width="100%" height="100%" muted   autoplay="true" preload="none">
+          <video width="100%" height="100%" muted   autoPlay="true" preload="none">
       <source src="https://video.wixstatic.com/video/2ec19b_a813e27647554a9dbd792f1445c1c92e/720p/mp4/file.mp4" type="video/mp4" />
       <track
         src="https://video.wixstatic.com/video/2ec19b_a813e27647554a9dbd792f1445c1c92e/720p/mp4/file.mp4"

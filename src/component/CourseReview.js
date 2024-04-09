@@ -5,7 +5,7 @@ import Slider from "react-slick";
 const CourseReview = () => {
   var settings = {
     dots: false,
-    autoplay: true,
+    autoPlay: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,

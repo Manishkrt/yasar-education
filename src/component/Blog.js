@@ -7,7 +7,7 @@ const Blog = () => {
     const [noticeData, setNoticeData] = useState([])
     var settings = {
         dots: false,
-        autoplay: true,
+        autoPlay: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3, 
@@ -44,7 +44,7 @@ useEffect(()=>{
 }, [])
 
   return (
-    <section className='pt-pb' style={{backgroundColor:'#efefef'}}>
+    <section className='pt-pb bg-white' >
         <div className="container">
         <div className="mb-4 text-center">
             
@@ -64,9 +64,9 @@ useEffect(()=>{
                                         <span className="btn-sm bg-primary text-white rounded px-2 py-1">
                                             Category
                                         </span>
-                                        <span className='text-secondary'> {formatDate(noticeValue.date)}</span>
+                                        <span className='text-secondary '> {formatDate(noticeValue.date)}</span>
                                     </div>
-                                    <h5>{noticeValue.title}</h5>
+                                    <h5 className='text-ellipsis'>{noticeValue.title}</h5>
                                     <div className="text-end">
                                         <Link href="#"></Link>
                                     </div>
