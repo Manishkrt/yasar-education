@@ -31,16 +31,16 @@ const Cta = () => {
                                 <path d="M563.097 141.554C549.446 79.3244 501.565 43.6716 439.948 37.9521C331.153 27.8317 43.6621 101.226 14.1824 240.258C1.01179 302.402 47.7093 356.275 93.4807 394.342C163.57 452.633 251.649 502.807 342.951 515.924C374.678 520.479 409.165 519.709 438.73 506.078C470.285 491.539 493.059 460.664 510.071 431.433C530.633 396.123 546.153 355.539 555.259 315.759C567.744 261.184 575.238 196.865 563.097 141.554Z" fill="url(#paint2_linear_268_9)"></path>
                                 <defs>
                                     <linearGradient id="paint0_linear_268_9" x1="137.156" y1="59.5939" x2="389.089" y2="514.127" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0" stop-color="#FF7200"></stop>
-                                        <stop offset="1" stop-color="white" stopOpacity="0"></stop>
+                                        <stop offset="0" stopColor="#FF7200"></stop>
+                                        <stop offset="1" stopColor="white" stopOpacity="0"></stop>
                                     </linearGradient>
                                     <linearGradient id="paint1_linear_268_9" x1="137.275" y1="26.0413" x2="435.685" y2="537.491" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0" stop-color="#FF7200" stopOpacity="0.71"></stop>
-                                        <stop offset="1" stop-color="white" stopOpacity="0"></stop>
+                                        <stop offset="0" stopColor="#FF7200" stopOpacity="0.71"></stop>
+                                        <stop offset="1" stopColor="white" stopOpacity="0"></stop>
                                     </linearGradient>
                                     <linearGradient id="paint2_linear_268_9" x1="137.156" y1="59.5939" x2="389.089" y2="514.127" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0" stop-color="#FF7200"></stop>
-                                        <stop offset="1" stop-color="white" stopOpacity="0"></stop>
+                                        <stop offset="0" stopColor="#FF7200"></stop>
+                                        <stop offset="1" stopColor="white" stopOpacity="0"></stop>
                                     </linearGradient>
                                 </defs>
                             </svg>

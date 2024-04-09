@@ -11,7 +11,7 @@ import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Accordion from 'react-bootstrap/Accordion';
 import { CourseData } from '@/utils/data';
 
-const Page = async ({ params }) => {
+const Page =  ({ params }) => {
   // console.log("params", params);
   const CourseList = CourseData
   // courseslug
@@ -62,7 +62,7 @@ const Page = async ({ params }) => {
                     ({courseValue.ratingCount} Reviews)
                   </div>
                 </div>
-                <div className="course-details__meta__price"> {courseValue.price}</div>
+                <div className="course-details__meta__price"><i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</div>
               </div>
               {/* details-meta */}
               <h3 className="course-details__title text-capitalize">
@@ -95,9 +95,33 @@ const Page = async ({ params }) => {
                   <Tab eventKey="curriculum" title="Course Labels">
                     <div className="tabs-content Levels-content-tab-btn">
                       <div className="course-details__curriculum">
-                        <h4 className="course-details__curriculum__title">
+                        {/* <h4 className="course-details__curriculum__title">
                           LEVELS:
-                        </h4> 
+                        </h4>  */}
+                        <div className='table-responsive'>
+                          <table className="table text-center  table-bordered table align-middle"> 
+                          <thead>
+                            <tr>
+                              <th>Course</th>
+                              <th>Level</th>
+                              <th>Duration</th>
+                              <th>Fees</th>
+                              <th>No. of Classes</th>
+                            </tr>
+                          </thead>
+                            <tbody> 
+                              {courseValue?.courseTable?.map((courseTableValue, i)=>(
+                                <tr key={i+100}>
+                                  {courseTableValue?.course && <td rowSpan={courseTableValue?.course.courseLavel} className='text-center text-capitalize'>{courseTableValue?.course.courseType}</td>}
+                                  <td>{courseTableValue.levelName}</td>
+                                  <td>{courseTableValue.duration}</td>
+                                  <td>{courseTableValue.fee}</td>
+                                  <td>{courseTableValue.totalClass}</td> 
+                                </tr>
+                              ))} 
+                            </tbody>
+                          </table>
+                        </div>
                         {/* <Accordion defaultActiveKey="0">
                           <Accordion.Item eventKey="0">
                             <Accordion.Header>LEVEL A</Accordion.Header>
@@ -138,27 +162,7 @@ const Page = async ({ params }) => {
                             </Accordion.Body>
                           </Accordion.Item>
                         </Accordion> */}
-                        <table className="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">Language</th>
-      <th scope="col">Course</th>
-      <th scope="col">Level</th>
-      <th scope="col">Duration</th>
-      <th scope="col">Fees</th>
-      <th scope="col">No. Of Classes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">German</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-   
-  </tbody>
-</table>
+                        
 
                         <button className="btn-hover color-2">For more details - Call 011-49404131</button>
                        
@@ -257,15 +261,14 @@ const Page = async ({ params }) => {
                       <i className=" fa-regular fa-circle-play icon-play-border" />
                       Videos<span>  {courseValue.videosTime}</span>
                     </li> */}
-                    <li>
-                      <i className="fa-regular fa-lightbulb icon-logical-thinking" />
-                      Skill Level<span>  {courseValue.skillLevel}</span>
+                    <li> 
+                      <i className="fa-regular fa-building icon-logical-thinking" />
+                      No. of class<span>  {courseValue.totalClass}</span>
                     </li>
-                    <li>
-
+                    {/* <li>
                       <i className="fa-solid fa-language icon-Digital-marketing" />
                       Language:<span>  {courseValue.language}</span>
-                    </li>
+                    </li> */}
                   </ul>
                   <a href="contact.html" className="eduact-btn eduact-btn-second">
                     <span className="eduact-btn__curve" />

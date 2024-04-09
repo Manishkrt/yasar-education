@@ -7,7 +7,7 @@ const Testimonial = () => {
      
     const settings = {
         dots: false,
-        autoplay: true,
+        autoPlay: true,
         infinite: true,
         speed: 800,
         slidesToShow: 1,

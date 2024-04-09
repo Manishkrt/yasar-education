@@ -43,7 +43,7 @@ const Courses = () => {
                              <img src={courseVallue.flagImage} alt="courses" className='img-fluid w-100 rounded-circle' />
                          </span> 
                          <div className='mb-3'>
-                             <span className="bg-primary px-2 py-1 text-white rounded">{courseVallue.videosTime}</span>
+                             <span className="bg-primary px-2 py-1 text-white rounded">{courseVallue.totalClass} Classes</span>
                          </div>
                          <div className='d-flex align-items-center mb-2 gap-2'>
                              <div className='d-flex '>
@@ -65,8 +65,8 @@ const Courses = () => {
                                  <p className="text-muted mb-0 fs-14">{courseVallue.projectManager}</p>
                              </div>
                              <div>
-                                 <h5 className="text-primary text-end"> {courseVallue.price}</h5>
-                                 <p className='text-secondary mb-0 text-end'>{courseVallue.totalLesson} Duration</p>
+                                 <h5 className="text-primary text-end"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseVallue.price}</h5>
+                                 <p className='text-secondary mb-0 text-end'>{courseVallue.duration}</p>
                              </div>
                          </div>
                      </div>

@@ -90,7 +90,7 @@ function extractVideoId(url) {
             </div> 
             <div className='col-lg-5'>
               <h1 className='blog-video-fs-bg text-center'>Video</h1>
-              <iframe width="100%" height="286px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+              <iframe width="100%" height="286px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             
           </div>
