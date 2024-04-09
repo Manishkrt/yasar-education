@@ -138,6 +138,9 @@ a{
     color: var(--eduact-secondary) !important;
     margin-bottom: 10px;
 }
+.Query-form-wrapper .Secondary-orange:hover{
+  background-color: var(--eduact-secondary);
+}
 .Secondary-orange-footer {
     color: var(--eduact-white)!important;
     margin-bottom: 10px;
