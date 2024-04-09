@@ -28,11 +28,25 @@ const Feedback = [
     "subject": "English"
   },
   {
-    "image": "/assets/img/gurleen.jpg",
+    "image": "/assets/img/kanika.jpg",
     "comment": "They have been very clear in their communications and the level of instruction is superlative.",
     "name": "Gurleen",
     "occupation": "Student",
     "subject": "French"
+  },
+  {
+    "image": "/assets/img/gurleen.jpg",
+    "comment": "The German language is a difficult language, but it is really fun to learn it at Oracle International Language Institute.",
+    "name": "Kanika",
+    "occupation": "Student",
+    "subject": "German"
+  },
+  {
+    "image": "/assets/img/gurleen.jpg",
+    "comment": "The German language is a difficult language, but it is really fun to learn it at Oracle International Language Institute.",
+    "name": "Akarshit Verma",
+    "occupation": "Student",
+    "subject": "German Language"
   }
  
 ]
