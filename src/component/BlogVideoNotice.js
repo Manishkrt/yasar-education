@@ -35,62 +35,36 @@ function extractVideoId(url) {
           <div className='row'>
 
             <div className='col-lg-8'>
-              <h1 className='blog-video-fs-bg text-center'>Blogs</h1>
+              <h1 className='Secondary-orange text-center'>Blogs</h1>
               <div className='row'>
-
-                <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
-                  <div className="card mb-3" >
-                    <div className="row g-0">
-                      <div className="col-md-4 blog-imageswrapper">
-                        <img
-                          src={blogData[0].blog_image}
-                          className="img-fluid rounded-start"
-                          alt="..."
-                          height={100}
-                        />
-                      </div>
-                      <div className="col-md-8 ">
-                        <div className="card-body text-start">
-                          <p className=" mb-1 text-danger fw-600">{blogData[0].blog_title}</p>
-                          <div className='d-flex align-items-center justify-content-between'>
-                          <p className="mb-1">
-                          {blogData[0].short_desc}
-                          </p>
-                          <div className='text-end'>
-
-                          <button className='btn text-danger fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</button>
-                          </div>
-                        </div>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-                <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
+                {blogData.slice(0,2).map((blogValue)=>(
+                  <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
                   <div className="card mb-3">
                     <div className="row g-0">
                       <div className="col-md-4 blog-imageswrapper">
+                        <Link href={`/blog/${blogValue.slug}`}>
                         <img
-                          src={blogData[1].blog_image}
+                          src={blogValue.blog_image}
                           className="img-fluid rounded-start"
                           alt="..."
                           height={100}
                         />
+                        </Link>
                       </div>
                       <div className="col-md-8">
-                        <div className="card-body mb-3 text-start">
-                          <p className=" mb-1 text-danger fw-600">{blogData[1].blog_title}</p>
-                    
-                          <p className="mb-1">
-                          {blogData[1].short_desc} &nbsp;
-                          <button className='btn text-danger fw-600 text-end p-0'>ReadMore<i className="fa-solid fa-angle-down"></i></button>
-
+                        <div className="card-body mb-3 text-start"> 
+                          <p className=" mb-1 text-danger fw-600">
+                            <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-danger'>{blogValue.blog_title}</Link>
+            
                           </p>
-                        
-             
-                       
+                          <p className="mb-1">
+                            <Link href={`/blog/${blogValue.slug}`} className='text-decoration-none text-dark'>{blogValue.short_desc}</Link>
+                          
+                          </p>
+                          <div className='text-end'>
+                            <Link href={`/blog/${blogValue.slug}`} className='btn text-danger fw-600 text-end p-0'><i className="fa-solid fa-angle-down"></i> Read More</Link>
+
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -98,11 +72,12 @@ function extractVideoId(url) {
                   </div>
 
                 </div>
+                ))}
 
               </div> 
             </div> 
             <div className='col-lg-4'>
-              <h1 className='blog-video-fs-bg text-center'>Video</h1>
+              <h1 className='Secondary-orange text-center'>Video</h1>
               <iframe width="100%" height="320px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             
