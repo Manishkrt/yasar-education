@@ -42,11 +42,18 @@ const Feedback = [
     "subject": "German"
   },
   {
-    "image": "/assets/img/gurleen.jpg",
-    "comment": "The German language is a difficult language, but it is really fun to learn it at Oracle International Language Institute.",
+    "image": "/assets/img/akarshit.jpg",
+    "comment": "You can learn German quickly at the Oracle International Language Institute. The teachers here are really nice, friendly and personable...",
     "name": "Akarshit Verma",
     "occupation": "Student",
     "subject": "German Language"
+  },
+  {
+    "image": "/assets/img/parag.jpg",
+    "comment": "Wonderful Teacher! In her programs, you learn so much more than just the words in Spanish. Cultural and social cues are so important...",
+    "name": "Parag",
+    "occupation": "Student",
+    "subject": "Spanish Language"
   }
  
 ]

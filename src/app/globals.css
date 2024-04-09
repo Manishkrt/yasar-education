@@ -150,7 +150,9 @@ a{
   background-color: var(--eduact-secondary);
   color: var(--eduact-white) !important;
 }
-
+.fw-700-size{
+  font-weight: 700;
+}
 /* home seond section css starting here */
 body {
     font-family: var(--eduact-font);
@@ -674,7 +676,7 @@ footer {
    margin: 5px 0px;
    font-size: 14px;
    color: #8689a7;
-   font-family: sans-serif;
+   font-family: '__Urbanist_4806ca';
 
 
 }
@@ -692,9 +694,13 @@ footer {
 }
 .Footer-section ul h5{
     font-size: 16px;
+   font-family: '__Urbanist_4806ca';
+
 }
 .Footer-section ul span{
     font-size: 14px;
+   font-family: '__Urbanist_4806ca';
+
 }
 .Footer-section  .wrapper-container-footer  .fa-location-dot,  .fa-envelope{
    color: var(--eduact-white);
@@ -1121,6 +1127,7 @@ footer {
     height: 100%;
     background-color: var(--LightBlue);
 }
+
 @media (max-width: 992px){
 .pb-md-80 {
     padding-bottom: 40px;
@@ -1129,9 +1136,13 @@ footer {
 .CareerCounsellingStrip-wrapper  button {
     border-radius: 51px;
     padding: 7px 47px;
-    background-color: white !important;
-    color: #000000 !important;
+    /* background-color: white !important; */
+    /* color: #000000 !important; */
     font-weight: 500;
+}
+.CareerCounsellingStrip-wrapper button {
+  color: var(--eduact-white) !important;
+  background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 }
 /* CareerCounsellingStrip   css ending here  */
 section.courses-review-wrapper{
@@ -5613,14 +5624,36 @@ button.accordion-button.collapsed{
 }
 button#course-details-tabs-tab-overview{
   border: 1px solid #f57005;
+  padding: 1px 9px !important;
+
 
 }
 button#course-details-tabs-tab-Why\ Oracle{
   border: 1px solid #f57005;
+  padding: 1px 9px !important;
 
 }
 button#course-details-tabs-tab-curriculum {
   border: 1px solid #f57005;
+  padding: 1px 9px !important;
+
+}
+
+@media (min-width:200px) and (max-width:400px) {
+  button#course-details-tabs-tab-overview {
+    font-size: 11px;
+    font-weight: 700;
+
+  }
+  button#course-details-tabs-tab-Why\ Oracle{
+    font-size: 11px;
+    font-weight: 700;
+
+  }
+  button#course-details-tabs-tab-curriculum{
+    font-size: 11px;
+    font-weight: 700;
+  }
 }
 
 .blog-imageswrapper img.img-fluid.rounded-start {
