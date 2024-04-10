@@ -5660,5 +5660,6 @@ button#course-details-tabs-tab-curriculum {
 }
 
 .blog-imageswrapper img.img-fluid.rounded-start {
+  width: 100%;
   height: 133px;
 }
