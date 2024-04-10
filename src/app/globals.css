@@ -5655,9 +5655,10 @@ button#course-details-tabs-tab-curriculum {
   }
   button#course-details-tabs-tab-curriculum{
     font-size: 11px;
-    font-weight: 700;
+    font-weight: 700; 
   }
 }
+
 
 .blog-imageswrapper img.img-fluid.rounded-start {
   width: 100%;
