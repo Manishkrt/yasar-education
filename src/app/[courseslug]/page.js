@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Tab, Tabs } from 'react-bootstrap';
 import Slider from 'react-slick';
 import CompanyLogoSlider from '../../component/CompanyLogoSlider';
@@ -10,6 +10,7 @@ import Footer from '@/component/Footer';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Accordion from 'react-bootstrap/Accordion';
 import { CourseData } from '@/utils/data';
+import FormModal from '@/component/FormModal';
 
 const Page =  ({ params }) => {
   // console.log("params", params);
@@ -20,11 +21,15 @@ const Page =  ({ params }) => {
   // console.log("courseValue", courseValue);
 
 
-
+  const [showModal, setShowModal] = useState(false);
+  const handleEnrollClick = () => {
+    setShowModal(true);
+  };
 
   return (
-    <>
 
+    <>
+<FormModal  show={showModal} handleClose={() => setShowModal(false)}/>
       <Navigation />
 
       <CoomonStudentSlider />
@@ -233,10 +238,7 @@ const Page =  ({ params }) => {
               </div>
               {/* tabs */}
             </div>
-            <div
-              className="col-xl-4 wow fadeInRight animated"
-          
-            >
+            <div className="col-xl-4 wow fadeInRight animated" >
               <div className="course-details__sidebar">
                 <div className="course-details__sidebar__item">
                   <h3 className="course-details__sidebar__title">Course Features</h3>
@@ -264,17 +266,13 @@ const Page =  ({ params }) => {
                     <li> 
                       <i className="fa-regular fa-building icon-logical-thinking" />
                       No. of class<span>  {courseValue.totalClass}</span>
-                    </li>
-                    {/* <li>
-                      <i className="fa-solid fa-language icon-Digital-marketing" />
-                      Language:<span>  {courseValue.language}</span>
-                    </li> */}
+                    </li> 
                   </ul>
-                  <a href="contact.html" className="eduact-btn eduact-btn-second">
+                  <button className="eduact-btn eduact-btn-second" onClick={handleEnrollClick}>
                     <span className="eduact-btn__curve" />
                     Enroll Now
                     <i className="icon-arrow" />
-                  </a>
+                  </button>
                 </div>
                 <div className="course-details__sidebar__item">
                   <h3 className="course-details__sidebar__title">Latest Course</h3>

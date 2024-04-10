@@ -1,16 +1,23 @@
 'use client'
 import Link from 'next/link';
-import React from 'react'
+import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import FormModal from './FormModal';
 
 const Navigation = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleEnrollClick = () => {
+    setShowModal(true);
+  };
   return (
     <>
+    <FormModal show={showModal} handleClose={() => setShowModal(false)} />
  
   <div className='Header-strip-wrapper bg-soft1 '>
     <div className='container'>
@@ -63,7 +70,7 @@ const Navigation = () => {
           </div>
           </div> */}
           {/* <button className='btn EnrollNow-headerBtn'>Enroll Now</button> */}
-    <button className="btn-hover color-2">Enroll Now</button>
+    <button className="btn-hover color-2" onClick={handleEnrollClick}>Enroll Now</button>
           
         </div>
         

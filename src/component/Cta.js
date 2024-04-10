@@ -1,8 +1,16 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
+import FormModal from './FormModal';
+
 
 const Cta = () => {
+    const [showModal, setShowModal] = useState(false);
+  const handleEnrollClick = () => {
+    setShowModal(true);
+  };
   return (
     <section className='cta-wrapper pt-pb'>
+        <FormModal  show={showModal} handleClose={() => setShowModal(false)}/>
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6 col-12 mb-lg-0 mb-4">
@@ -12,7 +20,7 @@ const Cta = () => {
                                 <img src="/assets/img/cta-logo.png" alt="cta" width="140" />
                             </div>
                             <h2 className='text-white'>Skills Certificate From the Edulerns</h2>
-                            <button className='btn border-0 bg-secondary btn-lg text-white'>Get Start Now</button>
+                            <button className='btn border-0 bg-secondary btn-lg text-white' onClick={handleEnrollClick}>Get Start Now</button>
                         </div>
                         <div className="col-md-5 col-12 d-md-block d-none">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 284 403">
