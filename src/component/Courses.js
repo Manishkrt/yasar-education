@@ -28,7 +28,7 @@ const Courses = () => {
                 <button className='rounded-end-pill border-0 text-white view-all-btn d-flex align-items-center gap-2'>View All
                 <img src="/assets/img/viewAll.gif" alt="view" width={28} />
                  </button> 
-            </div>
+            </div> 
             </div>
 
             <div className="row">

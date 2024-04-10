@@ -38,7 +38,7 @@ function extractVideoId(url) {
               <h1 className='blog-video-fs-bg  text-center'>Blogs</h1>
               <div className='row'>
                 {blogData.slice(0,2).map((blogValue)=>(
-                  <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common">
+                  <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common" key={blogValue.id}>
                   <div className="card mb-3">
                     <div className="row g-0">
                       <div className="col-md-4 blog-imageswrapper">

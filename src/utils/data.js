@@ -118,7 +118,7 @@ export const CourseData = [
         oracleDescription: "            <p>The Oracle International Language Institute has been pioneer institution in teaching English across all ages and professions. The course taught at Oracle promises to cover all the phases and aspects which are important and crucial in learning the language.</p><ul><li>We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.</li><li>Form small batches of 10-12 students to ensure quality education.</li><li>Regular assessment of students in a comprehensive manner.</li><li>Activities like role play, video case study, etc. to facilitate all around understanding.</li><li>360-degree feedback mechanism.</li><li>Flexible batches for kids, professionals, doctors, engineers.</li><li>We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.</li><li>Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.</li></ul><p><br>&nbsp;</p>",
         thumbnail: '/assets/img/english-thumbnail.jpg',
         image: '/assets/img/english.jpg' ,
-        flagImage: '/assets/img/flag1.png'      
+        flagImage: '/assets/img/english-flag.jpeg'      
     },
     {
         id:2,
@@ -238,7 +238,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/spanish-thumbnail.jpg',
         image: '/assets/img/spain.jpg' ,
-        flagImage: '/assets/img/flag2.png'      
+        flagImage: '/assets/img/spain-flag.jpeg'      
     },
     {
         id:3,
@@ -358,7 +358,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/french-thumbnail.jpg',
         image: '/assets/img/french.jpg' ,
-        flagImage: '/assets/img/flag3.png'      
+        flagImage: '/assets/img/franch-flag.jpeg'      
     },
     {
         id:4,
@@ -478,7 +478,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/german-thumbnail.jpg',
         image: '/assets/img/germany.jpg' ,
-        flagImage: '/assets/img/flag4.png'      
+        flagImage: '/assets/img/german-flag.jpeg'      
     },
     {
         id:5,
@@ -598,7 +598,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/ielts-thumbnail.jpg',
         image: '/assets/img/ielts.jpg' ,
-        flagImage: '/assets/img/flag5.png'      
+        flagImage: '/assets/img/ielts-flag.jpeg'      
     },
     {
         id:6,
@@ -718,7 +718,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/arabic-thumbnail.jpg',
         image: '/assets/img/arabic.jpg' ,
-        flagImage: '/assets/img/flag6.png'      
+        flagImage: '/assets/img/arabic-flag.jpeg'      
     },
     {
         id:7,

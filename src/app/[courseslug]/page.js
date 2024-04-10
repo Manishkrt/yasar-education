@@ -111,7 +111,7 @@ const Page =  ({ params }) => {
                           </thead>
                             <tbody> 
                               {courseValue?.courseTable?.map((courseTableValue, i)=>(
-                                <tr key={i+100}>
+                                <tr key={i+100} >
                                   {courseTableValue?.course && <td rowSpan={courseTableValue?.course.courseLavel} className='text-center text-capitalize'>{courseTableValue?.course.courseType}</td>}
                                   <td>{courseTableValue.levelName}</td>
                                   <td>{courseTableValue.duration}</td>
