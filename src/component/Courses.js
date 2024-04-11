@@ -61,7 +61,7 @@ const Courses = () => {
                          <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseVallue.timing}</p>
                          <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                              <div>
-                                 <p className="fw-bold text-dark mb-0">Teacher</p>
+                                 <p className="fw-bold text-dark mb-0">Fees</p>
                                  <p className="text-muted mb-0 fs-14">{courseVallue.projectManager}</p>
                              </div>
                              <div>

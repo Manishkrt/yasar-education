@@ -49,7 +49,7 @@ const page = () => {
                   <div className="course-two__bottom">
                     <div className="course-two__author">
                       <img src="/assets/img/testimonial-1-author-1.png" alt="eduact" />
-                      <h5 className="course-two__author__name"> {courseValue.projectManager}</h5>
+                      <h5 className="course-two__author__name">Fees</h5>
                       <p className="course-two__author__designation">
                         Project Manager
                       </p>
