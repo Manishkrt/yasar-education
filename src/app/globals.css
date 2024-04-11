@@ -914,7 +914,13 @@ footer {
     color: #2a254d;
     margin: 0;
   }
-  
+  @media (min-width:200px) and (max-width:768px) {
+    .section-title__title{
+      font-size: 20px;
+      line-height: 25px;
+    }    
+  }
+ 
   .service-two__item {
     position: relative;
     border-radius: 10px;
@@ -931,7 +937,11 @@ footer {
     border-radius: 10px;
     height: 365px;
   }
-  
+  @media (min-width:200px) and (max-width:992px) {
+    .service-two__wrapper{
+  height: 100%;
+    }    
+  }
   .service-two__item svg {
     position: absolute;
     top: 0;
