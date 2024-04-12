@@ -35,7 +35,19 @@ function extractVideoId(url) {
           <div className='row'>
 
             <div className='col-lg-7'>
-              <h1 className='blog-video-fs-bg  text-center'>Blogs</h1>
+              <h1 className='blog-video-fs-bg  text-start'>Blogs <svg
+  className="arrow-svg  subtitle-svg"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 55 13"
+>
+  <g clipPath="url(#clip0_324_36194)">
+    <path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z" />
+    <path d="M25.1706 6.49995L15.3306 12.1799V8.56995L18.9206 6.49995L15.3306 4.42995V0.819946L25.1706 6.49995Z" />
+    <path d="M39.7906 6.49995L29.9506 12.1799V8.56995L33.5406 6.49995L29.9506 4.42995V0.819946L39.7906 6.49995Z" />
+    <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z" />
+  </g>
+</svg>
+</h1>
               <div className='row'>
                 {blogData.slice(0,2).map((blogValue)=>(
                   <div className="col-lg-12 col-md-12 col-sm-12 Blogs-card-wrapper-grid-common" key={blogValue.id}>
@@ -89,7 +101,19 @@ function extractVideoId(url) {
               </div> 
             </div> 
             <div className='col-lg-5'>
-              <h1 className='blog-video-fs-bg text-center'>Video</h1>
+              <h1 className='blog-video-fs-bg text-start'>Video <svg
+  className="arrow-svg  subtitle-svg"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 55 13"
+>
+  <g clipPath="url(#clip0_324_36194)">
+    <path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z" />
+    <path d="M25.1706 6.49995L15.3306 12.1799V8.56995L18.9206 6.49995L15.3306 4.42995V0.819946L25.1706 6.49995Z" />
+    <path d="M39.7906 6.49995L29.9506 12.1799V8.56995L33.5406 6.49995L29.9506 4.42995V0.819946L39.7906 6.49995Z" />
+    <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z" />
+  </g>
+</svg>
+</h1>
               <iframe width="100%" height="286px" src={`https://www.youtube.com/embed/${videoData}`}   allow="accelerometer; autoPlay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>
             
