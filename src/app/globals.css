@@ -34,6 +34,9 @@ p{
 
 
 }
+h5{
+  font-size: 17px !important;
+}
 .blog-video-fs-bg{
   font-size: 32px !important;
   color: var(--eduact-base);

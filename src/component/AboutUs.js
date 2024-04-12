@@ -16,7 +16,7 @@ const AboutUs = () => {
             <div className="wrapper-aboutus-left">
               <img
                 className="rounded-pill img-fluid "
-                src="/assets/img/about-img.jpeg" 
+                src="/assets/img/about-img.png" 
               />
             </div>
          
