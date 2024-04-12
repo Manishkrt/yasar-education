@@ -15,8 +15,14 @@ h1, h2, h3, h4, h5, h6 {
   color:#2a254d
 
 }
-
-
+.h5-welcome{
+  color: #4550b8;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 p{
  color: #444444;
 
@@ -577,17 +583,22 @@ div#navbarScroll{
 
 
 .Wrapper-RightICon_aboutUS .fa-check:before {
-    background-color: var(--eduact-base);
-    padding: 7px 8px;
+    /* background-color: var(--eduact-base); */
+    padding: 0px;
     border-radius: 50%;
-    color: var(--eduact-white);
+    color: var(--eduact-base);
 }
 
-
+.Wrapper-RightICon_aboutUS {
+  align-items: center;
+}
 .TiltLiner {
     position: absolute;
     top: 85px;
     left: -99px;
+}
+.Home-page-ul-wrapper ul li {
+  margin: 5px 0px;
 }
 .DiscoverMore-Abouts{
 
@@ -601,6 +612,12 @@ div#navbarScroll{
     height: 100%;
 }
 
+.RightWapperAboutUS h2{
+  font-size: 30px;
+}
+.RightWapperAboutUS h5{
+  font-size: 17px;
+}
 @media (min-width:200px) and (max-width:768px){
     .RightBannerTiltliner {
         padding: 33px;

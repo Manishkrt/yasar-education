@@ -31,7 +31,7 @@ const AboutUs = () => {
           </div>
           <div className="col-lg-6">
             <div className="RightWapperAboutUS">
-              <h5 className="d-flex align-items-center gap-3">
+              <h5 className="d-flex align-items-center gap-3 h5-welcome">
                 Welcome To 
                 <svg
                 className="arrow-svg  subtitle-svg"
@@ -58,30 +58,38 @@ const AboutUs = () => {
             </div>  
 
             <div className="row mt-4">
-              <div className="col-lg-12 mb-3">
-                <div className="Wrapper-RightICon_aboutUS d-flex">
-                  <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Seamless Process of Enrolment in language courses</h6>
-                </div>
-              </div>
-              <div className="col-lg-12 mb-3">
+
+              <ul className="Home-page-ul-wrapper">
+                <li>
                 <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
-                  <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Premier Assistance to Students in all language courses</h6>
+                  <i className="fa-solid fa-check"></i> &nbsp;
+                  Premier Assistance to Students in all language courses
                 </div>
-              </div>
-              <div className="col-lg-12 mb-3">
+                </li>
+                <li>
+                <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
+                  <i className="fa-solid fa-check"></i> &nbsp;
+                Premier Assistance to Students in all language courses
+                </div>
+                </li>
+                <li>
+               
                 <div className="Wrapper-RightICon_aboutUS d-flex">
-                  <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Diverse Expert Faculty in German, French, Spanish, </h6>
-                </div>
+                  <i className="fa-solid fa-check"></i> &nbsp;
+                  Diverse Expert Faculty in German, French, Spanish,
+               
               </div>
-              <div className="col-lg-12 mb-3">
-                <div className="Wrapper-RightICon_aboutUS d-flex">
-                  <i className="fa-solid fa-check"></i> &nbsp;&nbsp;&nbsp;&nbsp;
-                  <h6>Lifetime Membership after enrolling in any of the language courses </h6>
-                </div>
-              </div>
+                </li>
+             
+             <li>
+             <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
+             <i className="fa-solid fa-check"></i> &nbsp;
+                  Lifetime Membership after enrolling in any of the language courses 
+             </div> 
+
+             </li>
+              </ul>
+           
             </div> 
             
     <button className="btn-hover DiscoverMore-Abouts color-2" onClick={handleEnrollClick}>Discover More </button>
