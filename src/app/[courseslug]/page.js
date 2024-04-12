@@ -45,19 +45,22 @@ const Page =  ({ params }) => {
             <div className="col-xl-8">
               <div className="course-details__thumb">
                 <img src={courseValue.image} alt="eduact" />
-              </div>
-              {/* details-thumb */}
-              <div className="course-details__meta">
-                <div className="course-details__meta__author">
-                  <img src="/assets/img/author-7.png" alt="eduact" /> 
-                  <h5 className="course-details__meta__name"> {courseValue.projectManager}</h5>
-                  <p className="course-details__meta__designation">Project Manager</p>
+              </div> 
+              <div className="course-details__meta mb-3">
+                <div className="course-details__meta__author mb-lg-0 mb-2">
+                  <img src={courseValue.flagImage} alt="eduact" width={32} height={32} className='rounded-circle' />  
                 </div>
-                <div className="course-details__meta__cats">
+                <h3 className="course-details__title text-capitalize mb-lg-0 ">
+                {courseValue.title}
+              </h3> 
+
+                <div className="course-details__meta__price"><i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</div>
+              </div>
+              <div className='d-flex align-items-center gap-3 mb-4'>
+                <div className="course-details__meta__cats ms-0 ">
                   <a href="course.html">Development</a>
                 </div>
                 <div className="course-details__meta__ratings">
-
                   <span className="fa-solid fa-star" />
                   <span className="fa-solid fa-star" />
                   <span className="fa-solid fa-star" />
@@ -67,13 +70,7 @@ const Page =  ({ params }) => {
                     ({courseValue.ratingCount} Reviews)
                   </div>
                 </div>
-                <div className="course-details__meta__price"><i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</div>
-              </div>
-              {/* details-meta */}
-              <h3 className="course-details__title text-capitalize">
-                {courseValue.title}
-              </h3>
-              {/* details-title */}
+              </div> 
 
               <div className="course-details__tabs tabs-box">
                 <Tabs defaultActiveKey="overview" id="course-details-tabs">
@@ -169,7 +166,7 @@ const Page =  ({ params }) => {
                         </Accordion> */}
                         
 
-                        <button className="btn-hover color-2">For more details - Call 011-49404131</button>
+                        <a href="tel:+91114940-4131"><button className="btn-hover color-2">For more details - Call 011-49404131</button></a>
                        
                       </div>
                     </div>
