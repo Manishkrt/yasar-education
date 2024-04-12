@@ -23,7 +23,7 @@ const Navigation = () => {
     <div className='container'>
     <ul className='d-flex justify-content-between align-items-center  mb-0'>
       <li><i className="fa-solid fa-location-dot"></i> Connaught  Place Delhi -110001&nbsp; <i className="fa-solid fa-phone"></i> 9953988288</li>
-      <li><i className="fa-solid fa-envelope"></i> Inquriy@oracleglobaleducation.com</li>
+      <li><i className="fa-solid fa-envelope"></i> Inquiry@oracleglobaleducation.com</li>
       <li><i className="fa-solid fa-location-dot"></i> GTB NAGAR 110009&nbsp; <i className="fa-solid fa-phone"></i> 9999745645</li>
     </ul>
     </div>

@@ -92,7 +92,7 @@ const Footer = () => {
                   <li className="text-white"> <i className="fa-solid fa-phone-volume"></i>&nbsp; +91-9999-745-645</li>
 
                   <li className="text-white d-flex align-items-center">
-                    <i className="fa-solid fa-envelope"></i>&nbsp;inquiry@oracleglobaleducation.com
+                    <i className="fa-solid fa-envelope"></i>&nbsp;Inquiry@oracleglobaleducation.com
                   </li>
                 </ul>
               </div>

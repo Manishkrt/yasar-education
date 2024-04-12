@@ -18,8 +18,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 p{
-  font-weight: 800;
-}
+ color: #444444;
+
+} 
 .blog-two__title a {
 
   color:#2a254d
@@ -35,7 +36,7 @@ p{
     --primary : #4F5DE4;
     --eduact-font: 'Urbanist', sans-serif;
     --heading-font: 'Urbanist', sans-serif;
-    --eduact-text: #697585;
+    --eduact-text: #444444;
     --eduact-text-rgb: 105, 117, 133;
     --eduact-text2: #B3ADE1;
     --eduact-text2-rgb: 179, 173, 225;
@@ -165,9 +166,9 @@ a{
 body {
     font-family: var(--eduact-font);
     color: var(--eduact-text);
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
-    font-weight: 400;
+    font-weight: 500;
     overflow-x: hidden !important;
 }
 
