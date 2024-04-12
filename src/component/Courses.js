@@ -12,7 +12,7 @@ const Courses = () => {
         <div className="container">
             <div className="d-flex justify-content-between gap-1 align-items-end flex-wrap mb-lg-5 mb-3">
             <div className='mb-0'>
-            <h5 className='text-primary mb-0'> Top-notch Language Curriculum  &nbsp; 
+            <h5 className='text-primary mb-5px'> Top-notch Language Curriculum  &nbsp; 
             <svg className="arrow-svg  subtitle-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 13">
                             <g clipPath="url(#clip0_324_36194)">
                                 <path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z"></path>
