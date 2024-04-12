@@ -16,7 +16,7 @@ const AboutUs = () => {
             <div className="wrapper-aboutus-left">
               <img
                 className="rounded-pill img-fluid "
-                src="https://www.oracleglobaleducation.com/images/about/about-img.png" 
+                src="/assets/img/about-img.jpeg" 
               />
             </div>
          
@@ -57,7 +57,7 @@ const AboutUs = () => {
               </p>
             </div>  
 
-            <div className="row mt-4">
+            <div className="row">
 
               <ul className="Home-page-ul-wrapper">
                 <li>

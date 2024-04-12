@@ -597,8 +597,9 @@ div#navbarScroll{
     top: 85px;
     left: -99px;
 }
-.Home-page-ul-wrapper ul li {
+.Home-page-ul-wrapper li {
   margin: 5px 0px;
+  font-weight: 600 !important;
 }
 .DiscoverMore-Abouts{
 
@@ -617,6 +618,13 @@ div#navbarScroll{
 }
 .RightWapperAboutUS h5{
   font-size: 17px;
+}
+.wrapper-aboutus-left {
+  text-align: center !important;
+}
+.wrapper-aboutus-left img {
+  z-index: 3;
+  width: 500px
 }
 @media (min-width:200px) and (max-width:768px){
     .RightBannerTiltliner {
@@ -644,11 +652,11 @@ div#navbarScroll{
    
 
     .wrapper-aboutus-left {
-        text-align: center;
+        text-align: center !important;
     }
     .wrapper-aboutus-left img {
         z-index: 3;
-        width: 100%;
+        width: 100%
     }
 }
 @media (min-width:200px) and (max-width:768px) {
