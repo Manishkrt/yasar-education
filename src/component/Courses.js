@@ -34,16 +34,16 @@ const Courses = () => {
             <div className="row">
 
 
-                {CourseList.slice(0, 6).map((courseVallue)=>(
-                     <div className="col-lg-4 col-md-6 col-12 mt-3" key={courseVallue.id}>
+                {CourseList.slice(0, 6).map((courseValue)=>(
+                     <div className="col-lg-4 col-md-6 col-12 mt-3" key={courseValue.id}>
                      <div className="courses-card-wrapper">
                      <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">
                          <span className="courses-img-wrap d-inline-block rounded-circle  bg-secondary position-absolute top-0 end-0">
                              {/* <img src="/assets/img/flag1.png" alt="courses" className='img-fluid w-100 rounded-circle' /> */}
-                             <img src={courseVallue.flagImage} alt="courses" className='img-fluid w-100 rounded-circle' />
+                             <img src={courseValue.flagImage} alt="courses" className='img-fluid w-100 rounded-circle' />
                          </span> 
                          <div className='mb-3'>
-                             <span className="bg-primary px-2 py-1 text-white rounded">{courseVallue.totalClass} Classes</span>
+                             <span className="bg-primary px-2 py-1 text-white rounded">{courseValue.totalClass} Classes</span>
                          </div>
                          <div className='d-flex align-items-center mb-2 gap-2'>
                              <div className='d-flex '>
@@ -55,18 +55,18 @@ const Courses = () => {
                              </div> 
                          </div>
                          <h3 className='courses-courseName mb-3'>
-                             <Link className='text-primar' href={`/${courseVallue.slug}`}>{courseVallue.title}</Link>
+                             <Link className='text-primar' href={`/${courseValue.slug}`}>{courseValue.title}</Link>
                          </h3>
-                         <p className='mb-0'><i className="fa-solid fa-users text-secondary me-2"></i>&nbsp;Batch Size - {courseVallue.batchSize} Students</p>
-                         <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseVallue.timing}</p>
+                         <p className='mb-0'><i className="fa-solid fa-users text-secondary me-2"></i>&nbsp;Batch Size - {courseValue.batchSize} Students</p>
+                         <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseValue.timing}</p>
                          <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
                              <div>
                                  <p className="fw-bold text-dark mb-0">Fees</p>
-                                 <p className="text-muted mb-0 fs-14">{courseVallue.projectManager}</p>
+                                 <p className="text-muted mb-0 fs-14">{courseValue.projectManager}</p>
                              </div>
                              <div>
-                                 <h5 className="text-primary text-end"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseVallue.price}</h5>
-                                 <p className='text-secondary mb-0 text-end'>{courseVallue.duration}</p>
+                                 <h5 className="text-primary text-end"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h5>
+                                 <p className='text-secondary mb-0 text-end'>{courseValue.duration}</p>
                              </div>
                          </div>
                      </div>

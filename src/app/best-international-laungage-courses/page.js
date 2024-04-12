@@ -43,22 +43,21 @@ const page = () => {
                     <span className="icon-star fa-solid fa-star" />
                     <div className="course-two__ratings__reviews">( {courseValue.ratingCount} Reviews) </div>
                   </div>
-                  <h3 className="course-two__title"> 
+                  <h3 className="course-two__title mb-2"> 
                     <Link href={`/${courseValue.slug}`}>{courseValue.title}</Link>
                   </h3>
-                  <div className="course-two__bottom">
-                    <div className="course-two__author">
-                      <img src="/assets/img/testimonial-1-author-1.png" alt="eduact" />
-                      <h5 className="course-two__author__name">Fees</h5>
-                      <p className="course-two__author__designation">
-                        Project Manager
-                      </p>
-                    </div>
-                    <div className="course-two__meta">
-                      <h4 className="course-two__meta__price"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h4>
-                      {/* <p className="course-two__meta__class">{courseValue.duration} </p> */}
-                    </div>
-                  </div>
+                  <p className='mb-0'><i className="fa-solid fa-users text-secondary me-2"></i>&nbsp;Batch Size - {courseValue.batchSize} Students</p>
+                         <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseValue.timing}</p>
+                  <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
+                             <div>
+                                 <p className="fw-bold text-dark mb-0">Fees</p>
+                                 <p className="text-muted mb-0 fs-14">{courseValue.projectManager}</p>
+                             </div>
+                             <div>
+                                 <h5 className="text-primary text-end"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h5>
+                                 <p className='text-secondary mb-0 text-end'>{courseValue.duration}</p>
+                             </div>
+                         </div> 
                 </div>
                 
               </div>
