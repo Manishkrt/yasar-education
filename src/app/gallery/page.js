@@ -1,76 +1,90 @@
-'use client' 
+'use client'  
+ 
 import React, { useState } from 'react';
+import { Modal } from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
-import { animated, useTransition } from 'react-spring';
+import 'react-image-gallery/styles/css/image-gallery.css'; 
+import './page.css'
 
-const Page = ({ images }) => {
-  const [selectedIndex, setSelectedIndex] = useState(null);
+const Page = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const openImage = (index) => {
+  const images = [
+    {
+      original: 'assets/img/NewGallery1.jpg',
+      thumbnail: 'assets/img/NewGallery1.jpg',
+    },
+    {
+      original: 'assets/img/NewGallery2.jpg',
+      thumbnail: 'assets/img/NewGallery2.jpg',
+    },
+    {
+      original: 'assets/img/NewGallery3.jpg',
+      thumbnail: 'assets/img/NewGallery3.jpg',
+    },
+    {
+      original: 'assets/img/NewGallery4.jpg',
+      thumbnail: 'assets/img/NewGallery4.jpg',
+    },
+    {
+      original: 'assets/img/NewGallery5.jpg',
+      thumbnail: 'assets/img/NewGallery5.jpg',
+    },
+    {
+      original: 'assets/img/NewGallery6.jpg',
+      thumbnail: 'assets/img/NewGallery6.jpg',
+    },
+    {
+      original: 'assets/img/gallery-2.jpg',
+      thumbnail: 'assets/img/gallery-2.jpg',
+    },
+    {
+      original: 'assets/img/gallery-3.jpg',
+      thumbnail: 'assets/img/gallery-3.jpg',
+    }, 
+  ];
+
+  const openModal = (index) => {
     setSelectedIndex(index);
+    setShowModal(true);
   };
 
-  const closeImage = () => {
-    setSelectedIndex(null);
+  const closeModal = () => {
+    setShowModal(false);
   };
-
-  const navigate = (direction) => {
-    if (direction === 'left') {
-      setSelectedIndex((prevIndex) =>
-        prevIndex === 0 ? images.length - 1 : prevIndex - 1
-      );
-    } else {
-      setSelectedIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
-    }
-  };
-
-  const transitions = useTransition(selectedIndex, {
-    from: { opacity: 0, transform: 'scale(0.8)' },
-    enter: { opacity: 1, transform: 'scale(1)' },
-    leave: { opacity: 0, transform: 'scale(0.8)' },
-  });
-
-  const galleryItems = images.map((image, index) => ({
-    original: image,
-    thumbnail: image,
-  }));
 
   return (
-    <div className="gallery">
+    <div>
       {images.map((image, index) => (
         <img
           key={index}
-          src={image}
+          src={image.thumbnail}
           alt={`Image ${index + 1}`}
-          onClick={() => openImage(index)}
+          onClick={() => openModal(index)}
+          className='img-fluid'
         />
       ))}
-      {transitions((style, index) =>
-        index !== null ? (
-          <animated.div className="modal" style={style}>
-            <ImageGallery
-              items={galleryItems}
-              showPlayButton={false}
-              showFullscreenButton={false}
-              showThumbnails={false}
-              showNav={false}
-              startIndex={index}
-              onRequestClose={closeImage}
-              onSlide={(_, { currentIndex }) => setSelectedIndex(currentIndex)}
-            />
-            <button className="nav-btn left" onClick={() => navigate('left')}>
-              &lt;
-            </button>
-            <button className="nav-btn right" onClick={() => navigate('right')}>
-              &gt;
-            </button>
-          </animated.div>
-        ) : null
-      )}
+      {/* dialogClassName="custom-modal" */}
+      <Modal show={showModal} onHide={closeModal} size='lg' dialogClassName='bg-transparent gallery-modal border-0'>
+        <Modal.Body >
+          <ImageGallery
+            items={images}
+            showPlayButton={true}
+            showFullscreenButton={true}
+            showThumbnails={false}
+            showNav={true}
+            startIndex={selectedIndex}
+            slideDuration={250}
+            onRequestClose={closeModal}
+            className='image-gallery-img' 
+          />
+        </Modal.Body>
+      </Modal>
     </div>
   );
 };
 
 export default Page;
+
+
