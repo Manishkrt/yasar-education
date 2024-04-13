@@ -14,6 +14,7 @@ import './page.css'
 
 const page = () => {
   const [showModal, setShowModal] = useState(false);
+  
   const [modalImages, setModalImages] = useState([]);
   const [activeImageIndex, setActiveImageIndex] = useState(0);
 
