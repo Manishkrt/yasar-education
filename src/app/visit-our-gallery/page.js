@@ -2,7 +2,7 @@
 import CompanyLogoSlider from '@/component/CompanyLogoSlider';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
-// import Navigation from '@/component/Navigation';
+import Navigation from '@/component/Navigation';
 import QuiryForm from '@/component/QuiryForm';
 import React, { useState } from 'react'
 import Slider from 'react-slick';
@@ -47,7 +47,7 @@ const page = () => {
   };
   return (
    <>
-     {/* <Navigation/> */}
+     <Navigation/>
    <CoomonStudentSlider/>
    <>
    
