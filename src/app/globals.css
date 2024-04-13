@@ -5721,3 +5721,67 @@ button#course-details-tabs-tab-curriculum {
   width: 100%;
   height: 133px;
 }
+
+
+
+
+.Gallery_tabs-wrapper .nav-link{
+  border: 1px solid var(--eduact-black);;
+  padding: 5px 52px !important;
+  margin: 0px 5px;
+  color: var(--eduact-black);
+  font-weight: 700;
+  font-size: 17px;
+
+} 
+.Gallery_tabs-wrapper .nav-link:hover{
+  border: 1px solid var(--eduact-black);;
+
+} 
+.Gallery_tabs-wrapper  .nav-link.active{
+  background-color: var(--eduact-secondary) !important;
+  color: white !important;
+  font-size: 17px;
+  border: 1px solid orange;
+  padding: 5px 52px !important;
+  margin: 0px 5px;
+}
+
+
+
+@media (min-width:200px) and (max-width:400px) {
+  .Gallery_tabs-wrapper .nav-link{
+    padding: 3px 18px !important;
+    font-size: 14px;
+
+  }
+  .Gallery_tabs-wrapper  .nav-link.active{
+    padding: 3px 18px !important;
+    font-size: 14px;
+
+
+  }
+}
+.Gallery_tabs-wrapper  .nav{
+  justify-content: center;
+  
+}
+
+.Gallery-modal-wrapper .slick-dots{
+  bottom: -10px;
+}
+.Gallery-modal-wrapper .slick-next {
+  right: -35px;
+}
+.Gallery-modal-wrapper .slick-prev {
+  left: -35px;
+}
+.Gallery-modal-wrapper  .slick-slide img {
+  display: block;
+  height: 358px;
+  width: 100%;
+}
+.Gallery-modal-wrapper  .slick-dots li.slick-active button:before{
+  color: var(--eduact-base) !important;
+  opacity: 8;
+}
