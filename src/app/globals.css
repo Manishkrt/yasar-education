@@ -5766,3 +5766,22 @@ button#course-details-tabs-tab-curriculum {
   justify-content: center;
   
 }
+
+.Gallery-modal-wrapper .slick-dots{
+  bottom: -10px;
+}
+.Gallery-modal-wrapper .slick-next {
+  right: -35px;
+}
+.Gallery-modal-wrapper .slick-prev {
+  left: -35px;
+}
+.Gallery-modal-wrapper  .slick-slide img {
+  display: block;
+  height: 358px;
+  width: 100%;
+}
+.Gallery-modal-wrapper  .slick-dots li.slick-active button:before{
+  color: var(--eduact-base) !important;
+  opacity: 8;
+}

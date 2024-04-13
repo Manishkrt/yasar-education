@@ -5,7 +5,7 @@ import Footer from '@/component/Footer';
 // import Navigation from '@/component/Navigation';
 import QuiryForm from '@/component/QuiryForm';
 import React, { useState } from 'react'
-
+import Slider from 'react-slick';
 import { Tab, Tabs,Modal  } from 'react-bootstrap';
 
 
@@ -25,11 +25,26 @@ const page = () => {
   };
 
   const images = [
-    'assets/img/gallery-1.jpg',
+    'assets/img/NewGallery1.jpg',
+    'assets/img/NewGallery2.jpg',
+    'assets/img/NewGallery3.jpg',
+    'assets/img/NewGallery4.jpg',
+    'assets/img/NewGallery5.jpg',
+    'assets/img/NewGallery6.jpg',
     'assets/img/gallery-2.jpg',
     'assets/img/gallery-3.jpg',
     // Add more image URLs as needed
   ];
+  
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: activeImageIndex, 
+  };
   return (
    <>
      {/* <Navigation/> */}
@@ -242,7 +257,7 @@ const page = () => {
                   
                   
                 </Tabs>
-                <Modal show={showModal} onHide={closeModal} centered>
+                {/* <Modal show={showModal} onHide={closeModal} centered>
         <Modal.Body>
           <div className='text-center'>
             <img
@@ -251,6 +266,17 @@ const page = () => {
               style={{ maxWidth: '100%', maxHeight: '80vh', objectFit: 'cover' }}
             />
           </div>
+        </Modal.Body>
+      </Modal> */}
+        <Modal show={showModal} onHide={closeModal} centered>
+        <Modal.Body className='Gallery-modal-wrapper'>
+          <Slider {...settings}>
+            {modalImages.map((image, index) => (
+              <div key={index}>
+                <img src={image} alt={`Image ${index}`} />
+              </div>
+            ))}
+          </Slider>
         </Modal.Body>
       </Modal>
                 </div>
