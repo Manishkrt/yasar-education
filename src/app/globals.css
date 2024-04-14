@@ -2167,7 +2167,8 @@ section.courses-review-wrapper{
     font-weight: 500;
     line-height: 26px;
     text-transform: capitalize;
-    border-bottom: 1px solid var(--eduact-soft4);
+    /* border-bottom: 1px solid var(--eduact-soft4); */
+    border-bottom: 1px dashed var(--eduact-secondary);
     padding: 0 0 30px;
     margin: 29px 0 0;
   }
