@@ -34,10 +34,9 @@ p{
 } 
 .blog-two__title a {
 
-  color:#2a254d
-
-
-
+font-size: 20px;
+color: #000000;
+font-family: '__Urbanist_4806ca';
 }
 h5{
   font-size: 17px !important;
@@ -260,7 +259,9 @@ h1, h2, h3, h4, h5, h6 {
     /* box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75); */
 }
 
-
+h4{
+  font-family: '__Urbanist_4806ca';
+}
 
 .DiscoverMore-Abouts {
     width: 180px;
@@ -805,9 +806,34 @@ footer {
 .Mini-Footer-Wrapper h6{
     color: var(--eduact-text2);
 }
+.wrapper-container-footer ul h5{
+  position: relative;
+  margin-bottom: 20px;
+}
+.wrapper-container-footer ul h5::after {
+  content: '';
+  position: absolute;
+  left: 1%;
+  width: 50%;
+  margin-top: 2px;
+  height: 2px;
+  display: block;
+  
+  background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
+  
+  }
+@media (min-width:200px) and (max-width:991px) {
+  .wrapper-container-footer ul h5::after {
+  
+    width: 10% !important;
+ 
 
 
-
+  }
+  .wrapper-container-footer ul h5{
+    margin-top: 20px;
+  }
+}
 /* .Learining-wrapper{
     background-image: url('https://www.ilac.com/wp-content/uploads/2023/06/DREAM-BIG-3D-1-2.0.png');
     background-position: center;
@@ -1531,8 +1557,10 @@ section.courses-review-wrapper{
   }
   
   .course-details__title {
-    font-size: 24px;
+    color: #000000;
+    font-size: 20px;
     margin: 0 0 32px;
+    font-family: '__Urbanist_4806ca';
   }
   
   .course-details__meta {
@@ -1634,7 +1662,7 @@ section.courses-review-wrapper{
   .course-details__meta__price {
     color: var(--eduact-secondary);
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     margin-left: auto;
   }
   
@@ -2115,8 +2143,10 @@ section.courses-review-wrapper{
   }
   
   .course-details__sidebar__title {
+    font-family: '__Urbanist_4806ca';
+    color: #000000;
     position: relative;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 26px;
     text-transform: capitalize;
     border-bottom: 1px dashed var(--eduact-secondary);
@@ -4386,7 +4416,9 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 }
 
 .course-two__title a {
-  color: inherit;
+  font-family: '__Urbanist_4806ca';
+  color: #000000;
+  font-size: 20px;
   background-image: linear-gradient(currentcolor, currentcolor), linear-gradient(currentcolor, currentcolor);
   display: inline;
   background-size: 0% 1px, 0 1px;
@@ -4734,7 +4766,21 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 
 .course-details__overview b, strong {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
+  color: #000000;
+  font-family: '__Urbanist_4806ca';
+}
+.course-details__overview h4{
+  font-weight: 700;
+  font-size: 20px;
+  color: #000000;
+  font-family: '__Urbanist_4806ca';
+}
+
+.course-details__curriculum__title{
+  font-size: 20px !important;
+  color: #000000 !important;
+  font-family: '__Urbanist_4806ca';
 }
 
 .course-details__meta {
@@ -4836,8 +4882,9 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 .course-details__meta__price {
   color: var(--eduact-secondary);
   font-weight: 700;
-  font-size: 32px;
+  font-size: 24px;
   margin-left: auto;
+  
 }
 
 .course-details__tabs {
@@ -5391,6 +5438,18 @@ button.accordion-button.collapsed{
   position: relative;
   overflow: hidden;
   z-index: 2;
+  height: 250px;
+  font-family: '__Urbanist_4806ca';
+}
+.contact-info__text a{
+  font-family: '__Urbanist_4806ca';
+
+}
+@media (min-width:200px) and (max-width:568px) {
+
+ .contact-info ul li {
+  height: 100%;
+ } 
 }
 
 @media (max-width: 991px) {
