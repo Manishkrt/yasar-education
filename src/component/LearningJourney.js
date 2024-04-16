@@ -39,9 +39,9 @@ const LearningJourney = () => {
               </video>
               <div className="position-absolute banner-TextWrapper">
                 <p className="text-danger  fw-600">Learn English in Canada</p>
-                <h2 style={{ color: '#0070b6' }} className="Banner-heading lh-1">Think
+                <h1 style={{ color: '#0070b6' }} className="Banner-heading lh-1">Think
                   Abroad,<br></br>
-                  Think Oracle Language</h2>
+                  Think Oracle Language</h1>
                 <button className="btn-hover DiscoverMore-Abouts color-2" onClick={handleEnrollClick}>Enquiry Now </button>
               </div>
             </div>

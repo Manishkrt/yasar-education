@@ -63,7 +63,7 @@ const AboutUs = () => {
                 <li>
                 <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
                   <i className="fa-solid fa-check"></i> &nbsp;
-                  Premier Assistance to Students in all language courses
+                  Seamless Process of Enrolment in language courses
                 </div>
                 </li>
                 <li>

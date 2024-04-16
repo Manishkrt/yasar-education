@@ -22,7 +22,7 @@ const Courses = () => {
                             </g>
                         </svg>
             </h5>
-            <h2 className='text-dark'>Highlighted Programs in Language Courses </h2>
+            <h2 className='text-dark ls-2'>Highlighted Programs in Language Courses </h2>
             </div>
             <div className="mb-0 "> 
                 <button className='rounded-end-pill border-0 text-white view-all-btn d-flex align-items-center gap-2'>View All

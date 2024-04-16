@@ -191,6 +191,12 @@ h2{
         font-size: 20px;
     }
 }
+.ls-2{
+    letter-spacing: 2px;
+}
+.text-justify{
+    text-align: justify;
+}
 
 
 
@@ -546,4 +552,19 @@ h2{
 .blog-image-link-wrapper:hover .blog-hover-wrapper{
     top: 0px;
     opacity: 1;
+}
+
+/* footer  */
+.social-icon-box{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4F5DE4;
+    border-radius: 50%;
+    transition: .3s;
+}
+.social-icon-box:hover{
+    background-color: #4F5DE4;
 }
