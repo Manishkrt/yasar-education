@@ -5906,3 +5906,11 @@ button#course-details-tabs-tab-curriculum {
   color: var(--eduact-base) !important;
   opacity: 8;
 }
+
+
+.our-branches-wrapper-left p.course-details__overview__text{
+  padding-top: 0px;
+}
+.our-branches-wrapper-left .course-details__sidebar__title{
+font-size: 16px;
+}

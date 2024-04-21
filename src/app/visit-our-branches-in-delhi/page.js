@@ -5,6 +5,7 @@ import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
 import Navigation from '@/component/Navigation';
 import QuiryForm from '@/component/QuiryForm';
+import Link from 'next/link';
 import React from 'react'
 
 const page = () => {
@@ -13,13 +14,13 @@ const page = () => {
      <Navigation/>
    <CoomonStudentSlider/>
    <section className="course-details branch visit-our-branches-in-delhi pt-pb">
-   <h5 class="section-title__tagline text-center">HOME OUR ORACLE GLOBAL EDUCATION BRANCHES IN DELHI<svg class="arrow-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 13"><g clip-path="url(#clip0_324_36194)"><path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z"></path><path d="M25.1706 6.49995L15.3306 12.1799V8.56995L18.9206 6.49995L15.3306 4.42995V0.819946L25.1706 6.49995Z"></path><path d="M39.7906 6.49995L29.9506 12.1799V8.56995L33.5406 6.49995L29.9506 4.42995V0.819946L39.7906 6.49995Z"></path><path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z"></path></g></svg></h5>
+   <h2 class="text-center">HOME OUR ORACLE GLOBAL EDUCATION BRANCHES IN DELHI</h2>
 
   <div className="container mt-5">
 
    
     <div className="row">
-      <div className="col-xl-8">
+      <div className="col-xl-8 our-branches-wrapper-left">
         <div className="course-details__thumb">
           <img src="/assets/img/china.jpg" alt="eduact" />
         </div>
@@ -149,79 +150,77 @@ const page = () => {
             </a> */}
           </div>
           <div className="course-details__sidebar__item">
-            <h3 className="course-details__sidebar__title">Latest Course</h3>
-            <ul className="course-details__sidebar__post">
-              <li>
-                <div className="course-details__sidebar__post__image">
-                  <img src="/assets/img/lc-1.jpg" alt="eduact" />
+                  <h3 className="course-details__sidebar__title">Latest Course</h3>
+                  <ul className="course-details__sidebar__post">
+                    <li>
+                      <div className="course-details__sidebar__post__image">
+                        <img src="/assets/img/lc-1.jpg" alt="eduact" />
+                      </div>
+                      <div className="course-details__sidebar__post__content">
+                     
+                        <h3 className="course-details__sidebar__post__title">
+                          <Link href="/best-counsiling-for-study-in-abroad-in-delhi">STUDY IN ABROAD...</Link>
+                        </h3>
+                        <div className="course-details__sidebar__post__ratings">
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <div className="course-details__sidebar__post__ratings__reviews">
+                            4.8(30)
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="course-details__sidebar__post__image">
+                        <img src="assets/img/lc-2.jpg" alt="eduact" />
+                      </div>
+                      <div className="course-details__sidebar__post__content">
+                        {/* <span className="course-details__sidebar__post__meta">
+                          By <a href="course.html">Robert Fox</a>
+                        </span> */}
+                        <h3 className="course-details__sidebar__post__title">
+                          <Link href="/best-ielts-coaching-institute-in-delhi">IELTS COACHING...</Link>
+                        </h3>
+                        <div className="course-details__sidebar__post__ratings">
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <div className="course-details__sidebar__post__ratings__reviews">
+                            4.8(30)
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div className="course-details__sidebar__post__image">
+                        <img src="/assets/img/lc-3.jpg" alt="eduact" />
+                      </div>
+                      <div className="course-details__sidebar__post__content">
+                        {/* <span className="course-details__sidebar__post__meta">
+                          By <a href="course.html">Robert Fox</a>
+                        </span> */}
+                        <h3 className="course-details__sidebar__post__title">
+                          <Link href="/occupational-english-test">OET COURSES...</Link>
+                        </h3>
+                        <div className="course-details__sidebar__post__ratings">
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <span className="fa-solid fa-star" />
+                          <div className="course-details__sidebar__post__ratings__reviews">
+                            4.8(30)
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                <div className="course-details__sidebar__post__content">
-                  <span className="course-details__sidebar__post__meta">
-                    By <a href="course.html">Robert Fox</a>
-                  </span>
-                  <h3 className="course-details__sidebar__post__title">
-                    <a href="course.html">The Complete Web.....</a>
-                  </h3>
-                  <div className="course-details__sidebar__post__ratings">
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <div className="course-details__sidebar__post__ratings__reviews">
-                      4.8(30)
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="course-details__sidebar__post__image">
-                  <img src="assets/img/lc-2.jpg" alt="eduact" />
-                </div>
-                <div className="course-details__sidebar__post__content">
-                  <span className="course-details__sidebar__post__meta">
-                    By <a href="course.html">Robert Fox</a>
-                  </span>
-                  <h3 className="course-details__sidebar__post__title">
-                    <a href="course.html">Management Cons.....</a>
-                  </h3>
-                  <div className="course-details__sidebar__post__ratings">
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <div className="course-details__sidebar__post__ratings__reviews">
-                      4.8(30)
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div className="course-details__sidebar__post__image">
-                  <img src="/assets/img/lc-3.jpg" alt="eduact" />
-                </div>
-                <div className="course-details__sidebar__post__content">
-                  <span className="course-details__sidebar__post__meta">
-                    By <a href="course.html">Robert Fox</a>
-                  </span>
-                  <h3 className="course-details__sidebar__post__title">
-                    <a href="course.html">The Special HTML.....</a>
-                  </h3>
-                  <div className="course-details__sidebar__post__ratings">
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <span className="fa-solid fa-star" />
-                    <div className="course-details__sidebar__post__ratings__reviews">
-                      4.8(30)
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </div>
