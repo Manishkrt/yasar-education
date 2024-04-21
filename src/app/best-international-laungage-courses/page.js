@@ -15,56 +15,61 @@ const page = () => {
 
 
 
-   <CoomonStudentSlider/> 
-   <section className="course-two course-two--page pt-pb">
-  
+      <CoomonStudentSlider />
+      <section className="course-two course-two--page pt-pb">
+
         <div className="container">
           <div className="row">
-            {CourseList.map((courseValue)=>( 
-            <div  className="col-xl-4 col-md-6 wow fadeInUp animated" key={courseValue.id}>
-              <div className="course-two__item">
-                <div className="course-two__thumb">
-                  <Link href={`/${courseValue.slug}`}>
-                  {/* <img src={courseValue.image} alt="eduact" /> */}
-                  <img src={courseValue.thumbnail} alt="eduact" />
-                  </Link> 
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 177">
-                    <path d="M37 0C16.5655 0 0 16.5655 0 37V93.4816C0 103.547 4.00259 113.295 11.7361 119.737C54.2735 155.171 112.403 177 176.496 177C240.589 177 298.718 155.171 341.261 119.737C348.996 113.295 353 103.546 353 93.4795V37C353 16.5655 336.435 0 316 0H37Z" />
-                  </svg>
-                </div>
-                
-                <div className="course-two__content">
-                  <div className="course-two__time">{courseValue.totalClass} Classes</div>
-                  <div className="course-two__ratings">
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <span className="icon-star fa-solid fa-star" />
-                    <div className="course-two__ratings__reviews">( {courseValue.ratingCount} Reviews) </div>
+            {CourseList.map((courseValue) => (
+              <div className="col-xl-4 col-md-6 wow fadeInUp animated" key={courseValue.id}>
+                <div className="course-two__item">
+                  <div className="course-two__thumb">
+                    <Link href={`/${courseValue.slug}`}>
+                      {/* <img src={courseValue.image} alt="eduact" /> */}
+                      <img src={courseValue.thumbnail} alt="eduact" />
+                    </Link>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353 177">
+                      <path d="M37 0C16.5655 0 0 16.5655 0 37V93.4816C0 103.547 4.00259 113.295 11.7361 119.737C54.2735 155.171 112.403 177 176.496 177C240.589 177 298.718 155.171 341.261 119.737C348.996 113.295 353 103.546 353 93.4795V37C353 16.5655 336.435 0 316 0H37Z" />
+                    </svg>
                   </div>
-                  <h3 className="course-two__title mb-2"> 
-                    <Link href={`/${courseValue.slug}`}>{courseValue.title}</Link>
-                  </h3>
-                  <p className='mb-0'><i className="fa-solid fa-users text-secondary me-2"></i>&nbsp;Batch Size - {courseValue.batchSize} Students</p>
-                         <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseValue.timing}</p>
-                  <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
-                             <div>
-                                 <p className="fw-bold text-dark mb-0">Fees</p>
-                                 <p className="text-muted mb-0 fs-14">{courseValue.projectManager}</p>
-                             </div>
-                             <div>
-                                 <h5 className="text-primary text-end"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h5>
-                                 <p className='text-secondary mb-0 text-end'>{courseValue.duration}</p>
-                             </div>
-                         </div> 
+
+                  <div className="course-two__content">
+                    {courseValue.totalClass &&
+                      <div className="course-two__time">{courseValue.totalClass} Classes</div>}
+                    {courseValue.ratingCount &&
+                      <div className="course-two__ratings">
+                        <span className="icon-star fa-solid fa-star" />
+                        <span className="icon-star fa-solid fa-star" />
+                        <span className="icon-star fa-solid fa-star" />
+                        <span className="icon-star fa-solid fa-star" />
+                        <span className="icon-star fa-solid fa-star" />
+                        <div className="course-two__ratings__reviews">( {courseValue.ratingCount} Reviews) </div>
+                      </div>}
+                    <h3 className="course-two__title mb-2">
+                      <Link href={`/${courseValue.slug}`}>{courseValue.title}</Link>
+                    </h3>
+                    {courseValue.batchSize &&
+                      <p className='mb-0'><i className="fa-solid fa-users text-secondary me-2"></i>&nbsp;Batch Size - {courseValue.batchSize} Students</p>}
+                    {courseValue.timing &&
+                      <p><i className="fa-regular fa-clock text-secondary me-2"></i>&nbsp;Timing- {courseValue.timing}</p>}
+                      {courseValue.price &&
+                    <div className="d-flex justify-content-between gap-2 flex-wrap bg-soft1 p-2 rounded">
+                      <div className='d-flex  align-items-center justify-content-between gap-2 w-100'>
+                        <p className="fw-bold text-dark mb-0">Fees</p>
+                        <h5 className="text-primary text-end mb-0"> <i className="fa-solid fa-indian-rupee-sign"></i> {courseValue.price}</h5>
+                      </div>
+                      <div className='d-flex mb-0 align-items-center justify-content-between gap-2 w-100'>
+                        <p className="text-muted mb-0 fs-14">Course Duration</p>
+                        <p className='text-secondary mb-0 text-end'>{courseValue.duration}</p>
+                      </div>
+                    </div> }
+                  </div>
+
                 </div>
-                
+
               </div>
-              
-            </div>
             ))}
-           
+
             {/* <div
               className="col-xl-4 col-md-6 wow fadeInUp animated"
 
@@ -303,7 +308,7 @@ const page = () => {
             </div> */}
           </div>
         </div>
-        
+
       </section>
 
 
