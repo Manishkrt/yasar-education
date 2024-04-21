@@ -43,12 +43,12 @@ const page = async ({ params }) => {
             <h2 className='text-upppercase'>Blog</h2>
           </div> */}
           <div className="row">
-            <div className="col-lg-8 col-12 mb-4">
+            <div className="col-lg-8 col-12 mb-4 wrapper-blogs-details-content">
               <img src={`${blogValue && blogValue.blog_image}`} alt="education" className='rounded-4 img-fluid w-100 mb-3' />
               <div className='mb-4'><span><i className="fa-regular fa-clock fa-xl text-secondary"></i></span> &nbsp; <span>{blogValue && formatDate(blogValue.date)}</span></div>
-              <h3>{blogValue && blogValue.blog_title}</h3>
+              <h3 className='Title-blogs-h3'>{blogValue && blogValue.blog_title}</h3>
               {blogValue &&
-                <div dangerouslySetInnerHTML={{ __html: blogValue.long_desc }} className='border-bottom pb-5 mb-5' />}
+                <div  dangerouslySetInnerHTML={{ __html: blogValue.long_desc }} className='border-bottom pb-5 mb-5' />}
               <div className='mb-5'>
                 <h4>2 Commnts</h4>
               </div>
@@ -77,7 +77,7 @@ const page = async ({ params }) => {
                 <input type="text" name="" className='blog-search-input border-0 flex-grow' id=""  placeholder='Type Here'/>
               </div>
               <div className='rounded shadow bg-white p-3'>
-                <h3 className="border-bottom-doted border-color-secondary pb-3 mb-3">Latest Post</h3>
+                <h3 className=" course-details__sidebar__title pb-3 mb-3">Latest Post</h3>
                 {blogData.slice(0, 12).map((value) => (
                   <div className="border-bottom pb-3 mb-3" key={value.id}>
                     <div className="d-flex align-items-center gap-3">
@@ -88,7 +88,7 @@ const page = async ({ params }) => {
                       </div>
                       <div> 
                         <div className='mb-2'><span><i className="fa-regular fa-clock fa-lg text-secondary"></i></span> &nbsp; <span>{ formatDate(value.date)}</span></div>
-                        <h3 className='text-capitalize sidebar__post__content__title'> <Link href={`/blog/${value.slug}`}>{value.blog_title}</Link> </h3>
+                        <h3 className='text-capitalize   sidebar__post__content__title'> <Link href={`/blog/${value.slug}`}>{value.blog_title}</Link> </h3>
                       </div>
                     </div>
                   </div>

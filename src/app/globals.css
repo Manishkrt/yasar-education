@@ -221,7 +221,20 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
 }
 
-
+.Title-blogs-h3{
+  color: #000000;
+  font-size: 20px;
+  margin: 0 0 10px;
+  font-family: '__Urbanist_4806ca';
+}
+.wrapper-blogs-details-content span {
+  font-weight: 600 !important;
+  line-height: 22px !important;
+  letter-spacing: 0.32px !important;
+  font-family: '__Urbanist_4806ca' !important;
+color: #697585 !important;
+font-size: 15px !important;
+}
 .btn-hover {
     width: 132px;
     font-size: 16px;
@@ -5744,10 +5757,13 @@ button.accordion-button.collapsed{
   -moz-osx-font-smoothing: grayscale;
 }
 .sidebar__post__content__title {
-  font-size: 20px;
+  font-size: 16px;
 }
 .sidebar__post__content__title a{
-  color: #2a254d;
+  color: #000000;
+  font-family: '__Urbanist_4806ca';
+  font-weight: 700;
+  
 
 }
 
