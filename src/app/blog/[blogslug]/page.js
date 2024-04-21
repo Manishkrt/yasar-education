@@ -50,13 +50,13 @@ const page = async ({ params }) => {
               {blogValue &&
                 <div  dangerouslySetInnerHTML={{ __html: blogValue.long_desc }} className='border-bottom pb-5 mb-5' />}
               <div className='mb-5'>
-                <h4>2 Commnts</h4>
+                <h4 className='blogs-h4-style'>2 Commnts</h4>
               </div>
               
               <div className='d-md-flex d-block align-items-center gap-3 pb-5 mb-5 border-bottom'> 
                 <img src="/assets/img/comment-1-1.jpg" alt="" className='img-fluid rounded-circle d-block mb-md-0 mb-3 m-auto ' />
                 <div>
-                  <h4 className='mb-3 pb-0'>David Shon</h4>
+                  <h4 className='mb-3 pb-0 blogs-h4-style'>David Shon</h4>
                   <p className='fw-bold text-muted text-black-50 mb-4'>Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus dolor.</p>
                   <button className='border-0 bg-soft1 px-4 py-1 rounded fw-bold text-muted text-black-50'>Reply</button>
                 </div>
@@ -64,7 +64,7 @@ const page = async ({ params }) => {
               <div className='d-md-flex d-block align-items-center gap-3 pb-5 mb-5 border-bottom'> 
                 <img src="/assets/img/comment-1-2.jpg" alt="" className='img-fluid rounded-circle d-block mb-md-0 mb-3 m-auto ' />
                 <div>
-                  <h4 className='mb-3 pb-0'>Jhon Watchson</h4>
+                  <h4 className='mb-3 pb-0 blogs-h4-style'>Jhon Watchson</h4>
                   <p className='fw-bold text-muted text-black-50 mb-4'>Nam vel lacus eu nisl bibendum accumsan vitae vitae nibh. Nam nec eros id magna hendrerit sagittis. Nullam sed mi non odio feugiat volutpat sit amet nec elit. Maecenas id hendrerit ipsum. Sed eget auctor metus, ac dapibus dolor.</p>
                   <button className='border-0 bg-soft1 px-4 py-1 rounded fw-bold text-muted text-black-50'>Reply</button>
                 </div>
