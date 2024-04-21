@@ -29,7 +29,7 @@ ul {
   list-style: none;
 }
 p{
- color: #444444;
+ color: #697585;
 
 } 
 .blog-two__title a {
@@ -209,7 +209,9 @@ h1, h2, h3, h4, h5, h6 {
     
     padding-bottom: 100px;
 }
-
+.line-height-23px{
+  line-height: 26px;
+}
 .mt-mb-50{
   margin: 50px 0px;
 }
@@ -632,6 +634,7 @@ div#navbarScroll{
 }
 .RightWapperAboutUS h5{
   font-size: 17px;
+  
 }
 .wrapper-aboutus-left {
   text-align: center !important;
@@ -944,7 +947,7 @@ footer {
     line-height: 26px;
     text-transform: capitalize;
     color: #4f5de4;
-    margin: 0 0 11px;
+    margin: 0 0 0px;
     position: relative;
     z-index: 2;
     padding: 0 20px;
@@ -1457,8 +1460,13 @@ section.courses-review-wrapper{
   }  
 
   .banner-TextWrapper {
-    top: 90px;
-    left: 10px;
+    width: 100%;
+    position: absolute;
+    /* top: 20px; */
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
   }
   .banner-TextWrapper  .Banner-heading {
     font-size: 70px;
@@ -1475,49 +1483,60 @@ section.courses-review-wrapper{
     .banner-TextWrapper .Banner-heading {
         font-size: 20px;
     }
-    .banner-TextWrapper {
+    /* .banner-TextWrapper {
         top: 50%;
-        left: 10px;
+        left: 10%;
         transform: translate(0px,-50%);
+      } */
+      .DiscoverMore-Abouts {
+        width: 127px;
+        font-size: 13px;
+        font-weight: 600;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px 0px 0px 0px;
+        height: 34px;
+        text-align: center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        transition: all .4s ease-in-out;
+        text-transform: uppercase;
       }
       .Learining-wrapper {
         height: fit-content;
       }
     
   }
+
+  
   @media (min-width:577px) and (max-width:767px) {
     .banner-TextWrapper .Banner-heading {
         font-size: 34px;
     }
-    .banner-TextWrapper {
-        top: 50%;
-        left: 10px;
-        transform: translate(0px,-50%);
-      }
+ 
       .Learining-wrapper {
         height: fit-content;
       }
     
+  }
+  @media (min-width:768px) and (max-width:900px) {
+    .Learining-wrapper {
+      height: 100%;
+    }
+ 
   }
   @media (min-width:768px) and (max-width:991px) {
     .banner-TextWrapper .Banner-heading {
         font-size: 44px;
     }
-    .banner-TextWrapper {
-        top: 50%;
-        left: 10px;
-        transform: translate(0px,-50%);
-      }
     
   }
   @media (min-width:992px) and (max-width:1200px) {
     .banner-TextWrapper .Banner-heading {
         font-size: 64px;
     }
-    .banner-TextWrapper {
-        top: 80px;
-        left: 40px;
-      }
+   
     
   }
 
@@ -2144,7 +2163,7 @@ section.courses-review-wrapper{
   
   .course-details__sidebar__title {
     font-family: '__Urbanist_4806ca';
-    color: #000000;
+    color: var(--eduact-secondary);
     position: relative;
     font-size: 20px;
     line-height: 26px;
@@ -2152,8 +2171,17 @@ section.courses-review-wrapper{
     border-bottom: 1px dashed var(--eduact-secondary);
     margin: 0 0 30px;
     padding-bottom: 25px;
+   
   }
   
+
+  .kids-section-wright-side .course-details__sidebar__title{
+    margin: 0 0 0px;
+
+  }
+  p.course-details__overview__text {
+    padding-top: 25px;
+  }
   .course-details__sidebar__lists {
     margin: 0;
     padding: 0;
@@ -2163,7 +2191,7 @@ section.courses-review-wrapper{
   .course-details__sidebar__lists li {
     display: flex;
     align-items: center;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 26px;
     text-transform: capitalize;
@@ -2182,7 +2210,7 @@ section.courses-review-wrapper{
   .course-details__sidebar__lists li span {
     margin-left: auto;
     font-weight: 600;
-    color: var(--eduact-black);
+    color: #697585;
   }
   
   .course-details__sidebar .eduact-btn {
@@ -2271,11 +2299,11 @@ section.courses-review-wrapper{
   
   .course-details__sidebar__post__title {
     margin: 0 0 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
   
   .course-details__sidebar__post__title a {
-    color: inherit;
+    color: #000000;
     background-image: linear-gradient(currentcolor, currentcolor), linear-gradient(currentcolor, currentcolor);
     display: inline;
     background-size: 0% 1px, 0 1px;
@@ -4767,14 +4795,14 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 
 .course-details__overview b, strong {
   font-weight: 700;
-  font-size: 20px;
-  color: #000000;
+  font-size: 16px;
+  color: #F57005;
   font-family: '__Urbanist_4806ca';
 }
 .course-details__overview h4{
   font-weight: 700;
-  font-size: 20px;
-  color: #000000;
+  font-size: 16px;
+  color: #F57005;
   font-family: '__Urbanist_4806ca';
 }
 
@@ -4985,7 +5013,7 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
   font-weight: 600;
   line-height: 32px;
   letter-spacing: 0.32px;
-  margin: 0 0 19px;
+  margin: 0 0 7px;
 }
 
 .course-details__overview__lists {
@@ -5430,12 +5458,13 @@ button.accordion-button.collapsed{
   }
 }
 
+
 .contact-info ul li {
   list-style: none;
   display: block;
   width: 33.33%;
   text-align: center;
-  padding: 47px 20px 44px;
+  padding: 17px 40px;
   position: relative;
   overflow: hidden;
   z-index: 2;
@@ -5527,13 +5556,15 @@ button.accordion-button.collapsed{
 }
 
 .contact-info__text {
+  color: #697585;
   font-size: 16px;
   transition: all 500ms ease;
   margin-bottom: 0;
 }
 
 .contact-info__text a {
-  color: inherit;
+  color: #697585;
+
   font-size: 16px;
   line-height: 2;
 }
@@ -5724,7 +5755,7 @@ button.accordion-button.collapsed{
   display: block;
   position: relative;
   padding: 0 0 0 32px;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 22px;
   font-weight: 600;
   color: #697585;

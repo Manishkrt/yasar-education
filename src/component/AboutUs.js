@@ -31,7 +31,7 @@ const AboutUs = () => {
           </div>
           <div className="col-lg-6">
             <div className="RightWapperAboutUS">
-              <h5 className="d-flex align-items-center gap-3 h5-welcome">
+              <h5 className="d-flex align-items-center gap-3 h5-welcome mb-5px">
                 Welcome To 
                 <svg
                 className="arrow-svg  subtitle-svg"

@@ -29,13 +29,13 @@ function extractVideoId(url) {
       <section className='Blog-Video-Notice-wrapper pt-pb'>
         <div className="mb-0 text-center">
 
-          <h2 className="text-dark text-center">Latest Updates</h2>
+          <h2 className="text-center">Latest Updates</h2>
         </div>
         <div className='container text-wrapper-combine-vbn mt-5'>
           <div className='row'>
 
             <div className='col-lg-7'>
-              <h1 className='blog-video-fs-bg  text-start'>Blogs <svg
+              <h1 className='blog-video-fs-bg  text-start mb-5px'>Blogs <svg
   className="arrow-svg  subtitle-svg"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 55 13"
@@ -101,7 +101,7 @@ function extractVideoId(url) {
               </div> 
             </div> 
             <div className='col-lg-5'>
-              <h1 className='blog-video-fs-bg text-start'>Video <svg
+              <h1 className='blog-video-fs-bg text-start mb-5px'>Video <svg
   className="arrow-svg  subtitle-svg"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 55 13"

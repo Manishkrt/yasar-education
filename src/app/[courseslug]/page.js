@@ -11,6 +11,7 @@ import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Accordion from 'react-bootstrap/Accordion';
 import { CourseData } from '@/utils/data';
 import FormModal from '@/component/FormModal';
+import Link from 'next/link';
 
 const Page =  ({ params }) => {
   // console.log("params", params);
@@ -279,11 +280,9 @@ const Page =  ({ params }) => {
                         <img src="/assets/img/lc-1.jpg" alt="eduact" />
                       </div>
                       <div className="course-details__sidebar__post__content">
-                        <span className="course-details__sidebar__post__meta">
-                          By <a href="course.html">Robert Fox</a>
-                        </span>
+                     
                         <h3 className="course-details__sidebar__post__title">
-                          <a href="course.html">The Complete Web.....</a>
+                          <Link href="/best-counsiling-for-study-in-abroad-in-delhi">STUDY IN ABROAD...</Link>
                         </h3>
                         <div className="course-details__sidebar__post__ratings">
                           <span className="fa-solid fa-star" />
@@ -302,11 +301,11 @@ const Page =  ({ params }) => {
                         <img src="assets/img/lc-2.jpg" alt="eduact" />
                       </div>
                       <div className="course-details__sidebar__post__content">
-                        <span className="course-details__sidebar__post__meta">
+                        {/* <span className="course-details__sidebar__post__meta">
                           By <a href="course.html">Robert Fox</a>
-                        </span>
+                        </span> */}
                         <h3 className="course-details__sidebar__post__title">
-                          <a href="course.html">Management Cons.....</a>
+                          <Link href="/best-ielts-coaching-institute-in-delhi">IELTS COACHING...</Link>
                         </h3>
                         <div className="course-details__sidebar__post__ratings">
                           <span className="fa-solid fa-star" />
@@ -325,11 +324,11 @@ const Page =  ({ params }) => {
                         <img src="/assets/img/lc-3.jpg" alt="eduact" />
                       </div>
                       <div className="course-details__sidebar__post__content">
-                        <span className="course-details__sidebar__post__meta">
+                        {/* <span className="course-details__sidebar__post__meta">
                           By <a href="course.html">Robert Fox</a>
-                        </span>
+                        </span> */}
                         <h3 className="course-details__sidebar__post__title">
-                          <a href="course.html">The Special HTML.....</a>
+                          <Link href="/occupational-english-test">OET COURSES...</Link>
                         </h3>
                         <div className="course-details__sidebar__post__ratings">
                           <span className="fa-solid fa-star" />

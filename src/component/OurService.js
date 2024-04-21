@@ -11,7 +11,7 @@ const OurService = () => {
       className="section-title text-center"
     
     >
-      <h5 className="section-title__tagline">
+      <h5 className="section-title__tagline mb-5px">
         Our Service
         <svg
           className="arrow-svg"
@@ -26,7 +26,7 @@ const OurService = () => {
           </g>
         </svg>
       </h5>
-      <h2 className="section-title__title">
+      <h2 className="section-title__title ls-2">
       Fostering Continuous Learning in Various Languages 
         <br /> Exceptional Community{" "}
       </h2>

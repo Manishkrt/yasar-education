@@ -37,7 +37,7 @@ const LearningJourney = () => {
                 />
                 Your browser does not support the video tag.
               </video>
-              <div className="position-absolute banner-TextWrapper">
+              <div className="banner-TextWrapper">
                 <p className="text-danger  fw-600">Learn English in Canada</p>
                 <h1 style={{ color: '#0070b6' }} className="Banner-heading lh-1">Think
                   Abroad,<br></br>

@@ -21,10 +21,10 @@ const page = () => {
           <span className="fa-solid fa-phone-volume icon-Call" />
         </div>
         <p className="contact-info__title">Have any question?</p>
-        <h4 className="contact-info__text">
-          Free <a href="tel:+91-11-4940-4131"> +91-11-4940-4131</a><br></br>
-          Free <a href="tel:+91-9999-17-35-17">+91-9999-17-35-17</a><br></br>
-          Free <a href="tel:+91-99-53-988-288">+91-99-53-988-288</a>
+        <h4 className="contact-info__text line-height-23px">
+          Free  +91-11-4940-4131<br></br>
+          Free  +91-9999-17-35-17<br></br>
+          Free  +91-99-53-988-288
         </h4>
       </li>
       <li className="active">
@@ -33,7 +33,7 @@ const page = () => {
         </div>
         <p className="contact-info__title">Send Email</p>
         <h4 className="contact-info__text">
-          <a href="mailto:Demo@gmail.com">Inquiry@oracleglobaleducation.com</a>
+          <a href="mailto:Demo@gmail.com" className='text-white'>Inquiry@oracleglobaleducation.com</a>
         </h4>
       </li>
       <li>

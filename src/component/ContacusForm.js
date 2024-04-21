@@ -10,7 +10,7 @@ const ContacusForm = () => {
 <img src="/assets/img/slide-girl.png"/>
       </div>
       <div className='col-lg-6'>
-      <h4 className="course-details__curriculum__title text-center EnquiryForm-underline">Interested in discussing <i className="fa-solid fa-circle-question"></i></h4>
+      <h4 className="course-details__curriculum__title text-center EnquiryForm-underline">Interested in discussing</h4>
 
       <form>
 

@@ -26,7 +26,7 @@ const QuiryForm = () => {
       <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z" />
     </g>
   </svg>
-</h5><br></br>
+</h5>
 
       {/* EnquiryForm-underline */}
       <form>
