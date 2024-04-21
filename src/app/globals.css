@@ -2209,7 +2209,12 @@ section.courses-review-wrapper{
     padding: 0;
     list-style: none;
   }
-  
+  .course-details__overview h3 {
+    font-weight: 700;
+    font-size: 17px;
+    color: #F57005;
+    font-family: '__Urbanist_4806ca';
+  }
   .course-details__sidebar__lists li {
     display: flex;
     align-items: center;
