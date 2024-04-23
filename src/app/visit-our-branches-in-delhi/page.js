@@ -14,7 +14,7 @@ const page = () => {
      <Navigation/>
    <CoomonStudentSlider/>
    <section className="course-details branch visit-our-branches-in-delhi pt-pb">
-   <h2 class="text-center">HOME OUR ORACLE GLOBAL EDUCATION BRANCHES IN DELHI</h2>
+   <h2 className="text-center">HOME OUR ORACLE GLOBAL EDUCATION BRANCHES IN DELHI</h2>
 
   <div className="container mt-5">
 
@@ -45,7 +45,7 @@ const page = () => {
           </div>
           {/* <div className="course-details__meta__price">$473.00</div> */}
         </div>
-        <h3 class="course-details__sidebar__title">OUR BRANCHES</h3>
+        <h3 className="course-details__sidebar__title">OUR BRANCHES</h3>
 
         {/* <h3 className="course-details__title">
         OUR BRANCHES
@@ -61,9 +61,9 @@ const page = () => {
                   We are equipped with all, whatever can feel you special and like a proficient after getting here, touch this emotion of our youngsters we have-
                   </p>
 
-                  <h3 class="course-details__sidebar__title">DIGITAL CLASSES TO MAKE YOU BETTER</h3>
+                  <h3 className="course-details__sidebar__title">DIGITAL CLASSES TO MAKE YOU BETTER</h3>
                   <p className="course-details__overview__text">All this is only for you! To facilitate you at your place only with special learning modules digitalized classrooms with audio and video lectures. We are well equipped with digital technology and digital classrooms to make you more perfect and pro in your favourite language.</p>
-                  <h3 class="course-details__sidebar__title">WELL-CRAFTED LANGUAGE EXPERTS</h3>
+                  <h3 className="course-details__sidebar__title">WELL-CRAFTED LANGUAGE EXPERTS</h3>
                   <p className="course-details__overview__text">With our educational community and language experts community, you get global opportunities to serve various industries and markets whether you are looking for bureaucracy or international business.</p>
                   <ul className="list-unstyled course-details__overview__lists">
                     <li>

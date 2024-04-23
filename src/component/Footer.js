@@ -72,49 +72,49 @@ const Footer = () => {
 
                     <li>
                       <Link className="text-white" href="/">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Home
                       </Link>
                     </li>
                     <li>
-                      <Link className="text-white" href="/about">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                      <Link className="text-white" href="/about-best-international-laungage-institute-in-delhi">
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         About
                       </Link>
                     </li>
                     <li>
                       <Link className="text-white" href="/visit-our-branches-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Our Branch
                       </Link>
                     </li> 
                     <li>
                       <Link className="text-white" href="/best-international-laungage-service">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Service
                       </Link>
                     </li>
                     <li>
                       <Link className="text-white" href="/visit-our-gallery">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Gallery
                       </Link>
                     </li>
                     <li>
                       <Link className="text-white" href="/blog">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Blogs
                       </Link>
                     </li> 
                     <li>
                       <Link className="text-white" href="/visit-our-kids-section">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Kids Section
                       </Link>
                     </li>
                     <li>
                       <Link className="text-white" href="/contact-us-for-more-information">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Contact Us
                       </Link>
                     </li>
@@ -132,86 +132,86 @@ const Footer = () => {
 
                     <li>
                       <Link href="/best-german-language-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         German
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-spanish-language-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Spanish
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-english-speaking-course-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         English Speak..
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-japanese-laungage-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Japanese{" "}
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-chinese-laungage-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Chinese{" "}
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-ielts-coaching-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         IELTS Coaching
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-hindi-laungage-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Hindi
                       </Link>
                     </li>
                     <li>
                       <Link href="/best-arabic-laungage-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Arabic
                       </Link>
                     </li>
                     <li>
                       <Link href="/best-french-language-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         French
                       </Link>
                     </li> 
                     <li>
                       <Link href="/best-russian-laungage-institute-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Russian
                       </Link>
                     </li> 
 
                     <li>
                       <Link href="/best-counsiling-for-study-in-abroad-in-delhi">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Study In Abroad
                       </Link>
                     </li> 
                     {/* <li>
                       <Link href="employability-course">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Employability
                       </Link>
                     </li>  */}
                     {/* <li>
                       <Link href="career-counseling">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         Career Couns..
                       </Link>
                     </li> */}
                     <li>
                       <Link href="/occupational-english-test">
-                        <i class="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
+                        <i className="fa-solid fa-hand-point-right text-secondary"></i>&nbsp;
                         OET Course
                       </Link>
                     </li> 

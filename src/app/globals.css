@@ -5400,15 +5400,14 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
 }
 
 
-/* accordion css starting here  */
-/* accordion css starting here  */
-/* accordion css starting here  */
-/* accordion css starting here  */
-
+/* accordion css starting here  */ 
 /* Plus icon for closed accordion */
 button.accordion-button.collapsed{
-  font-size: 12px !important;
-  font-weight: 600;
+  font-size: 16px !important;
+  font-weight: 400;
+}
+button.accordion-button.collapsed:focus, button.accordion-button.collapsed:active, .accordion-button:focus{
+  box-shadow: none !important;
 }
 .accordion-button::after {
   content: '\002B'; 

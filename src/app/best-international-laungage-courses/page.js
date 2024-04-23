@@ -7,6 +7,19 @@ import QuiryForm from '@/component/QuiryForm';
 import { CourseData } from '@/utils/data';
 import Link from 'next/link';
 
+ 
+export  function generateMetadata(){     
+  return{
+      title: "Enroll For The Best International Language Institute in Delhi for The Best International Language Course",
+      description: "As the demand for language proficiency continues to grow this institute plays a pivotal role. The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications.",
+      keywords: ['best international language institute in dlehi', 'best foreign language institute in delhi', 'best leading language institute in dlehi', 'best language teaching institute in delhi', 'study with best global language institute oracle'],
+      alternates: {
+        canonical: `https://oracleglobaleducation.com/best-international-laungage-courses`,
+      },  
+  }
+}
+
+
 const page = () => {
   const CourseList = CourseData
   return (

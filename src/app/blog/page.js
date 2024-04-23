@@ -67,7 +67,7 @@ const page = async() => {
                                                 <p className='mb-0'>Author</p>
                                             </div>
                                         </div>
-                                        <Link href={`/blog/${blogValue.slug}`} className='blog-link'><i class="fa-solid fa-arrow-right"></i></Link>
+                                        <Link href={`/blog/${blogValue.slug}`} className='blog-link'><i className="fa-solid fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

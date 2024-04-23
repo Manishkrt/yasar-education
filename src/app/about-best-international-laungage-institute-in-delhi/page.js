@@ -4,7 +4,18 @@ import QuiryForm from '@/component/QuiryForm'
 import Navigation from '@/component/Navigation'
 import Footer from '@/component/Footer'
 import CoomonStudentSlider from '@/component/CoomonStudentSlider'
+ 
 
+export  function generateMetadata(params){     
+  return{
+      title: "ABOUT US. Oracle International Language Institute is the Best coaching and training  institute for International Language",
+      description: "Oracle International Language Institute teaches a wide range of language courses for global communication. It is the best international language institute in Delhi for a beginner or an advanced learner. This institute formats its programs to suit various proficiency levels. ",
+      keywords: ['best language institute to learn any language' , 'best foreign language institute in delhi','study with leading language institute in delhi', 'best language teaching institute in delhi', 'oracle global language institute in delhi'],
+      alternates: {
+        canonical: `https://oracleglobaleducation.com/about-best-international-laungage-institute-in-delhi`,
+      },  
+  }
+}
 
 const page = () => {
   return (
