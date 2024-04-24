@@ -51,7 +51,7 @@ const CourseDetails = ({params}) => {
               </div>
               <div className='d-flex align-items-center gap-3 mb-4'>
                 <div className="course-details__meta__cats ms-0 ">
-                  <Link href="#">Category</Link>
+                  <Link href="#OracleInternationalLanguageInstitute">Oracle International Language Institute</Link>
                 </div>
                 <div className="course-details__meta__ratings">
                   <span className="fa-solid fa-star" />

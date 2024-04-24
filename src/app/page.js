@@ -16,6 +16,7 @@ import OurService from "@/component/OurService";
 import HappyStudentStrip from "@/component/HappyStudentStrip";
 import CareerCounsellingStrip from "@/component/CareerCounsellingStrip";
 import QuiryForm from "@/component/QuiryForm";
+import CompanyLogoSlider from "@/component/CompanyLogoSlider";
 
 
 export  function generateMetadata(params){     
@@ -44,6 +45,8 @@ export default function Home() {
     <Blog/>
     {/* <Testimonial/> */}
     <QuiryForm/>
+    <CompanyLogoSlider/>
+
     <CareerCounsellingStrip/>
     {/* <Newsletter/> */}
     <Footer/>

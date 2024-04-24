@@ -43,7 +43,7 @@ const page = () => {
             <p className="course-details__meta__designation">Project Manager</p>
           </div>
           <div className="course-details__meta__cats">
-            <a href="course.html">Development</a>
+            <Link href="" >Development</Link>
           </div>
           <div className="course-details__meta__ratings">
             <span className="fa-solid fa-star" />
@@ -184,10 +184,10 @@ const page = () => {
                 </div>
                 <div className="course-details__sidebar__post__content">
                   <span className="course-details__sidebar__post__meta">
-                    By <a href="course.html">Robert Fox</a>
+                    By <Link href="" >Robert Fox</Link>
                   </span>
                   <h3 className="course-details__sidebar__post__title">
-                    <a href="course.html">The Complete Web.....</a>
+                    <Link href="" >The Complete Web.....</Link>
                   </h3>
                   <div className="course-details__sidebar__post__ratings">
                     <span className="fa-solid fa-star" />
@@ -207,10 +207,10 @@ const page = () => {
                 </div>
                 <div className="course-details__sidebar__post__content">
                   <span className="course-details__sidebar__post__meta">
-                    By <a href="course.html">Robert Fox</a>
+                    By <Link href="" >Robert Fox</Link>
                   </span>
                   <h3 className="course-details__sidebar__post__title">
-                    <a href="course.html">Management Cons.....</a>
+                    <Link href="" >Management Cons.....</Link>
                   </h3>
                   <div className="course-details__sidebar__post__ratings">
                     <span className="fa-solid fa-star" />
@@ -230,10 +230,10 @@ const page = () => {
                 </div>
                 <div className="course-details__sidebar__post__content">
                   <span className="course-details__sidebar__post__meta">
-                    By <a href="course.html">Robert Fox</a>
+                    By <Link href="" >Robert Fox</Link>
                   </span>
                   <h3 className="course-details__sidebar__post__title">
-                    <a href="course.html">The Special HTML.....</a>
+                    <Link href="" >The Special HTML.....</Link>
                   </h3>
                   <div className="course-details__sidebar__post__ratings">
                     <span className="fa-solid fa-star" />

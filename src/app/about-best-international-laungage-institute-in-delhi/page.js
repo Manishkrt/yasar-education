@@ -4,6 +4,7 @@ import QuiryForm from '@/component/QuiryForm'
 import Navigation from '@/component/Navigation'
 import Footer from '@/component/Footer'
 import CoomonStudentSlider from '@/component/CoomonStudentSlider'
+import Link from 'next/link';
  
 
 export  function generateMetadata(params){     
@@ -371,17 +372,17 @@ const page = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="team.html">International Curriculum</a>
+              <Link href="team.html">International Curriculum</Link> 
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
             We adhere to global curriculum standards in all our courses – English, IELTS, German, French, Spanish, Chinese & Arabic
             </p>
             {/* /.service-content */}
-            <a className="service-one__rm" href="team.html">
+            <Link className="service-one__rm" href="team.html">
               Read More
               <span className="icon-caret-right" />
-            </a>
+            </Link> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 118 129"
@@ -407,17 +408,17 @@ const page = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="team-become.html">Certified instructors</a>
+              <Link href="team-become.html">Certified instructors</Link> 
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
             The faculty members consist of trained and experienced language instructors.
             </p>
             {/* /.service-content */}
-            <a className="service-one__rm" href="team-become.html">
+            <Link className="service-one__rm" href="team-become.html">
               Read More
               <span className="icon-caret-right" />
-            </a>
+            </Link> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 118 129"
@@ -443,17 +444,17 @@ const page = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="course.html">Regularly enhance teaching competencies</a>
+              <Link href="course.html">Regularly enhance teaching competencies</Link> 
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
             We upgrade our teaching methodologies in IELTS, TOEFL, PTE and other language courses from time to time to stay relevant.
             </p>
             {/* /.service-content */}
-            <a className="service-one__rm" href="course.html">
+            <Link className="service-one__rm" href="course.html">
               Read More
               <span className="icon-caret-right" />
-            </a>
+            </Link> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 118 129"
@@ -479,17 +480,17 @@ const page = () => {
             </div>
             {/* /.service-icon */}
             <h3 className="service-one__title">
-              <a href="about.html">Superior quality language training</a>
+              <Link href="about.html">Superior quality language training</Link> 
             </h3>
             {/* /.service-title */}
             <p className="service-one__text">
             We ensure continual high-quality education and training in French, Spanish and all other languages.
             </p>
             {/* /.service-content */}
-            <a className="service-one__rm" href="about.html">
+            <Link className="service-one__rm" href="about.html">
               Read More
               <span className="icon-caret-right" />
-            </a>
+            </Link> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 118 129"
@@ -549,7 +550,7 @@ const page = () => {
               Need to Know More Details?
             </h4>
             <p className="about-one__thumb__box__text">
-              <a href="tel:9953988288">9953988288</a>
+              <Link href="tel:9953988288">9953988288</Link> 
             </p>
           </div>
         </div>
@@ -712,11 +713,11 @@ const page = () => {
           {/* /.icon-box */}
        
           {/* /.icon-box */}
-          <a  className="eduact-btn">
+          <Link  className="eduact-btn">
             <span className="eduact-btn__curve" />
             Discover More <i className="fa-solid fa-arrow-right"></i>
             <i className="icon-arrow" />
-          </a>
+          </Link> 
           {/* /.btn */}
         </div>
         {/* about content end*/}

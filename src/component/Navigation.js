@@ -1,3 +1,4 @@
+
 'use client'
 import Link from 'next/link';
 import React, { useState } from 'react'
@@ -11,7 +12,7 @@ import FormModal from './FormModal';
 
 const Navigation = () => {
   const [showModal, setShowModal] = useState(false);
-
+  const [showDropdown, setShowDropdown] = useState(false);
   const handleEnrollClick = () => {
     setShowModal(true);
   };
@@ -41,8 +42,19 @@ const Navigation = () => {
             navbarScroll
           >
             <Link href="/" className='fw-bold'>Home</Link> 
-            <Link href="/best-international-laungage-courses" className='fw-bold'>Course</Link> 
-            {/* <NavDropdown title="Course" className='fw-bold' id="navbarScrollingDropdown" >
+            {/* <Link href="/best-international-laungage-courses" className='fw-bold'>Course</Link>  */}
+            <NavDropdown
+      title="Course"
+      className='fw-bold navbarScrollingDropdowns course-submenus'
+      id="navbarScrollingDropdown"
+      show={showDropdown}
+      onMouseEnter={() => setShowDropdown(true)}
+      onMouseLeave={() => setShowDropdown(false)}
+    >
+      <div className='container'>
+        <div className='row'>
+<div className='col-lg-4 col-md-6 col-sm-6'>
+         {/* <NavDropdown title="Course" className='fw-bold' id="navbarScrollingDropdown" >
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action4">
                 Another action
@@ -52,6 +64,142 @@ const Navigation = () => {
                 Something else here
               </NavDropdown.Item>
             </NavDropdown> */}
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-german-language-institute-in-delhi">
+         
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            German
+       
+        </Link>
+      </NavDropdown.Item>
+      </div>
+<div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-spanish-language-institute-in-delhi">
+         
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Spanish
+         
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-english-speaking-course-in-delhi">
+        
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            English Speak..
+          
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-japanese-laungage-institute-in-delhi">
+    
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Japanese
+    
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-chinese-laungage-institute-in-delhi">
+     
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Chinese
+         
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack'  href="/best-ielts-coaching-institute-in-delhi">
+     
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            IELTS Coaching
+        
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-hindi-laungage-institute-in-delhi">
+        
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Hindi
+      
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-arabic-laungage-institute-in-delhi">
+        
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Arabic
+       
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-french-language-institute-in-delhi">
+       
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            French
+         
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-russian-laungage-institute-in-delhi">
+         
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Russian
+         
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/best-counsiling-for-study-in-abroad-in-delhi">
+       
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            Study In Abroad
+          
+        </Link>
+      </NavDropdown.Item>
+      </div>
+      <div className='col-lg-4 col-md-6 col-sm-6'>
+
+      <NavDropdown.Item>
+        <Link className='Common-menu-itemsblack' href="/occupational-english-test">
+          
+            <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
+            OET Course
+          
+        </Link>
+      </NavDropdown.Item>
+      </div>
+
+      </div>
+      </div>
+      {/* <NavDropdown.Divider /> */}
+      {/* <NavDropdown.Item href="#action5">Something else here</NavDropdown.Item> */}
+    </NavDropdown>
             <Link href="/visit-our-gallery" className='fw-bold'>Gallery</Link> 
             <Link href="/blog" className='fw-bold'>Blogs</Link> 
             <Link href="/visit-our-kids-section" className='fw-bold'>Kids Section</Link> 
