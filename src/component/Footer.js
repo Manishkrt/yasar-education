@@ -263,7 +263,7 @@ const Footer = () => {
 
       <section className="Mini-Footer-Wrapper">
         <div className="container text-enter">
-          <h6> Copyright 2024 | Eduacation</h6>
+          <h6> Copyright 2024 | Education</h6>
         </div>
       </section>
     </>

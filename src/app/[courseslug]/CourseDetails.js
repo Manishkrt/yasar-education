@@ -51,14 +51,14 @@ const CourseDetails = ({params}) => {
               </div>
               <div className='d-flex align-items-center gap-3 mb-4'>
                 <div className="course-details__meta__cats ms-0 ">
-                  <a href="course.html">Development</a>
+                  <Link href="#">Category</Link>
                 </div>
                 <div className="course-details__meta__ratings">
                   <span className="fa-solid fa-star" />
                   <span className="fa-solid fa-star" />
                   <span className="fa-solid fa-star" />
                   <span className="fa-solid fa-star" />
-                  <span className="fa-solid fa-star" />
+                  <span className="fa-solid fa-star-half-stroke" />
                   <div className="course-details__meta__ratings__reviews">
                     ({courseValue?.ratingCount} Reviews)
                   </div>

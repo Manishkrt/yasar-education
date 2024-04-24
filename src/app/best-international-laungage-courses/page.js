@@ -55,7 +55,7 @@ const page = () => {
                         <span className="icon-star fa-solid fa-star" />
                         <span className="icon-star fa-solid fa-star" />
                         <span className="icon-star fa-solid fa-star" />
-                        <span className="icon-star fa-solid fa-star" />
+                        <span className="icon-star fa-solid fa-star-half-stroke" />
                         <div className="course-two__ratings__reviews">( {courseValue.ratingCount} Reviews) </div>
                       </div>}
                     <h3 className="course-two__title mb-2">

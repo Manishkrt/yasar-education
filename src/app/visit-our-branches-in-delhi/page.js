@@ -25,24 +25,24 @@ const page = () => {
           <img src="/assets/img/china.jpg" alt="eduact" />
         </div>
         <div className="course-details__meta">
-          <div className="course-details__meta__author">
-            <img src="/assets/img/author-7.png" alt="eduact" />
-            <h5 className="course-details__meta__name">Guy Hawkins</h5>
-            <p className="course-details__meta__designation">Project Manager</p>
-          </div>
-          <div className="course-details__meta__cats">
+          {/* <div className="course-details__meta__author"> */}
+            {/* <img src="/assets/img/author-7.png" alt="eduact" /> */}
+            {/* <h5 className="course-details__meta__name">Guy Hawkins</h5> */}
+            {/* <p className="course-details__meta__designation">Project Manager</p> */}
+          {/* </div> */}
+          {/* <div className="course-details__meta__cats">
             <a href="course.html">Development</a>
-          </div>
-          <div className="course-details__meta__ratings">
+          </div> */}
+          {/* <div className="course-details__meta__ratings">
             <span className="fa-solid fa-star" />
             <span className="fa-solid fa-star" />
             <span className="fa-solid fa-star" />
             <span className="fa-solid fa-star" />
-            <span className="fa-solid fa-star" />
+            <i class="fa-solid fa-star-half-stroke"></i>
             <div className="course-details__meta__ratings__reviews">
-              (25 Reviews)
+              (4.9 Reviews)
             </div>
-          </div>
+          </div> */}
           {/* <div className="course-details__meta__price">$473.00</div> */}
         </div>
         <h3 className="course-details__sidebar__title">OUR BRANCHES</h3>

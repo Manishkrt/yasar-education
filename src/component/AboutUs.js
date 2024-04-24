@@ -62,29 +62,27 @@ const AboutUs = () => {
               <ul className="Home-page-ul-wrapper">
                 <li>
                 <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
-                  <i className="fa-solid fa-check"></i> &nbsp;
-                  Seamless Process of Enrolment in language courses
+                 
+                 <p className="mb-0"> <i className="fa-solid fa-check"></i>&nbsp;Seamless Process of Enrolment in language courses</p>
                 </div>
                 </li>
                 <li>
                 <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
-                  <i className="fa-solid fa-check"></i> &nbsp;
-                Premier Assistance to Students in all language courses
+                 <p className="mb-0"><i className="fa-solid fa-check"></i>&nbsp;Premier Assistance to Students in all language courses</p>
                 </div>
                 </li>
                 <li>
                
                 <div className="Wrapper-RightICon_aboutUS d-flex">
-                  <i className="fa-solid fa-check"></i> &nbsp;
-                  Diverse Expert Faculty in German, French, Spanish,
+                  
+                  <p className="mb-0"><i className="fa-solid fa-check"></i>&nbsp;Diverse Expert Faculty in German, French, Spanish,</p>
                
               </div>
                 </li>
              
              <li>
              <div className="Wrapper-RightICon_aboutUS d-flex ProvideBestSupport">
-             <i className="fa-solid fa-check"></i> &nbsp;
-                  Lifetime Membership after enrolling in any of the language courses 
+             <p className="mb-0"><i className="fa-solid fa-check"></i>&nbsp;Lifetime Membership after enrolling in any of the language courses </p>
              </div> 
 
              </li>

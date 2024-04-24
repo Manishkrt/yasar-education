@@ -51,7 +51,7 @@ const Courses = () => {
                              <i className="fa-solid text-secondary fa-star"></i> 
                              <i className="fa-solid text-secondary fa-star"></i> 
                              <i className="fa-solid text-secondary fa-star"></i> 
-                             <i className="fa-solid text-secondary fa-star"></i> 
+                             <i className="fa-solid text-secondary  fa-star-half-stroke"></i>
                              </div> 
                          </div>
                          <h3 className='courses-courseName mb-3'>
