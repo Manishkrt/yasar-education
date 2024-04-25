@@ -568,3 +568,32 @@ h2{
 .social-icon-box:hover{
     background-color: #4F5DE4;
 }
+
+
+/* course drop  */
+
+.course-drop-wrap{
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    width: 550px; 
+    padding-top: 10px;  
+}
+.course-drop-btn:hover .course-drop-wrap{
+    display: block !important;
+}
+@media (max-width: 991px) {
+    .course-drop-wrap{
+        display: block !important;
+        position: static; 
+        width: 100%;
+        padding-top: 10px; 
+        height: 100% ;
+        overflow: hidden; 
+    }
+    .course-drop-btn:hover .course-drop-wrap{
+        display: block !important;
+        height: 100%;
+        padding-top: 10px;
+    }
+}
