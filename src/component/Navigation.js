@@ -8,9 +8,9 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import FormModal from './FormModal';
+import FormModal from './FormModal'; 
 
-const Navigation = () => {
+const Navigation = () => { 
   const [showModal, setShowModal] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const handleEnrollClick = () => {
