@@ -4,6 +4,7 @@ import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
 import Navigation from '@/component/Navigation';
 import QuiryForm from '@/component/QuiryForm';
+import Link from 'next/link';
 import React from 'react'
 import { Tab, Tabs } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
@@ -43,7 +44,7 @@ const page = () => {
             <p className="course-details__meta__designation">Project Manager</p>
           </div>
           <div className="course-details__meta__cats">
-            <Link href="" >Development</Link>
+            <Link href="/" >Development</Link>
           </div>
           <div className="course-details__meta__ratings">
             <span className="fa-solid fa-star" />
