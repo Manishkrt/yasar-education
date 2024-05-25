@@ -5,6 +5,7 @@ import Navigation from '@/component/Navigation'
 import Footer from '@/component/Footer'
 import CoomonStudentSlider from '@/component/CoomonStudentSlider'
 import Link from 'next/link';
+import TopBannerDetails from '@/component/TopBannerDetails'
 
 
 export function generateMetadata(params) {
@@ -18,11 +19,14 @@ export function generateMetadata(params) {
   }
 }
 
+
+
 const Page = () => {
   return (
     <>
       <Navigation />
-      <CoomonStudentSlider />
+      {/* <CoomonStudentSlider /> */}
+      <TopBannerDetails/>
 
 
       <section className="about-two about-two--about pt-pb">

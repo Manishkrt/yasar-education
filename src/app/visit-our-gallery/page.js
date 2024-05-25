@@ -10,6 +10,7 @@ import { Tab, Tabs, Modal } from 'react-bootstrap';
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css'; 
 import './page.css'
+import TopBannerDetails from '@/component/TopBannerDetails';
 
 
 const page = () => {
@@ -64,14 +65,6 @@ const page = () => {
       original: 'assets/img/NewGallery6.jpg',
       thumbnail: 'assets/img/NewGallery6.jpg',
     },
-    {
-      original: 'assets/img/gallery-2.jpg',
-      thumbnail: 'assets/img/gallery-2.jpg',
-    },
-    {
-      original: 'assets/img/gallery-3.jpg',
-      thumbnail: 'assets/img/gallery-3.jpg',
-    }, 
   ];
 
   const settings = {
@@ -86,8 +79,8 @@ const page = () => {
   return (
     <>
       <Navigation />
-      <CoomonStudentSlider />
-      <>
+      {/* <CoomonStudentSlider /> */}
+      <TopBannerDetails/>
 
         <section className="gallery-page pt-pb">
           <div className='text-center'>
@@ -216,9 +209,7 @@ const page = () => {
       </Modal>
           </div>
 
-        </section>
-
-      </>
+        </section> 
 
 
       <QuiryForm />

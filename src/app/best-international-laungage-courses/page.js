@@ -6,6 +6,7 @@ import CompanyLogoSlider from '../../component/CompanyLogoSlider';
 import QuiryForm from '@/component/QuiryForm';
 import { CourseData } from '@/utils/data';
 import Link from 'next/link';
+import TopBannerDetails from '@/component/TopBannerDetails';
 
  
 export  function generateMetadata(){     
@@ -28,7 +29,8 @@ const page = () => {
 
 
 
-      <CoomonStudentSlider />
+      {/* <CoomonStudentSlider /> */}
+      <TopBannerDetails/>
       <section className="course-two course-two--page pt-pb">
 
         <div className="container">

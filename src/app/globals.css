@@ -2356,7 +2356,7 @@ section.courses-review-wrapper{
   }
 
   .course-details__tabs .nav-tabs .nav-link.active {
-    color: var(--eduact-white);
+    color: var(--eduact-white) !important;
     background-color: var(--eduact-secondary);
     border-color: var(--bs-nav-tabs-link-active-border-color);
 }
@@ -5061,6 +5061,7 @@ background-image: linear-gradient(to right, #e85a19, #fa7199, #e43603, #f5ce62);
   color: var(--eduact-white);
 }
 
+
 .course-details__curriculum {
   position: relative;
   margin: 44px 0 0;
@@ -5726,7 +5727,7 @@ button.accordion-button.collapsed:focus, button.accordion-button.collapsed:activ
   
   line-height: 26px;
 
-  padding: 0 0 9px;
+  padding: 6px 0px;
   margin: 0px 0 0;}
 /* course categories css ending here  */
 /* course categories css ending here  */

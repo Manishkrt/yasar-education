@@ -3,6 +3,7 @@ import ContacusForm from '@/component/ContacusForm';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Footer from '@/component/Footer';
 import Navigation from '@/component/Navigation';
+import TopBannerDetails from '@/component/TopBannerDetails';
 
 import React from 'react'
 
@@ -10,7 +11,8 @@ const page = () => {
   return (
   <>
     <Navigation/>
-   <CoomonStudentSlider/>
+   {/* <CoomonStudentSlider/> */}
+   <TopBannerDetails/>
    <ContacusForm/>
 
    <section className="contact-info pt-pb">
@@ -27,7 +29,7 @@ const page = () => {
           Free  +91-99-53-988-288
         </h4>
       </li>
-      <li className="active">
+      <li className="active border-end border-start">
         <div className="contact-info__icon">
           <span className="fa-solid fa-envelope icon-Email" />
         </div>

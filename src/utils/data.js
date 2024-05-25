@@ -1,175 +1,8 @@
 export const CourseData = [
   
     {
-        id:1,
-        title: 'ENGLISH SPEAKING COURSES',
-        slug: 'best-english-speaking-course-in-delhi',
-        duration: '3 Months - 9 Month',
-        timing: '8:30 AM - 6:30 PM',
-        batchSize: '7-10 ',
-        videosTime: '10 Hours',
-        skillLevel: 'Advanced',
-        language: 'English',
-        projectManager: 'Course Duration',
-        rating: 5,
-        ratingCount: 4.9,
-        price: '16500',
-        totalLesson: "15",
-        totalClass: '48',
-        courseTable : [
-                    {
-                        course : {
-                            courseLavel: '3',
-                            courseType: 'Regular course'
-                        },
-                        levelName: 'Beginner',
-                        duration: '3 month',
-                        fee: '16500',
-                        totalClass: '48'
-                    },  
-                    {
-                         
-                        levelName: 'intermediate',
-                        duration: '3 month',
-                        fee: '16500',
-                        totalClass: '48'
-                    },  
-                    {
-                        
-                        levelName: 'advance',
-                        duration: '3 month',
-                        fee: '16500',
-                        totalClass: '48'
-                    },  
-                ],
-        description : "<p>English is the most widely accepted and spoken language all around the globe. The language has evolved as a medium of cross cultural communication throughout the whole world. Other than literacy and education there has not been any skill expect English which has been this impactful. More than 70 percent of the content on the internet is in English language. English is an important skill required for economic competitiveness at both the individual, national international levels. Proficiency in the language corresponds with higher incomes, better quality of life, greater connectivity, and more innovation.</p><h4>ENGLISH FOR KIDS:</h4><p>At Oracle we put in our best efforts to indulge children in the method of infotainment. We aim to provide the enrolled kids with an interactive atmosphere where they learn through play way methods. Our specially designed courses aim to provide the best skills for the required age group.</p><h4>ENGLISH FOR BUSINESS:</h4><p>The institute offers a wide range of information and learning for the working professionals so that they can increase their scope in working overseas which would help them them to grow their business.</p><h4>ENGLISH FOR EMPLOYEES:</h4><p>The institute provides the employees to improve their language skills and build proficiency in the language. Also the course enables the individual to develop a sense of confidence which helps the individual to perform better at the workplace.</p><h4>ENGLISH FOR ADULTS:</h4><p>As English language is the global language and therefore it is very important to have a hands on training in the language. Such skills enable the adults to be identified as talent required at the global workplace. Course at the institute helps the individual to refine the required skills and training.</p><h4>ENGLISH FOR EDUCATIONAL INSTITUTIONS:</h4><p>At Oracle, the student is able to learn from our professional and hardworking teachers. The material and modules provided by the institute includes everything which is needed to improve the skills and master the language. Most of the institutions abroad require proficiency in the language. The examinations like IELTS and GRE also require proper and specialised training in the language.</p>",
-        oracleDescription: "            <p>The Oracle International Language Institute has been pioneer institution in teaching English across all ages and professions. The course taught at Oracle promises to cover all the phases and aspects which are important and crucial in learning the language.</p><ul><li>We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.</li><li>Form small batches of 10-12 students to ensure quality education.</li><li>Regular assessment of students in a comprehensive manner.</li><li>Activities like role play, video case study, etc. to facilitate all around understanding.</li><li>360-degree feedback mechanism.</li><li>Flexible batches for kids, professionals, doctors, engineers.</li><li>We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.</li><li>Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.</li></ul><p><br>&nbsp;</p>",
-        thumbnail: '/assets/img/english-thumbnail.jpg',
-        image: '/assets/img/english.jpg' ,
-        flagImage: '/assets/img/english-flag.jpeg'      
-    },
-    {
-        id:2,
-        title: 'SPANISH LANGUAGE COURSE',
-        slug: 'best-spanish-language-institute-in-delhi',
-        duration: '3 Months - 18 Months',
-        timing: '8:30 AM - 6:30 PM',
-        batchSize: '8 - 10',
-        videosTime: '10 Hours',
-        skillLevel: 'Advanced',
-        language: 'English',
-        projectManager: 'Course Duration',
-        rating: 5,
-        ratingCount: 4.9,
-        price: '22500',
-        totalLesson: "15",
-        totalClass: '48',
-        description : "<p>Spanish belongs to the Indo-European family of languages, significantly spoken by one-third of the total world’s population. It has around 330 million native speakers. Spanish is spoken in Spain and 22 other countries including: Andorra, Argentina, Belize, Bolivia, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Equatorial Guinea, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Uruguay, the USA and Venezuela.</p><p>Spanish is referred to as one of the most phonetic languages in the world. If you know how the word is spelled, you can almost know how it is pronounced. Spanish and English share a lot of their vocabulary and are connected as both the languages derive a lot of words from Latin and Arabic.</p><ul><li>Fluency in the language opens a wide range of job opportunities for an individual. One has options to apply from different careers such as Foreign Language Teaching, Traveling and Tourism, Translation, Interpretation, Foreign Service, International Business, Journalism.</li><li>Proficiency in the language also enables an individual to apply for postsecondary teaching jobs, translators and interpreters, content writer, etc.</li><li>Many companies in the IT sector, Export houses, Marketing, Retailing, Pharmaceutical sector are looking for individuals who can work with them as a Spanish Language expert.</li><li>Many companies like TCS, Aditya Birla Group from India are expanding their business and have opened development centers across Latin America. Therefore, knowing the language puts the individual in a firm position.</li><li>Expertise in the language gives an individual to model himself/herself as a global employee and increase the growth manifold.</li></ul>",
-        oracleDescription: "<ul><li>We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.</li><li>Form small batches of 10-12 students to ensure quality education.</li><li>Regular assessment of students in a comprehensive manner.</li><li>Activities like role play, video case study, etc. to facilitate all around understanding.</li><li>360-degree feedback mechanism.</li><li>Flexible batches for kids, professionals, doctors, engineers.</li><li>We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.</li><li>Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.</li></ul><p><br>&nbsp;</p>",
-        courseTable : [
-            {
-                course : {
-                    courseLavel: '5',
-                    courseType: 'regular sessions'
-                },
-                levelName: 'A1',
-                duration: '3 month',
-                fee: '22500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'A2',
-                duration: '3 month',
-                fee: '24500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'B1',
-                duration: '3 month',
-                fee: '27500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'B2',
-                duration: '3 month',
-                fee: '30500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'C1',
-                duration: '3 month',
-                fee: '40500',
-                totalClass: '48'
-            },
-            {
-                course : {
-                    courseLavel: '4',
-                    courseType: 'crash course'
-                },
-                levelName: 'A1',
-                duration: '45 days',
-                fee: '27500',
-                totalClass: '35'
-            },
-            { 
-                levelName: 'A2',
-                duration: '45 days',
-                fee: '29500',
-                totalClass: '35'
-            },
-            { 
-                levelName: 'B1',
-                duration: '45 days',
-                fee: '32500',
-                totalClass: '35'
-            },
-            { 
-                levelName: 'B2',
-                duration: '45 days',
-                fee: '45500',
-                totalClass: '35'
-            },
-            {
-                course : {
-                    courseLavel: '5',
-                    courseType: 'online one-on-one sessions'
-                },
-                levelName: 'A1',
-                duration: '3 month',
-                fee: '27500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'A2',
-                duration: '3 month',
-                fee: '29500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'B1',
-                duration: '3 month',
-                fee: '32500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'B2',
-                duration: '3 month',
-                fee: '45500',
-                totalClass: '48'
-            },
-            { 
-                levelName: 'C1',
-                duration: '3 month',
-                fee: '45500',
-                totalClass: '48'
-            },
-        ],
-        thumbnail: '/assets/img/spanish-thumbnail.jpg',
-        image: '/assets/img/spain.jpg' ,
-        flagImage: '/assets/img/spain-flag.jpeg'      
-    },
-    {
         id:3,
+        name: "French",
         title: 'FRENCH LANGUAGE COURSE',
         slug: 'best-french-language-institute-in-delhi',
         duration: '3 Months - 18 Months',
@@ -290,6 +123,7 @@ export const CourseData = [
     },
     {
         id:4,
+        name: "German",
         title: 'GERMAN LANGUAGE COURSE',
         slug: 'best-german-language-institute-in-delhi',
         duration: '3 Months - 18 Months',
@@ -363,7 +197,178 @@ export const CourseData = [
         flagImage: '/assets/img/german-flag.jpeg'      
     },
     {
+        id:2,
+        name: "Spanish",
+        title: 'SPANISH LANGUAGE COURSE',
+        slug: 'best-spanish-language-institute-in-delhi',
+        duration: '3 Months - 18 Months',
+        timing: '8:30 AM - 6:30 PM',
+        batchSize: '8 - 10',
+        videosTime: '10 Hours',
+        skillLevel: 'Advanced',
+        language: 'English',
+        projectManager: 'Course Duration',
+        rating: 5,
+        ratingCount: 4.9,
+        price: '22500',
+        totalLesson: "15",
+        totalClass: '48',
+        description : "<p>Spanish belongs to the Indo-European family of languages, significantly spoken by one-third of the total world’s population. It has around 330 million native speakers. Spanish is spoken in Spain and 22 other countries including: Andorra, Argentina, Belize, Bolivia, Cayman Islands, Chile, Colombia, Costa Rica, Cuba, Dominican Republic, Ecuador, El Salvador, Equatorial Guinea, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Uruguay, the USA and Venezuela.</p><p>Spanish is referred to as one of the most phonetic languages in the world. If you know how the word is spelled, you can almost know how it is pronounced. Spanish and English share a lot of their vocabulary and are connected as both the languages derive a lot of words from Latin and Arabic.</p><ul><li>Fluency in the language opens a wide range of job opportunities for an individual. One has options to apply from different careers such as Foreign Language Teaching, Traveling and Tourism, Translation, Interpretation, Foreign Service, International Business, Journalism.</li><li>Proficiency in the language also enables an individual to apply for postsecondary teaching jobs, translators and interpreters, content writer, etc.</li><li>Many companies in the IT sector, Export houses, Marketing, Retailing, Pharmaceutical sector are looking for individuals who can work with them as a Spanish Language expert.</li><li>Many companies like TCS, Aditya Birla Group from India are expanding their business and have opened development centers across Latin America. Therefore, knowing the language puts the individual in a firm position.</li><li>Expertise in the language gives an individual to model himself/herself as a global employee and increase the growth manifold.</li></ul>",
+        oracleDescription: "<ul><li>We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.</li><li>Form small batches of 10-12 students to ensure quality education.</li><li>Regular assessment of students in a comprehensive manner.</li><li>Activities like role play, video case study, etc. to facilitate all around understanding.</li><li>360-degree feedback mechanism.</li><li>Flexible batches for kids, professionals, doctors, engineers.</li><li>We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.</li><li>Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.</li></ul><p><br>&nbsp;</p>",
+        courseTable : [
+            {
+                course : {
+                    courseLavel: '5',
+                    courseType: 'regular sessions'
+                },
+                levelName: 'A1',
+                duration: '3 month',
+                fee: '22500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'A2',
+                duration: '3 month',
+                fee: '24500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B1',
+                duration: '3 month',
+                fee: '27500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B2',
+                duration: '3 month',
+                fee: '30500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'C1',
+                duration: '3 month',
+                fee: '40500',
+                totalClass: '48'
+            },
+            {
+                course : {
+                    courseLavel: '4',
+                    courseType: 'crash course'
+                },
+                levelName: 'A1',
+                duration: '45 days',
+                fee: '27500',
+                totalClass: '35'
+            },
+            { 
+                levelName: 'A2',
+                duration: '45 days',
+                fee: '29500',
+                totalClass: '35'
+            },
+            { 
+                levelName: 'B1',
+                duration: '45 days',
+                fee: '32500',
+                totalClass: '35'
+            },
+            { 
+                levelName: 'B2',
+                duration: '45 days',
+                fee: '45500',
+                totalClass: '35'
+            },
+            {
+                course : {
+                    courseLavel: '5',
+                    courseType: 'online one-on-one sessions'
+                },
+                levelName: 'A1',
+                duration: '3 month',
+                fee: '27500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'A2',
+                duration: '3 month',
+                fee: '29500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B1',
+                duration: '3 month',
+                fee: '32500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B2',
+                duration: '3 month',
+                fee: '45500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'C1',
+                duration: '3 month',
+                fee: '45500',
+                totalClass: '48'
+            },
+        ],
+        thumbnail: '/assets/img/spanish-thumbnail.jpg',
+        image: '/assets/img/spain.jpg' ,
+        flagImage: '/assets/img/spain-flag.jpeg'      
+    },
+    {
+        id:1,
+        name: "engilsh speaking",
+        title: 'ENGLISH SPEAKING COURSES',
+        slug: 'best-english-speaking-course-in-delhi',
+        duration: '3 Months - 9 Month',
+        timing: '8:30 AM - 6:30 PM',
+        batchSize: '7-10 ',
+        videosTime: '10 Hours',
+        skillLevel: 'Advanced',
+        language: 'English',
+        projectManager: 'Course Duration',
+        rating: 5,
+        ratingCount: 4.9,
+        price: '16500',
+        totalLesson: "15",
+        totalClass: '48',
+        courseTable : [
+                    {
+                        course : {
+                            courseLavel: '3',
+                            courseType: 'Regular course'
+                        },
+                        levelName: 'Beginner',
+                        duration: '3 month',
+                        fee: '16500',
+                        totalClass: '48'
+                    },  
+                    {
+                         
+                        levelName: 'intermediate',
+                        duration: '3 month',
+                        fee: '16500',
+                        totalClass: '48'
+                    },  
+                    {
+                        
+                        levelName: 'advance',
+                        duration: '3 month',
+                        fee: '16500',
+                        totalClass: '48'
+                    },  
+                ],
+        description : "<p>English is the most widely accepted and spoken language all around the globe. The language has evolved as a medium of cross cultural communication throughout the whole world. Other than literacy and education there has not been any skill expect English which has been this impactful. More than 70 percent of the content on the internet is in English language. English is an important skill required for economic competitiveness at both the individual, national international levels. Proficiency in the language corresponds with higher incomes, better quality of life, greater connectivity, and more innovation.</p><h4>ENGLISH FOR KIDS:</h4><p>At Oracle we put in our best efforts to indulge children in the method of infotainment. We aim to provide the enrolled kids with an interactive atmosphere where they learn through play way methods. Our specially designed courses aim to provide the best skills for the required age group.</p><h4>ENGLISH FOR BUSINESS:</h4><p>The institute offers a wide range of information and learning for the working professionals so that they can increase their scope in working overseas which would help them them to grow their business.</p><h4>ENGLISH FOR EMPLOYEES:</h4><p>The institute provides the employees to improve their language skills and build proficiency in the language. Also the course enables the individual to develop a sense of confidence which helps the individual to perform better at the workplace.</p><h4>ENGLISH FOR ADULTS:</h4><p>As English language is the global language and therefore it is very important to have a hands on training in the language. Such skills enable the adults to be identified as talent required at the global workplace. Course at the institute helps the individual to refine the required skills and training.</p><h4>ENGLISH FOR EDUCATIONAL INSTITUTIONS:</h4><p>At Oracle, the student is able to learn from our professional and hardworking teachers. The material and modules provided by the institute includes everything which is needed to improve the skills and master the language. Most of the institutions abroad require proficiency in the language. The examinations like IELTS and GRE also require proper and specialised training in the language.</p>",
+        oracleDescription: "            <p>The Oracle International Language Institute has been pioneer institution in teaching English across all ages and professions. The course taught at Oracle promises to cover all the phases and aspects which are important and crucial in learning the language.</p><ul><li>We Focus on overall understanding of the language: fluency, grammar, presentation, and writing.</li><li>Form small batches of 10-12 students to ensure quality education.</li><li>Regular assessment of students in a comprehensive manner.</li><li>Activities like role play, video case study, etc. to facilitate all around understanding.</li><li>360-degree feedback mechanism.</li><li>Flexible batches for kids, professionals, doctors, engineers.</li><li>We have highly qualified and experienced Faculties conducting interactive classes based on simple yet innovative methods to teach languages.</li><li>Every student is precious to us. So we have created positive learning environment for our students where all learners feel confident and motivated.</li></ul><p><br>&nbsp;</p>",
+        thumbnail: '/assets/img/english-thumbnail.jpg',
+        image: '/assets/img/english.jpg' ,
+        flagImage: '/assets/img/english-flag.jpeg'      
+    }, 
+    {
         id:5,
+        name: "IELTS coaching",
         title: 'IELTS COACHING',
         slug: 'best-ielts-coaching-institute-in-delhi',
         duration: '30 - 75 Days',
@@ -408,6 +413,7 @@ export const CourseData = [
     },
     {
         id:6,
+        name: "arabic",
         title: 'ARABIC LANGUAGE COURSE',
         slug: 'best-arabic-laungage-institute-in-delhi',
         duration: '3 Months - 18 Months',
@@ -526,8 +532,12 @@ export const CourseData = [
         image: '/assets/img/arabic.jpg' ,
         flagImage: '/assets/img/arabic-flag.jpeg'      
     },
+
+
+
     {
         id:7,
+        name: "chinese",
         title: 'CHINESE LANGUAGE COURSE',
         slug: 'best-chinese-laungage-institute-in-delhi',
         duration: '3 Months - 12 Months',
@@ -592,6 +602,7 @@ export const CourseData = [
     },
     {
         id:8,
+        name: "japanese",
         title: 'JAPANESE LANGUAGE COURSE',
         slug: 'best-japanese-laungage-institute-in-delhi',
         duration: '3 Months - 21 Months',
@@ -654,6 +665,8 @@ export const CourseData = [
         image: '/assets/img/japan.jpg' ,
         flagImage: '/assets/img/japaneseflag.png'      
     },
+
+
     // {
     //     id:9,
     //     title: 'CAREER COUNSELLING',
@@ -776,6 +789,7 @@ export const CourseData = [
     // },
     {
         id:10,
+        name: "russian",
         title: 'RUSSIAN LANGUAGE COURSE',
         slug: 'best-russian-laungage-institute-in-delhi',
         duration: '3 Months - 18 Months',
@@ -895,8 +909,12 @@ export const CourseData = [
         image: '/assets/img/russian.jpg' ,
         flagImage: '/assets/img/japaneseflag.png'      
     },
+
+
+
     {
         id:11,
+        name: "hindi",
         title: 'HINDI LANGUAGE COURSE',
         slug: 'best-hindi-laungage-institute-in-delhi',
         duration: '3 Months - 18 Months',
@@ -1096,6 +1114,7 @@ export const CourseData = [
     
     {
         id:13,
+        name: "OET course",
         title: 'OET COURSES',
         slug: 'occupational-english-test',
         duration: '5 Weeks',
@@ -1129,7 +1148,130 @@ export const CourseData = [
         flagImage: '/assets/img/japaneseflag.png'      
     },
     {
+        id:13,
+        name: "korean",
+        title: 'KOREAN LANGUAGE COURSE',
+        slug: 'best-korean-laungage-cource-institute-in-delhi',
+        duration: '3 Months - 18 Months',
+        timing: '8:30 AM - 6:30 PM',
+        batchSize: '7-10 ',
+        videosTime: '10 Hours',
+        skillLevel: 'Advanced',
+        language: 'English',
+        projectManager: 'Course Duration',
+        rating: 5,
+        ratingCount: 4.9,
+        price: '22500',
+        totalLesson: "15",
+        totalClass: '48',
+        description : "<p>Learning the Korean language surely opens up a new world of opportunities &amp; cultural understanding. Here are the significant reasons for the same.</p><ul><li><strong>Cultural Insight: </strong>Korea is believed to have a very rich cultural heritage that includes traditions, festivals &amp; several vibrant arts scenes. So, learning Korean can provide deeper insights into all these aspects and allow you to profoundly appreciate Korean culture.</li><li><strong>Thriving Economy:</strong> South Korea boasts one of the worlds most dynamic economies and is home to global giants like Hyundai and Samsung. So, proficiency in the Korean language can considerably enhance your overall career prospects in international trade and business.</li><li><strong>Hallyu Wave: </strong>The pop culture of Kora is well-known as Hallyu Wave and has taken the world by storm. Learning Korean allows you to fully immerse yourself in K-pop music, K-dramas, &amp; Korean cinema.</li><li><strong>Tourism &amp; Travel:</strong> Whether you are planning to visit South Korea or explore North Korea through some diplomatic channels, knowing the Korean language enriches your overall travel experience &amp; helps in communicating effectively with the locals.</li></ul><br/><h4><strong>SCOPE OF THE LANGUAGE</strong></h4><p>The scope of learning Korean usually extends beyond gaining proficiency in the language.</p><ul><li><strong>Business Opportunities:</strong> South Korea is a global hub for the automotive, technology, and manufacturing industries. Learning Korean can lead to several exciting career opportunities in trade relations and international corporations.</li><li><strong>Diploma Services:</strong> It proves to be valuable in gaining proficiency in Korean if you want to pursue diplomatic careers &amp; international relations, especially while dealing with Korean-speaking countries.</li><li><strong>Research &amp; Academia</strong>: Skills in the Korean language can prove advantageous for research collaborations, academic pursuits, &amp; participation in several programs in Korean studies.</li><li><strong>Global Networking</strong>: If you know the Korean language, it will expand your international network &amp; allow you to connect with several Korean-speaking communities that are spread worldwide.</li></ul>",
+
+        oracleDescription: "<p>Oracle Global Education Institute can prove to be your ideal partner and can help you embark on the glorious journey of learning the Korean language.</p><p><strong>Comprehensive Learning Methodology</strong>: We focus on developing overall skills in the Korean language, including speaking, reading, listening, and writing.This ensures that the trainees receive an all-around education in Korean language.</p><p><strong>Experienced Instructors</strong>: Our team of qualified &amp; professional instructors is always dedicated to helping the trainees succeed. They use the most innovative teaching methodologies to make the language learning process effective and engaging.</p><p><strong>Interactive Classes</strong>: Our classes are always engaging &amp; interactive, incorporating activities, real-world scenarios, role-playing, etc. to enhance your overall skills in the Korean language.</p><p><strong>Small Classes</strong>: We always maintain a small class size to ensure a conducive learning environment and personalized attention to every trainee.</p><p><strong>Flexible Schedules</strong>: We offer the most flexible batch timings for accommodating learners of all ages &amp; backgrounds. This makes it easy to fit the process of language learning into your busy life.</p><p><strong>Cultural Integration</strong>: Our courses go beyond language and provide cultural context &amp; insights to help you understand the various nuances of the rich Korean culture.</p>",
+        courseTable : [
+            {
+                course : {
+                    courseLavel: '5',
+                    courseType: 'regular sessions'
+                },
+                levelName: 'A1',
+                duration: '3 month',
+                fee: '22500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'A2',
+                duration: '3 month',
+                fee: '24500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B1',
+                duration: '3 month',
+                fee: '27500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B2',
+                duration: '3 month',
+                fee: '30500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'C1',
+                duration: '3 month',
+                fee: '40500',
+                totalClass: '48'
+            },
+            {
+                course : {
+                    courseLavel: '4',
+                    courseType: 'crash course'
+                },
+                levelName: 'A1',
+                duration: '45 days',
+                fee: '27500',
+                totalClass: '35'
+            },
+            { 
+                levelName: 'A2',
+                duration: '45 days',
+                fee: '29500',
+                totalClass: '35'
+            },
+            { 
+                levelName: 'B1',
+                duration: '45 days',
+                fee: '32500',
+                totalClass: '35'
+            },
+            { 
+                levelName: 'B2',
+                duration: '45 days',
+                fee: '45500',
+                totalClass: '35'
+            },
+            {
+                course : {
+                    courseLavel: '5',
+                    courseType: 'online one-on-one sessions'
+                },
+                levelName: 'A1',
+                duration: '3 month',
+                fee: '27500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'A2',
+                duration: '3 month',
+                fee: '29500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B1',
+                duration: '3 month',
+                fee: '32500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'B2',
+                duration: '3 month',
+                fee: '45500',
+                totalClass: '48'
+            },
+            { 
+                levelName: 'C1',
+                duration: '3 month',
+                fee: '45500',
+                totalClass: '48'
+            },
+        ],
+        thumbnail: '/assets/img/koreanFlag.png',
+        image: '/assets/img/koreanBanner.png' ,
+        flagImage: '/assets/img/korean flag.png'      
+    },
+    {
         id:14,
+        name: "study in abroad",
         title: 'STUDY IN ABROAD',
         slug: 'best-counsiling-for-study-in-abroad-in-delhi',
         duration: '3 Months - 18 Months',
@@ -1151,6 +1293,7 @@ export const CourseData = [
         image: '/assets/img/abroad.jpg' ,
         flagImage: '/assets/img/japaneseflag.png'      
     },
+    
 ]
 
 export const MetaDetails = [

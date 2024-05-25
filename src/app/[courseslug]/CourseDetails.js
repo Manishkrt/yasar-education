@@ -1,31 +1,33 @@
 'use client'
 import React from 'react';
-import { Tab, Tabs } from 'react-bootstrap'; 
+import { Tab, Tabs } from 'react-bootstrap';
 import CompanyLogoSlider from '../../component/CompanyLogoSlider';
 import QuiryForm from '@/component/QuiryForm';
 import Navigation from '@/component/Navigation';
 import Footer from '@/component/Footer';
 import CoomonStudentSlider from '@/component/CoomonStudentSlider';
 import Accordion from 'react-bootstrap/Accordion';
-import { CourseData } from '@/utils/data'; 
+import { CourseData } from '@/utils/data';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation'
-import CourseDetailsEnrollButton from '@/utils/CourseDetailsEnrollButton'; 
- 
- 
+import CourseDetailsEnrollButton from '@/utils/CourseDetailsEnrollButton';
+import TopBannerDetails from '@/component/TopBannerDetails';
 
-const CourseDetails = ({params}) => {  
-  const pathname = usePathname() 
-  const CourseList = CourseData 
-  const courseValue = CourseList.find(data => data.slug === params?.courseslug) 
-  
+
+
+const CourseDetails = ({ params }) => {
+  const pathname = usePathname()
+  const CourseList = CourseData
+  const courseValue = CourseList.find(data => data.slug === params?.courseslug)
+
   return (
 
     <>
-      
+
       <Navigation />
 
-      <CoomonStudentSlider />
+      {/* <CoomonStudentSlider /> */}
+      <TopBannerDetails/>
 
 
 
@@ -72,73 +74,73 @@ const CourseDetails = ({params}) => {
                       <div className="course-details__overview">
                         <div dangerouslySetInnerHTML={{ __html: courseValue?.description }} className='mb-5' />
 
-                        {pathname === '/best-hindi-laungage-institute-in-delhi' ? 
-                        <Accordion defaultActiveKey="0">
-                          <Accordion.Item eventKey="0">
-                            <Accordion.Header className='text-uppercase'>1. Beginner Level</Accordion.Header>
-                            <Accordion.Body>
-                              <p>Ideal for those learners who are new to Hindi. This level introduces the basic vocabulary, conversational skills, and grammar in Hindi.</p>
-                            </Accordion.Body>
-                          </Accordion.Item>
-                          <Accordion.Item eventKey="1">
-                            <Accordion.Header>2. Intermediate Level</Accordion.Header>
-                            <Accordion.Body>
-                              <p>This level is ideal for learners with prior knowledge of Hindi. This training level focuses on expanding the vocabulary in Hindi, improving fluency, and mastering the complex structures of sentences.</p>
-                            </Accordion.Body>
-                          </Accordion.Item>
-                          <Accordion.Item eventKey="2">
-                            <Accordion.Header>3. Advanced Level</Accordion.Header>
-                            <Accordion.Body>
-                              <p>The advanced level learners in Hindi delve into advanced grammar, culture, and literature, enabling them to communicate effectively in various situations.</p>
-                            </Accordion.Body>
-                          </Accordion.Item>
-                          <Accordion.Item eventKey="3">
-                            <Accordion.Header>4. Specialized Courses</Accordion.Header>
-                            <Accordion.Body>
-                              <p>The advanced level learners in Hindi delve into advanced grammar, culture, and literature, enabling them to communicate effectively in various situations.</p>
-                            </Accordion.Body>
-                          </Accordion.Item>
-                        </Accordion> : 
-                        <Accordion defaultActiveKey="0">
-                          <Accordion.Item eventKey="0">
-                            <Accordion.Header>Level A</Accordion.Header>
-                            <Accordion.Body>
-                              <p ><b>A1:</b>  A lot of motivation is given to the learner to express his/her feelings, opinions and needs in the
-                                same language. The learner will be able to understand and use common expressions and very simple
-                                sentences. The learner will be able to introduce himself/herself and freely ask general questions from
-                                others.
-                              </p>
-                              <p ><b>A2:</b> The learner will be able to read and write simple sentences and paragraphs. A lot of emphases is
-                                given on the grammar and pronunciation of the language. The clear understanding of the basics is given
-                                a lot of significance. The learner will be able to communicate in general daily tasks.
-                              </p>
-                            </Accordion.Body>
-                          </Accordion.Item>
-                          <Accordion.Item eventKey="1">
-                            <Accordion.Header>Level B</Accordion.Header>
-                            <Accordion.Body>
-                              <p ><b>B1:</b> The learner will be able to improve their speaking ability and fluency. Also, a clear understanding
-                                of the language will be developed and he/she will easily be able to express himself/herself on a range of
-                                topics related to personal interests, work, and other familiar topics.
-                              </p>
-                              <p ><b>B2:</b> A great importance is given to provide the learners with space where they can learn and communicate
-                                freely in the language. She/he will learn new idioms, expressions and will master the creative use of the
-                                language. The learner will be able to create comprehensive and detailed text on a wide range of topics.
-                              </p>
+                        {pathname === '/best-hindi-laungage-institute-in-delhi' ?
+                          <Accordion defaultActiveKey="0">
+                            <Accordion.Item eventKey="0">
+                              <Accordion.Header className='text-uppercase'>1. Beginner Level</Accordion.Header>
+                              <Accordion.Body>
+                                <p>Ideal for those learners who are new to Hindi. This level introduces the basic vocabulary, conversational skills, and grammar in Hindi.</p>
+                              </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1">
+                              <Accordion.Header>2. Intermediate Level</Accordion.Header>
+                              <Accordion.Body>
+                                <p>This level is ideal for learners with prior knowledge of Hindi. This training level focuses on expanding the vocabulary in Hindi, improving fluency, and mastering the complex structures of sentences.</p>
+                              </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                              <Accordion.Header>3. Advanced Level</Accordion.Header>
+                              <Accordion.Body>
+                                <p>The advanced level learners in Hindi delve into advanced grammar, culture, and literature, enabling them to communicate effectively in various situations.</p>
+                              </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="3">
+                              <Accordion.Header>4. Specialized Courses</Accordion.Header>
+                              <Accordion.Body>
+                                <p>The advanced level learners in Hindi delve into advanced grammar, culture, and literature, enabling them to communicate effectively in various situations.</p>
+                              </Accordion.Body>
+                            </Accordion.Item>
+                          </Accordion> :
+                          <Accordion defaultActiveKey="0">
+                            <Accordion.Item eventKey="0">
+                              <Accordion.Header>Level A</Accordion.Header>
+                              <Accordion.Body>
+                                <p ><b>A1:</b>  A lot of motivation is given to the learner to express his/her feelings, opinions and needs in the
+                                  same language. The learner will be able to understand and use common expressions and very simple
+                                  sentences. The learner will be able to introduce himself/herself and freely ask general questions from
+                                  others.
+                                </p>
+                                <p ><b>A2:</b> The learner will be able to read and write simple sentences and paragraphs. A lot of emphases is
+                                  given on the grammar and pronunciation of the language. The clear understanding of the basics is given
+                                  a lot of significance. The learner will be able to communicate in general daily tasks.
+                                </p>
+                              </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="1">
+                              <Accordion.Header>Level B</Accordion.Header>
+                              <Accordion.Body>
+                                <p ><b>B1:</b> The learner will be able to improve their speaking ability and fluency. Also, a clear understanding
+                                  of the language will be developed and he/she will easily be able to express himself/herself on a range of
+                                  topics related to personal interests, work, and other familiar topics.
+                                </p>
+                                <p ><b>B2:</b> A great importance is given to provide the learners with space where they can learn and communicate
+                                  freely in the language. She/he will learn new idioms, expressions and will master the creative use of the
+                                  language. The learner will be able to create comprehensive and detailed text on a wide range of topics.
+                                </p>
 
-                            </Accordion.Body>
-                          </Accordion.Item>
-                          <Accordion.Item eventKey="2">
-                            <Accordion.Header>Level C</Accordion.Header>
-                            <Accordion.Body>
-                              <p ><b>C1:</b> The learner will be able to write letters and will have a hands-on practice to use the language in a smooth manner. The learners are given a thorough knowledge about the literature, history, and culture of the language.</p>
-                              <p ><b>C2:</b> The learner will have a great command on the language. The learners are instructed to practice novels,
-                                magazines and a variety of assignments. The learner will be able to understand, read and write the
-                                language with ease and will achieve perfection in all the circumstances.
-                              </p>
-                            </Accordion.Body>
-                          </Accordion.Item>
-                        </Accordion> }
+                              </Accordion.Body>
+                            </Accordion.Item>
+                            <Accordion.Item eventKey="2">
+                              <Accordion.Header>Level C</Accordion.Header>
+                              <Accordion.Body>
+                                <p ><b>C1:</b> The learner will be able to write letters and will have a hands-on practice to use the language in a smooth manner. The learners are given a thorough knowledge about the literature, history, and culture of the language.</p>
+                                <p ><b>C2:</b> The learner will have a great command on the language. The learners are instructed to practice novels,
+                                  magazines and a variety of assignments. The learner will be able to understand, read and write the
+                                  language with ease and will achieve perfection in all the circumstances.
+                                </p>
+                              </Accordion.Body>
+                            </Accordion.Item>
+                          </Accordion>}
 
                       </div>
 
@@ -157,7 +159,7 @@ const CourseDetails = ({params}) => {
                         </div>
                       </div>
                     </Tab>}
-                  <Tab eventKey="curriculum" title="Course Labels">
+                  <Tab eventKey="curriculum" title="Course Lavels">
                     <div className="tabs-content Levels-content-tab-btn">
                       <div className="course-details__curriculum">
                         <div className='table-responsive'>
@@ -192,16 +194,16 @@ const CourseDetails = ({params}) => {
                       </div>
                     </div>
                   </Tab>
-                 
+
                 </Tabs>
-              </div> 
+              </div>
             </div>
             <div className="col-xl-4 wow fadeInRight animated" >
               <div className="course-details__sidebar">
                 <div className="course-details__sidebar__item">
                   <h3 className="course-details__sidebar__title">Course Features</h3>
                   <ul className="course-details__sidebar__lists clerfix">
-                    <li> 
+                    <li>
                       <i className="fa-regular fa-calendar-days icon-history" />
 
                       Duration:<span>  {courseValue?.duration}</span>
@@ -214,83 +216,40 @@ const CourseDetails = ({params}) => {
 
                       <i className="fa-solid fa-users icon-reading" />
                       Batch Size :<span>   {courseValue?.batchSize} Students</span>
-                    </li> 
+                    </li>
                     <li>
                       <i className="fa-regular fa-building icon-logical-thinking" />
                       No. of class<span>  {courseValue?.totalClass}</span>
                     </li>
-                  </ul>
-                  {/* <button className="eduact-btn eduact-btn-second" onClick={handleEnrollClick}>
-                    <span className="eduact-btn__curve" />
-                    Enroll Now
-                    <i className="icon-arrow" />
-                  </button> */}
-                  <CourseDetailsEnrollButton/>
+                  </ul> 
+                  <CourseDetailsEnrollButton />
                 </div>
                 <div className="course-details__sidebar__item">
                   <h3 className="course-details__sidebar__title">Latest Course</h3>
                   <ul className="course-details__sidebar__post">
-                    <li>
-                      <div className="course-details__sidebar__post__image">
-                        <img src="/assets/img/lc-1.jpg" alt="eduact" />
-                      </div>
-                      <div className="course-details__sidebar__post__content">
+                    {CourseList.map((courseValue) => (
+                      <li key={courseValue.id}>
+                        <div className="course-details__sidebar__post__image"> 
+                          <img src={`${courseValue.image}`} alt="eduact" />
+                        </div>
+                        <div className="course-details__sidebar__post__content">
 
-                        <h3 className="course-details__sidebar__post__title">
-                          <Link href="/best-counsiling-for-study-in-abroad-in-delhi">STUDY IN ABROAD...</Link>
-                        </h3>
-                        <div className="course-details__sidebar__post__ratings">
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <div className="course-details__sidebar__post__ratings__reviews">
-                            4.8(30)
+                          <h3 className="course-details__sidebar__post__title">
+                            <Link href={`/${courseValue.slug}`}>{courseValue.title}</Link>
+                          </h3>
+                          <div className="course-details__sidebar__post__ratings">
+                            <span className="fa-solid fa-star" />
+                            <span className="fa-solid fa-star" />
+                            <span className="fa-solid fa-star" />
+                            <span className="fa-solid fa-star" />
+                            <span className="fa-solid fa-star" />
+                            <div className="course-details__sidebar__post__ratings__reviews">
+                              4.8(30)
+                            </div>
                           </div>
                         </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="course-details__sidebar__post__image">
-                        <img src="assets/img/lc-2.jpg" alt="eduact" />
-                      </div>
-                      <div className="course-details__sidebar__post__content"> 
-                        <h3 className="course-details__sidebar__post__title">
-                          <Link href="/best-ielts-coaching-institute-in-delhi">IELTS COACHING...</Link>
-                        </h3>
-                        <div className="course-details__sidebar__post__ratings">
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <div className="course-details__sidebar__post__ratings__reviews">
-                            4.8(30)
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="course-details__sidebar__post__image">
-                        <img src="/assets/img/lc-3.jpg" alt="eduact" />
-                      </div>
-                      <div className="course-details__sidebar__post__content"> 
-                        <h3 className="course-details__sidebar__post__title">
-                          <Link href="/occupational-english-test">OET COURSES...</Link>
-                        </h3>
-                        <div className="course-details__sidebar__post__ratings">
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <span className="fa-solid fa-star" />
-                          <div className="course-details__sidebar__post__ratings__reviews">
-                            4.8(30)
-                          </div>
-                        </div>
-                      </div>
-                    </li>
+                      </li>
+                    ))} 
                   </ul>
                 </div>
               </div>

@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from "react";
 import FormModal from "./FormModal";
+import Link from "next/link";
 
 const AboutUs = () => {
   const [showModal, setShowModal] = useState(false);
@@ -89,8 +90,10 @@ const AboutUs = () => {
               </ul>
            
             </div> 
-            
-    <button className="btn-hover DiscoverMore-Abouts color-2" onClick={handleEnrollClick}>Discover More </button>
+            <div className="d-flex align-items-center mt-3 gap-3">
+    <button className="btn-hover DiscoverMore-Abouts color-2 m-0" onClick={handleEnrollClick}>Discover More </button>
+    <Link href="/about-best-international-laungage-institute-in-delhi" className="btn-hover d-flex align-items-center justify-content-center mt-0 DiscoverMore-Abouts color-2" >Read More </Link>
+    </div>
 
           </div>
         </div>

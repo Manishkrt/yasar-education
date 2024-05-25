@@ -10,8 +10,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import FormModal from './FormModal';
 import { useRouter } from 'next/navigation';
+import { CourseData } from '@/utils/data';
+
 
 const Navigation = () => {
+  const CourseList = CourseData
   const router = useRouter()
   const [showModal, setShowModal] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
@@ -51,136 +54,16 @@ const Navigation = () => {
               <div className=' d-block course-drop-wrap'>
                 <div className='rounded-4 bg-white p-3'>
                   <div className='row'>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
+                    {CourseList.map((courseValue)=>(
+                      <div className='col-lg-4 col-md-6 col-sm-6' key={courseValue.id}>
                       <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-german-language-institute-in-delhi"> 
+                        <Link className='Common-menu-itemsblack text-dark text-capitalize' href={`/${courseValue.slug}`}> 
                           <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          German 
+                          {courseValue.name}
                         </Link>
                       </NavDropdown.Item>
                     </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-spanish-language-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Spanish
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-english-speaking-course-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          English Speaking
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-japanese-laungage-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Japanese
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-chinese-laungage-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Chinese
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-ielts-coaching-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          IELTS Coaching
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-hindi-laungage-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Hindi
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-arabic-laungage-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Arabic
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-french-language-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          French
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-russian-laungage-institute-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Russian
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/best-counsiling-for-study-in-abroad-in-delhi">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          Study In Abroad
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-6'>
-
-                      <NavDropdown.Item>
-                        <Link className='Common-menu-itemsblack text-dark' href="/occupational-english-test">
-
-                          <i className="fa-solid fa-angles-right text-secondary"></i>&nbsp;
-                          OET Course
-
-                        </Link>
-                      </NavDropdown.Item>
-                    </div>
-
+                    ))}  
                   </div>
                   </div>
                 </div> 
@@ -362,7 +245,9 @@ const Navigation = () => {
         <i className="fa-brands fa-whatsapp"></i>
       </div>
       <div className="wrapper-zoom-meeting">
+        <a href="https://app.zoom.us/wc/join" target="_blank" rel="noopener noreferrer">
         <i className="fa-solid fa-bounce fa-video"></i>
+        </a>
       </div>
     </>
   )

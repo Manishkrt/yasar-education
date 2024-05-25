@@ -3,6 +3,7 @@ import CoomonStudentSlider from '@/component/CoomonStudentSlider'
 import Footer from '@/component/Footer'
 import Navigation from '@/component/Navigation'
 import QuiryForm from '@/component/QuiryForm'
+import TopBannerDetails from '@/component/TopBannerDetails'
 import Link from 'next/link'
 import React from 'react'
 
@@ -13,8 +14,7 @@ async function fetchBlog() {
   return responseJson.blog_list.data
 }
 const page = async() => {
-    const blogData = await fetchBlog()
-    console.log("blogData", blogData);
+    const blogData = await fetchBlog() 
 
     const formatDate = (timeString)=>{
         const formattedTime = new Date(timeString).toLocaleDateString('en-GB', {
@@ -27,9 +27,10 @@ const page = async() => {
   return (
     <>
     <Navigation />
-    <CoomonStudentSlider />
+    {/* <CoomonStudentSlider /> */}
+    <TopBannerDetails/>
 
-    <section className='pt-pb'>
+    <section className='pt-pb mt-5'>
         <div className="container">
             {/* <div className="text-center pb-5">
                 <h2 className='text-upppercase'>Blog</h2>

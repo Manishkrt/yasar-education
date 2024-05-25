@@ -7,11 +7,8 @@ const OurService = () => {
   className="service-two pt-pb"
 >
   <div className="container">
-    <div
-      className="section-title text-center"
-    
-    >
-      <h5 className="section-title__tagline mb-5px">
+    <div className="section-title text-center" >
+      {/* <h5 className="section-title__tagline mb-5px">
         Our Service
         <svg
           className="arrow-svg"
@@ -25,10 +22,10 @@ const OurService = () => {
             <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z" />
           </g>
         </svg>
-      </h5>
+      </h5> */}
       <h2 className="section-title__title ls-2">
       Fostering Continuous Learning in Various Languages 
-        <br /> Exceptional Community{" "}
+        <br /> Exceptional Community
       </h2>
     </div>
     {/* section-title */}

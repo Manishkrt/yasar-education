@@ -24,8 +24,8 @@ const Blog = () => {
           ]
       };
     const fetchDataFunc = async ()=>{
-        const response = await fetch('https://studentapp.sasfoundation.co/admin/public/api/notice-board') 
-        const responseJson = await response.json() 
+        const response = await fetch('https://studentapp.sasfoundation.co/admin/public/api/notice-board')  
+        const responseJson = await response.json()  
         setNoticeData(responseJson.noticeboard.data)
     }
  
@@ -44,7 +44,7 @@ useEffect(()=>{
 }, [])
 
   return (
-    <section className='pt-pb bg-white' >
+    <section className='pt-pb bg-grey' >
         <div className="container">
         <div className="mb-4 text-center">
             
