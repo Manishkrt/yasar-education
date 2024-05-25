@@ -36,7 +36,7 @@ const Blog = () => {
             month: 'long',
             year: 'numeric'
           });
-        return formattedTime;
+        return formattedTime; 
     }
  
 useEffect(()=>{
