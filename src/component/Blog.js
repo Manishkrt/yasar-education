@@ -24,9 +24,15 @@ const Blog = () => {
           ]
       };
     const fetchDataFunc = async ()=>{
+        try {
+            
+        
         const response = await fetch('https://studentapp.sasfoundation.co/admin/public/api/notice-board')  
         const responseJson = await response.json()  
         setNoticeData(responseJson.noticeboard.data)
+    } catch (error) {
+         console.log("An error occurred", error);   
+    }
     }
  
 
