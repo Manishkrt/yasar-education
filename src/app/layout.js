@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; 
 import "./globals.css";
 import "./custom.css";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] }); 
 const urbanist = Urbanist({ subsets: ["latin"] }); 
@@ -19,7 +20,7 @@ export const metadata = {
 };  
 export default function RootLayout({ children }) {  
   return (
-    <html lang="en"> 
+    <html lang="en">  
       <body className={urbanist.className}>{children}</body>
     </html>
   );
