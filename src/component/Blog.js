@@ -25,9 +25,12 @@ const Blog = () => {
       };
     const fetchDataFunc = async ()=>{
         try { 
-        const response = await fetch('https://studentapp.sasfoundation.co/admin/public/api/notice-board')  
-        const responseJson = await response.json()  
-        setNoticeData(responseJson.noticeboard.data)
+        const response = await fetch('https://studentapp.sasfoundation.co/admin/public/api/notice-board')   
+        if(response){
+            const responseJson = await response.json()  
+            setNoticeData(responseJson.noticeboard.data)
+        }
+       
     } catch (error) {
          console.log("An error occurred", error);   
     }
@@ -71,9 +74,9 @@ useEffect(()=>{
                                         <span className='text-secondary '> {formatDate(noticeValue.date)}</span>
                                     </div>
                                     <h5 className='text-ellipsis'>{noticeValue.title}</h5>
-                                    <div className="text-end">
+                                    {/* <div className="text-end">
                                         <Link href="#"></Link>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

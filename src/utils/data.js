@@ -1148,7 +1148,7 @@ export const CourseData = [
         flagImage: '/assets/img/japaneseflag.png'      
     },
     {
-        id:13,
+        id:15,
         name: "korean",
         title: 'KOREAN LANGUAGE COURSE',
         slug: 'best-korean-laungage-cource-institute-in-delhi',

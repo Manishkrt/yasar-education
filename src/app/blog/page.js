@@ -9,12 +9,21 @@ import React from 'react'
 
 
 async function fetchBlog() {
+    try { 
+
   const response = await fetch('https://studentapp.sasfoundation.co/admin/public/api/blog')
+  if(response){
   const responseJson = await response.json() 
   return responseJson.blog_list.data
+  }
+  return false
+} catch (error) {
+     console.log("failed to get blog ", error)  
+     return false 
+}
 }
 const page = async() => {
-    const blogData = await fetchBlog() 
+    const blogData = await fetchBlog() || []
 
     const formatDate = (timeString)=>{
         const formattedTime = new Date(timeString).toLocaleDateString('en-GB', {
