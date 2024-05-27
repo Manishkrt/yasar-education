@@ -40,7 +40,7 @@ export default function Home() {
       <Courses />
       <OurService />
       <HappyStudentStrip />
-      {/* <BlogVideoNotice /> */}
+      <BlogVideoNotice />
       <CourseReview />
       {/* <Cta/> */}
 
