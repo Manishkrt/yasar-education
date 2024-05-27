@@ -30,7 +30,6 @@ const Blog = () => {
             const responseJson = await response.json()  
             setNoticeData(responseJson.noticeboard.data)
         }
-       
     } catch (error) {
          console.log("An error occurred", error);   
     }

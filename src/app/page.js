@@ -207,7 +207,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* <Blog /> */}
+      <Blog />
       <Faq />
       {/* <Testimonial/> */}
       <QuiryForm />
