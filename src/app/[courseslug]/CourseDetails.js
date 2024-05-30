@@ -38,16 +38,16 @@ const CourseDetails = ({ params }) => {
         <div className="container">
           <div className="row">
             <div className="col-xl-8">
-              <div className="course-details__thumb">
+              {/* <div className="course-details__thumb">
                 <img src={courseValue?.image} alt="eduact" />
-              </div>
+              </div> */}
               <div className="course-details__meta mb-3">
                 <div className="course-details__meta__author mb-lg-0 mb-2">
                   <img src={courseValue?.flagImage} alt="eduact" width={32} height={32} className='rounded-circle' />
                 </div>
-                <h3 className="course-details__title text-capitalize mb-lg-0 ">
+                <h2 className="course-details__title text-capitalize mb-lg-0 ">
                   {courseValue?.title}
-                </h3>
+                </h2>
 
                 <div className="course-details__meta__price"><i className="fa-solid fa-indian-rupee-sign"></i> {courseValue?.price}</div>
               </div>
@@ -206,16 +206,16 @@ const CourseDetails = ({ params }) => {
                     <li>
                       <i className="fa-regular fa-calendar-days icon-history" />
 
-                      Duration:<span>  {courseValue?.duration}</span>
+                      Duration<span>  {courseValue?.duration}</span>
                     </li>
                     <li>
                       <i className="fa-regular fa-clock icon-history" />
-                      Timing:<span>  {courseValue?.timing}</span>
+                      Timing<span>  {courseValue?.timing}</span>
                     </li>
                     <li>
 
                       <i className="fa-solid fa-users icon-reading" />
-                      Batch Size :<span>   {courseValue?.batchSize} Students</span>
+                      Batch Size <span>   {courseValue?.batchSize} Students</span>
                     </li>
                     <li>
                       <i className="fa-regular fa-building icon-logical-thinking" />

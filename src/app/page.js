@@ -50,40 +50,39 @@ export default function Home() {
           style={{ backgroundImage: "url(assets/images/shapes/service-bg-1.png)" }}
         />
         <div className="container">
-        <div className="section-title text-center" >
-      <h5 className="section-title__tagline mb-5px">
-        Our Service
-        <svg
-          className="arrow-svg"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 55 13"
-        >
-          <g clipPath="url(#clip0_324_36194)">
-            <path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z" />
-            <path d="M25.1706 6.49995L15.3306 12.1799V8.56995L18.9206 6.49995L15.3306 4.42995V0.819946L25.1706 6.49995Z" />
-            <path d="M39.7906 6.49995L29.9506 12.1799V8.56995L33.5406 6.49995L29.9506 4.42995V0.819946L39.7906 6.49995Z" />
-            <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z" />
-          </g>
-        </svg>
-      </h5>
-      <h2 className="section-title__title ls-2">
-      Fostering Continuous Learning in Various Languages 
-        <br /> Exceptional Community{" "}
-      </h2>
-    </div>
+          <div className="section-title text-center" >
+            <h5 className="section-title__tagline mb-5px">
+              Our Service
+              <svg
+                className="arrow-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 55 13"
+              >
+                <g clipPath="url(#clip0_324_36194)">
+                  <path d="M10.5406 6.49995L0.700562 12.1799V8.56995L4.29056 6.49995L0.700562 4.42995V0.819946L10.5406 6.49995Z" />
+                  <path d="M25.1706 6.49995L15.3306 12.1799V8.56995L18.9206 6.49995L15.3306 4.42995V0.819946L25.1706 6.49995Z" />
+                  <path d="M39.7906 6.49995L29.9506 12.1799V8.56995L33.5406 6.49995L29.9506 4.42995V0.819946L39.7906 6.49995Z" />
+                  <path d="M54.4206 6.49995L44.5806 12.1799V8.56995L48.1706 6.49995L44.5806 4.42995V0.819946L54.4206 6.49995Z" />
+                </g>
+              </svg>
+            </h5>
+            <h2 className="section-title__title ls-2">
+              Fostering Continuous Learning in Various Languages
+              <br /> Exceptional Community
+            </h2>
+          </div>
           <div className="row">
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp animated"
-
-            >
+            <div className="col-lg-3 col-md-6 wow fadeInUp animated" >
               <div className="service-one__item">
                 <div className="service-one__wrapper">
+                <div className="d-flex gap-3 align-items-center">
                   <div className="service-one__icon">
                     <span className=" fa-solid fa-book" />
                   </div>
                   <h3 className="service-one__title">
-                    <Link href="#">Corporate Training:</Link>
+                    <Link href="#">Corporate Training</Link>
                   </h3>
+                  </div>
                   <p className="service-one__text">
                     ORACLE LANGUAGE INSTITUTE is one of the renowned institutes in the corporate
                     training industry and we exercise ethical work practices with transparency, honesty, and
@@ -103,19 +102,18 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp animated"
-
-            >
+            <div className="col-lg-3 col-md-6 wow fadeInUp animated"  >
               <div className="service-one__item">
                 <div className="service-one__wrapper">
+                  <div className="d-flex gap-3 align-items-center">
                   <div className="service-one__icon">
-                    <span className="fa-regular fa-lightbulb" />
+                    <span className="fa-regular fa-lightbulb" /> 
                   </div>
                   {/* /.service-icon */}
                   <h3 className="service-one__title">
-                    <Link href="#">Translation Training:</Link>
+                    <Link href="#">Translation Services</Link>
                   </h3>
+                  </div>
                   {/* /.service-title */}
                   <p className="service-one__text">
                     ORACLE LANGUAGE INSTITUTE of Languages in India is a full-service translation
@@ -137,19 +135,18 @@ export default function Home() {
               </div>
               {/* /.service-card-one */}
             </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp animated"
-
-            >
+            <div className="col-lg-3 col-md-6 wow fadeInUp animated" >
               <div className="service-one__item">
                 <div className="service-one__wrapper">
+                <div className="d-flex gap-3 align-items-center">
                   <div className="service-one__icon">
                     <span className="fa-solid fa-tv" />
                   </div>
                   {/* /.service-icon */}
                   <h3 className="service-one__title">
-                    <Link href="#">Train the Trainer:</Link>
+                    <Link href="#">Train the Trainer</Link>
                   </h3>
+                  </div>
                   {/* /.service-title */}
                   <p className="service-one__text">
                     A typical academic course is logically limited in scope. When learning a foreign
@@ -173,19 +170,18 @@ export default function Home() {
               </div>
               {/* /.service-card-one */}
             </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp animated"
-
-            >
+            <div className="col-lg-3 col-md-6 wow fadeInUp animated" >
               <div className="service-one__item">
                 <div className="service-one__wrapper">
+                <div className="d-flex gap-3 align-items-center">
                   <div className="service-one__icon">
                     <span className="fa-solid fa-up-down-left-right" />
                   </div>
                   {/* /.service-icon */}
-                  <h3 className="service-one__title">
-                    <Link href="#">Summer Camp for Kids:</Link>
+                  <h3 className="service-one__title ">
+                    <Link href="#">Kids Summer Camp</Link>
                   </h3>
+                  </div>
                   {/* /.service-title */}
                   <p className="service-one__text">
                     empty

@@ -598,7 +598,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/china-thumbnail.jpg',
         image: '/assets/img/coursechina.jpeg' ,
-        flagImage: '/assets/img/chinaflag.png'      
+        flagImage: '/assets/img/china-flag.jpeg'      
     },
     {
         id:8,
@@ -663,7 +663,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/japanese-thumbnail.jpg',
         image: '/assets/img/japan.jpg' ,
-        flagImage: '/assets/img/japaneseflag.png'      
+        flagImage: '/assets/img/japan-flag-new.jpeg'      
     },
  
     {
@@ -786,7 +786,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/russian-thumbnail.jpg',
         image: '/assets/img/russian.jpg' ,
-        flagImage: '/assets/img/japaneseflag.png'      
+        flagImage: '/assets/img/rassia-flag.jpeg'      
     }, 
     {
         id:11,
@@ -865,7 +865,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/hindi-thumbnail.jpg',
         image: '/assets/img/hindi.jpg' ,
-        flagImage: '/assets/img/japaneseflag.png'      
+        flagImage: '/assets/img/ind-flag.jpeg'      
     }, 
     {
         id:13,
@@ -900,7 +900,7 @@ export const CourseData = [
         ],
         thumbnail: '/assets/img/oet-thumbnail.jpg',
         image: '/assets/img/oet-banner.jpg' ,
-        flagImage: '/assets/img/japaneseflag.png'      
+        flagImage: '/assets/img/oet-flag.jpeg'      
     },
     {
         id:15,
@@ -1046,7 +1046,7 @@ export const CourseData = [
         courseTable : [],
         thumbnail: '/assets/img/abroad-thumbnail.jpg',
         image: '/assets/img/abroad.jpg' ,
-        flagImage: '/assets/img/japaneseflag.png'      
+        flagImage: '/assets/img/study-abroad-flag.jpeg'      
     },
     
 ]

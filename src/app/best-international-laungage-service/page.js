@@ -24,9 +24,9 @@ const page = () => {
         <div className="container mt-3">
           <div className="row">
             <div className="col-xl-8">
-              <div className="course-details__thumb">
+              {/* <div className="course-details__thumb">
                 <img src="/assets/img/services.jpg" alt="eduact" />
-              </div>
+              </div> */}
               <div className="course-details__meta">
                 {/* <div className="course-details__meta__author">
                   <img src="/assets/img/author-7.png" alt="eduact" />
@@ -188,7 +188,7 @@ const page = () => {
                   <h3 className="course-details__sidebar__title">Latest Course</h3>
                   <ul className="course-details__sidebar__post">
                     {CourseList.map((courseValue) => (
-                      <li>
+                      <li key={courseValue.id}>
                         <div className="course-details__sidebar__post__image">
                           <img src={`${courseValue.image}`} alt="eduact" />
                         </div>

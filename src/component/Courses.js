@@ -34,7 +34,7 @@ const Courses = () => {
             <div className="row">
 
 
-                {CourseList.map((courseValue)=>(
+                {CourseList.slice(0, 12).map((courseValue)=>(
                      <div className="col-lg-4 col-md-6 col-12 mt-3" key={courseValue.id}>
                      <div className="courses-card-wrapper">
                      <div className="courses-card-box border border-light-subtle bg-white position-relative rounded py-4 px-3">

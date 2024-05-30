@@ -18,16 +18,17 @@ const page = () => {
       {/* <CoomonStudentSlider /> */}
       <TopBannerDetails />
       <section className="course-details branch visit-our-branches-in-delhi pt-pb">
-        <h2 className="text-center">HOME OUR ORACLE GLOBAL EDUCATION BRANCHES IN DELHI</h2>
+        {/* <h2 className="text-center">HOME OUR ORACLE GLOBAL EDUCATION BRANCHES IN DELHI</h2> */}
 
-        <div className="container mt-5">
+        <div className="container mt-3">
 
 
           <div className="row">
             <div className="col-xl-8 our-branches-wrapper-left">
-              <div className="course-details__thumb">
+              {/* <div className="course-details__thumb">
                 <img src="/assets/img/china.jpg" alt="eduact" />
-              </div>
+              </div> */}
+              <h2 className="mb-3">ORACLE GLOBAL EDUCATION BRANCHES IN DELHI</h2>
 
               <div className="course-details__meta">
                 <div className="course-details__meta__cats ms-0">
@@ -100,7 +101,7 @@ const page = () => {
                   <ul className="course-details__sidebar__post">
 
                     {CourseList.map((courseValue) => (
-                      <li>
+                      <li key={courseValue.id}>
                         <div className="course-details__sidebar__post__image">
                           <img src={`${courseValue.image}`} alt="eduact" />
                         </div>

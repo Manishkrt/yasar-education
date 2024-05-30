@@ -12,7 +12,7 @@ const LearningJourney = () => {
   var settings = {
     dots: false,
     infinite: true,
-    // autoPlay:true,
+    autoPlay:true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,7 +27,7 @@ const LearningJourney = () => {
           <div>
 
             <div className="position-relative">
-              <video width="100%" height="100%" muted autoPlay={true} preload="none">
+              {/* <video width="100%" height="100%" muted autoPlay={true} preload="none">
                 <source src="https://video.wixstatic.com/video/2ec19b_a813e27647554a9dbd792f1445c1c92e/720p/mp4/file.mp4" type="video/mp4" />
                 <track
                   src="https://video.wixstatic.com/video/2ec19b_a813e27647554a9dbd792f1445c1c92e/720p/mp4/file.mp4"
@@ -36,7 +36,8 @@ const LearningJourney = () => {
                   label="English"
                 />
                 Your browser does not support the video tag.
-              </video>
+              </video> */}
+              <img className="img-fluid w-100" src="/assets/img/one.jpeg" />
               <div className="banner-TextWrapper">
                 <p className="text-danger  fw-600">Learn English in Canada</p>
                 <h1 style={{ color: '#0070b6' }} className="Banner-heading lh-1">Language Fluency: <br></br>
@@ -45,12 +46,21 @@ const LearningJourney = () => {
               </div>
             </div>
           </div>
-          <div>
-
+          {/* <div> 
             <div className="position-relative">
               <img className="img-fluid w-100" src="/assets/img/univercity.jpg" />
             </div>
+          </div> */}
+          <div> 
+            <div className="position-relative">
+              <img className="img-fluid w-100" src="/assets/img/two.jpeg" />
+            </div>
           </div>
+          <div> 
+            <div className="position-relative">
+              <img className="img-fluid w-100" src="/assets/img/three.jpeg" />
+            </div>
+          </div> 
 
 
         </Slider>

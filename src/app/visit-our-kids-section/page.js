@@ -17,7 +17,7 @@ const page = () => {
       {/* <CoomonStudentSlider /> */}
       <TopBannerDetails />
       <section className="course-details branch visit-our-branches-in-delhi pt-pb">
-        <h2 className=" text-center">HOME BEST EDUCATION PROGRAMS FOR KIDS AND TEENS</h2>
+        <h2 className=" text-center"> BEST EDUCATION PROGRAMS FOR KIDS AND TEENS</h2>
 
         <div className="container mt-5">
 
@@ -137,13 +137,13 @@ const page = () => {
                   <h3 className="course-details__sidebar__title">Course Features</h3>
                   <ul className="course-details__sidebar__lists clerfix">
                     <li>
-                      <i className="fa-regular fa-calendar-days icon-history"></i>Duration:
+                      <i className="fa-regular fa-calendar-days icon-history"></i>Duration
                       <span>  3 Months - 18 Months</span>
                     </li>
                     <li>
-                      <i className="fa-regular fa-clock icon-history"></i>Timing:<span>9:30 AM - 9:30 PM</span>
+                      <i className="fa-regular fa-clock icon-history"></i>Timing<span>9:30 AM - 9:30 PM</span>
                     </li>
-                    <li><i className="fa-solid fa-users icon-reading"></i>Students:<span> Batch Size 7-10 </span></li>
+                    <li><i className="fa-solid fa-users icon-reading"></i>Students<span> Batch Size 7-10 </span></li>
 
 
                   </ul>
@@ -157,7 +157,7 @@ const page = () => {
                   <h3 className="course-details__sidebar__title">Latest Course</h3>
                   <ul className="course-details__sidebar__post">
                     {CourseList.map((courseValue) => (
-                      <li>
+                      <li key={courseValue.id}>
                         <div className="course-details__sidebar__post__image">
                           <img src={`${courseValue.image}`} alt="eduact" />
                         </div>
