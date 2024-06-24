@@ -26,7 +26,7 @@ const Page = () => {
     <>
       <Navigation />
       {/* <CoomonStudentSlider /> */}
-      <TopBannerDetails/>
+      <TopBannerDetails />
 
 
       <section className="about-two about-two--about pt-pb">
@@ -171,24 +171,50 @@ const Page = () => {
                   <h2 className="section-title__title">
                     WE CREATE LEADERS FOR TOMORROW
                   </h2>
+
                 </div>
                 {/* section-title */}
                 <p className="about-two__content__text">
                   The Oracle International Language Institute brings together under one roof a wide range of international professional and vocational qualifications through its high tech, state of the art teaching centers, strategically located across the country. It offers interesting and innovative programmes blended with industrial experience and practical application that will appeal to the academic community as well as to a range of other sectors in the market place.
                 </p>
-                <div className="about-two__about-box">
-                  <div className="about-two__about-box__top">
-                    <div className="about-two__about-box__icon">
-                      <span className="fa-regular fa-lightbulb icon-logical-thinking" />
-                    </div>
-                    <h4 className="about-two__about-box__title">Our Mission</h4>
-                  </div>
-                  <p className="about-two__about-box__text">
-                    Achieve academic excellence in professional education at par with the leading national and international institutions. Focus on practical aspects of the course material so as to make learning a meaningful and interesting experience in our intellectually stimulating campus.
-                    Create an environment with people having similar goals and aspirations to be visionaries. Actively encourage collaboration with industries, communities and the fellow institutions in the country and abroad. Work to inculcate high moral and ethical values amongst the students to make them responsible citizens and good human beings.
-                    The Institute offers something for everyone, from high school students looking to enhance their academic profile, to experienced practitioners who are seeking to focus on developing new skills, increase their knowledge base and keep up to date with developments within their particular areas of expertise. The Oracle International Language Institute also assists those who are looking for a qualification in India that can be used as a stepping-stone or as a pathway to further Study Overseas as well as those looking to develop their skill set to enhance their career opportunities in today's competitive global market.
-                  </p>
+                <h3 className='mb-4'>Why Choose ORACLE LANGUAGE INSTITUTE?  </h3>
+                <div>
+                  <h5 className="fw-bold mb-2"> Excellence in Education </h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp;Experienced and certified instructors with proven teaching methods.                      </li>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp;Interactive and engaging curriculum that focuses on all aspects of language acquisition (speaking, listening, reading, writing).
+                    </li>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp;Small class sizes for personalized attention and effective learning.
+                    </li>
+                  </ul>
+                  <h5 className="fw-bold mb-2"> Wide Range of Languages </h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp;&nbsp;  We offer courses in a diverse selection of languages, including French, Spanish, German, Chinese, Japanese, English (for non-native speakers), and more.
+                    </li>
+                  </ul>
+                  <h5 className="fw-bold mb-2"> Flexible Learning Options</h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp;&nbsp; Cater to busy schedules with a variety of class formats: group classes, private lessons, online courses, and intensive programs.
+                    </li>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp;&nbsp; Daytime, evening, and weekend classes are available.
+                    </li>
+                  </ul>
+                  <h5 className="fw-bold mb-2"> Focus on Communication</h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp;  Our curriculum emphasizes real-world use of language, preparing you for travel, business interactions, or academic pursuits.
+                    </li>
+                  </ul>
+                  <h5 className="fw-bold mb-2"> Proven Success</h5>
+                  <ul className='mb-4'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp; We boast a high success rate, with students consistently achieving their language learning goals.</li>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp; Many of our graduates have moved on to pursue successful careers in international fields or excelled in their academic journeys.
+                    </li>
+                  </ul>
+
+
                 </div>
+
+
                 {/* /.icon-box */}
                 {/* <div className="about-two__about-box">
             <div className="about-two__about-box__top">
@@ -208,9 +234,44 @@ const Page = () => {
               </div>
               {/* about content end */}
             </div>
+            <div className="col-12">
+
+              <div className="about-two__about-box">
+                <div className="about-two__about-box__top">
+                  <div className="about-two__about-box__icon">
+                    <span className="fa-regular fa-lightbulb icon-logical-thinking" />
+                  </div>
+                  <h4 className="about-two__about-box__title">Our Mission</h4>
+                </div>
+                <p className="about-two__about-box__text">
+                  Achieve academic excellence in professional education at par with the leading national and international institutions. Focus on practical aspects of the course material so as to make learning a meaningful and interesting experience in our intellectually stimulating campus.
+                  Create an environment with people having similar goals and aspirations to be visionaries. Actively encourage collaboration with industries, communities and the fellow institutions in the country and abroad. Work to inculcate high moral and ethical values amongst the students to make them responsible citizens and good human beings.
+                  The Institute offers something for everyone, from high school students looking to enhance their academic profile, to experienced practitioners who are seeking to focus on developing new skills, increase their knowledge base and keep up to date with developments within their particular areas of expertise. The Oracle International Language Institute also assists those who are looking for a qualification in India that can be used as a stepping-stone or as a pathway to further Study Overseas as well as those looking to develop their skill set to enhance their career opportunities in today's competitive global market.
+                </p>
+              </div>
+
+              <div>
+              <h3 className='mb-4'>Beyond the Classroom:  </h3>
+                  <h5 className="fw-bold mb-2"> Cultural Events & Activities</h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp; Immerse yourself in the language and culture through workshops, movie nights, and social events.</li>
+                    
+                  </ul>
+                  <h5 className="fw-bold mb-2"> Career Support</h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp; We offer resources and guidance to help leverage your language skills in the job market.
+                    </li> 
+                  </ul>
+                  <h5 className="fw-bold mb-2"> Lifelong Learning Community</h5>
+                  <ul className='mb-3'>
+                    <li> <i className="fa-solid fa-check text-secondary"></i>&nbsp; &nbsp; Become part of our vibrant learning community and connect with fellow language enthusiasts.</li>
+                  
+                  </ul>
+              </div>
+            </div>
           </div>
         </div>
-      </section> 
+      </section>
 
 
       <section className="fact-one pt-pb" style={{ backgroundImage: "url(/assets/img/fact-bg-1.png)" }}>
@@ -606,9 +667,13 @@ const Page = () => {
                       />
                     </svg>
                   </h5>
-                  <h2 className="section-title__title">
-                    (We Create Leaders For Tomorrow)
+                  <h2 className="section-title__title text-capitalize mb-2">
+                  Join the ORACLE LANGUAGE INSTITUTE Family
                   </h2>
+                  <p>ORACLE LANGUAGE INSTITUTE is more than just a language learning center; it's a springboard for personal growth, career advancement, and cultural exploration. Whether you're a business professional, a student, a traveller, or someone seeking a new challenge, we have the perfect program to help you achieve your language learning goals.
+                  </p>
+                  {/* <p>Visit us today or call us at 9953988288 to learn more about our courses and how we can help you unlock your language learning potential!
+                  </p> */}
                 </div>
                 {/* section-title */}
                 <p className="about-one__content__text">

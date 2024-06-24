@@ -150,9 +150,9 @@ const CourseDetails = ({ params }) => {
                     <Tab eventKey="Why Oracle" title="Why Oracle">
                       <div className="tabs-content">
                         <div className="course-details__curriculum">
-                          <h4 className="course-details__curriculum__title">
+                          {/* <h4 className="course-details__curriculum__title">
                             WHY ORACLE
-                          </h4>
+                          </h4> */}
                           <div dangerouslySetInnerHTML={{ __html: courseValue.oracleDescription }} />
 
 

@@ -83,11 +83,9 @@ export default function Home() {
                     <Link href="#">Corporate Training</Link>
                   </h3>
                   </div>
-                  <p className="service-one__text">
-                    ORACLE LANGUAGE INSTITUTE is one of the renowned institutes in the corporate
-                    training industry and we exercise ethical work practices with transparency, honesty, and
-                    integrity. The exceptional knowledge, vigorous training methodology, and motivational
-                    skills of our dedicated faculty bring computable results to our clients.
+                  <p className="service-one__text text-justify">
+                  In today's rapidly evolving business landscape, staying ahead of the curve is crucial. Companies that invest in their employees' skill development see a significant return on investment. Here at ORACLE LANGUAGE INSTITUTE, we provide comprehensive corporate training solutions designed to cultivate a motivated, adaptable, and highly skilled workforce
+
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,11 +113,8 @@ export default function Home() {
                   </h3>
                   </div>
                   {/* /.service-title */}
-                  <p className="service-one__text">
-                    ORACLE LANGUAGE INSTITUTE of Languages in India is a full-service translation
-                    company that specializes in offering a wide range of linguistic solutions for our clients
-                    globally. We stand ahead of our competitors by providing accurate and complete
-                    professional translation services with the most reasonable rates in the industry.
+                  <p className="service-one__text text-justify">
+                  The world is a tapestry of languages, each with its unique charm and power to connect. At ORACLE LANGUAGE INSTITUTE, we understand the importance of clear and accurate communication across language barriers. That's why we offer a comprehensive suite of translation services designed to help you reach new audiences, expand your global reach, and build meaningful connections across borders.
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -148,13 +143,8 @@ export default function Home() {
                   </h3>
                   </div>
                   {/* /.service-title */}
-                  <p className="service-one__text">
-                    A typical academic course is logically limited in scope. When learning a foreign
-                    language, multiple paths are unleashed inside and outside the scope of the
-                    application by opening communication channels. <br />
-                    Learning a foreign language with your own set of vocabulary and grammar
-                    literally pushes you out of your own language comfort zone. Once you learn the
-                    new rules of the game, success is only official.
+                  <p className="service-one__text text-justify">
+                  Do you have subject-matter experts within your organization who excel in their fields but lack the skills to effectively train others? At ORACLE LANGUAGE INSTITUTE, we understand the importance of fostering a culture of knowledge sharing and continuous learning. That's why we offer comprehensive Train-the-Trainer (TTT) services prepared to transform your subject-matter experts (SMEs) into confident, engaging, and impactful trainers.
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -183,8 +173,9 @@ export default function Home() {
                   </h3>
                   </div>
                   {/* /.service-title */}
-                  <p className="service-one__text">
-                    empty
+                  <p className="service-one__text text-justify">
+                  The magic of summer camp lies in creating unforgettable experiences for children. But what empowers camp counsellors to weave that magic? Exceptional training! We offer comprehensive Kids Summer Camp Training designed to equip your staff with the skills, knowledge, and confidence to transform your camp into a haven of fun, learning, and personal growth for every child.
+
                   </p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
